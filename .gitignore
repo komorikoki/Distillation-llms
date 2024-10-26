@@ -10,4 +10,6 @@ data/cifar-10-batches-py/data_batch_5
 data/cifar-10-batches-py/test_batch
 mistral-merged/*
 test_trainer/*
+test_trainer2/*
+test_trainer3/*
 data/*
