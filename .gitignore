@@ -14,3 +14,5 @@ test_trainer2/*
 test_trainer3/*
 data/*
 distill_GPTlm_model
+distillLLAMA
+distillLLAMA2
