@@ -16,3 +16,5 @@ data/*
 distill_GPTlm_model
 distillLLAMA
 distillLLAMA2
+teacher
+nextTokenpre/teacher_llama
