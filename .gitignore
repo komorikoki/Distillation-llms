@@ -21,4 +21,10 @@ distillLLAMAtrain2
 results
 teacher
 nextTokenpre/teacher_llama
+nextTokenpre/trainteacher
 distill
+newTrains/finetuned_model
+newTrains/finetuned_model2
+newTrains/finetuned_model3
+newTrains/finetuned_model4
+newTrains/finetuned_model5
