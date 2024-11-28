@@ -25,9 +25,9 @@ validation_dataset = [item for item in validation_dataset if item != '' and len(
 
 
 
-train_dataset = [re.sub(r'[^a-zA-Z ]', '', item) for item in train_dataset]
+train_dataset = [re.sub(r'[^a-zA-Z ?]', '', item) for item in train_dataset]
 train_dataset = [re.sub(r'\s+', ' ', item) for item in train_dataset]
-validation_dataset = [re.sub(r'[^a-zA-Z ]', '', item) for item in validation_dataset]
+validation_dataset = [re.sub(r'[^a-zA-Z ?]', '', item) for item in validation_dataset]
 validation_dataset = [re.sub(r'\s+', ' ', item) for item in validation_dataset]
 
 size=25000
@@ -41,6 +41,7 @@ for text in tqdm(train_dataset, desc="Tokenizing dataset"):
     attention_mask = tokenized['attention_mask'].squeeze().tolist()
     labels = input_ids[1:] + [tokenizer.pad_token_id]
     labels[-1]=-100
+    labels[attention_mask == 0] = -100
     train_data.append({"input_ids": input_ids, "labels": labels, "attention_mask":attention_mask})
 
 

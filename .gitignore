@@ -28,3 +28,15 @@ newTrains/finetuned_model2
 newTrains/finetuned_model3
 newTrains/finetuned_model4
 newTrains/finetuned_model5
+
+qaTrains/instruction_model1
+qaTrains/instruction_model2
+qaTrains/instruction_model3
+qaTrains/data.xlsx
+cqaTrains/cqatrains1
+weatherTrain/weather_model
+weatherTrain/weather_model1
+weatherTrain/weather_model2
+weatherTrain/weather_model3
+weatherTrain/weather_model4
+weatherTrain/data.xlsx
