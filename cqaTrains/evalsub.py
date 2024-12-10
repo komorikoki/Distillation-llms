@@ -17,22 +17,22 @@ import pandas as pd
 
 device='cuda'
 
-size=10000
+size=1000
 batch=4
 epochs=1
 
-model = AutoModelForCausalLM.from_pretrained("../newTrains/finetuned_model5")
+model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
-train_dataset=ds["train"].shuffle(seed=42).select(range(size))
+train_dataset=ds["validation"].shuffle(seed=40).select(range(size))
 
 train_data=[]
-for i in tqdm(range(size)):
+for i in range(size):
     # tokenized = tokenizer(train_dataset[i]['context']+train_dataset[i]['question'] + train_dataset[i]['answers']['text'][0], padding="max_length", max_length=512, truncation=True, return_tensors="pt")
     # cqlen = len(tokenizer(train_dataset[i]['context']+train_dataset[i]['question'])['input_ids'])
-    tokenized = tokenizer('C:'+train_dataset[i]['context']+'Q: '+train_dataset[i]['question'] +'A: '+ train_dataset[i]['answers']['text'][0], padding="max_length", max_length=512, truncation=True, return_tensors="pt")
-    cqlen = len(tokenizer('C:'+train_dataset[i]['context']+'Q: '+train_dataset[i]['question'])['input_ids'])
+    tokenized = tokenizer('C:'+train_dataset[i]['context']+' Q: '+train_dataset[i]['question'] +' A: '+ train_dataset[i]['answers']['text'][0], padding="max_length", max_length=512, truncation=True, return_tensors="pt")
+    cqlen = len(tokenizer('C:'+train_dataset[i]['context']+' Q: '+train_dataset[i]['question'])['input_ids'])
     length=torch.sum(tokenized['attention_mask'][0])
     input_ids = tokenized['input_ids'].squeeze().tolist()
     attention_mask = tokenized['attention_mask'].squeeze().tolist()
@@ -86,40 +86,29 @@ attention_mask_tensor = torch.tensor(attention_mask, dtype=torch.long)
 criterion = torch.nn.CrossEntropyLoss(ignore_index=-100)
 criterion.to(device)
 
-optimizer = AdamW(model.parameters(), lr=5e-7)
+optimizer = AdamW(model.parameters(), lr=5e-5)
 input_ids_tensor=input_ids_tensor.to(device)
 labels_tensor=labels_tensor.to(device)
 attention_mask_tensor = attention_mask_tensor.to(device)
 model.to(device)
 eval_loss=0
-model.train()
-
-eval_losses = []
+model.eval()
 vocab_size = model.config.vocab_size
 
-for j in range(epochs):
-    numsize=500
-    for i in tqdm(range(sbatch)):
-     
-        input_ids=input_ids_tensor[i].unsqueeze(0)
-        labels=labels_tensor[i].unsqueeze(0)
-        attention_mask=attention_mask_tensor[i].unsqueeze(0)
-        optimizer.zero_grad()
-        outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
-        logits=outputs.logits
-        loss = criterion(logits.view(-1, vocab_size), labels.view(-1))
-        if torch.isnan(loss):
-            numsize-=1
-        else:
-            eval_loss+= loss.item()
-        loss.backward()
-        optimizer.step()
-        if i%500==499:
-            eval_loss /= numsize
-            print("eval_loss", i,":", eval_loss)
-            eval_loss=0
-    print("done:", j+1,"/",epochs)
-    eval_loss=0
+for i in tqdm(range(sbatch)):
+    
+    input_ids=input_ids_tensor[i].unsqueeze(0)
+    labels=labels_tensor[i].unsqueeze(0)
+    attention_mask=attention_mask_tensor[i].unsqueeze(0)
+    optimizer.zero_grad()
+    outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
+    logits=outputs.logits
+    loss = criterion(logits.view(-1, vocab_size), labels.view(-1))
+    if torch.isnan(loss):
+        size=size-1
+    else:
+        eval_loss += loss.item()
 
+    
 
-model.save_pretrained("./model/finetuned_model4")
+print("loss:", eval_loss/size)

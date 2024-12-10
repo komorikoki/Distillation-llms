@@ -10,6 +10,7 @@ import torch
 from torch.optim import AdamW
 import matplotlib.pyplot as plt
 from torch import nn
+from torch.nn import functional as F
 import random
 
 import pandas as pd
@@ -17,10 +18,12 @@ import pandas as pd
 
 device='cuda'
 
-size=10000
+size=40000
 batch=4
 epochs=1
 
+
+teacher_model = AutoModelForCausalLM.from_pretrained("./model/teacher_newtrain2")
 model = AutoModelForCausalLM.from_pretrained("../newTrains/finetuned_model5")
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
 tokenizer.pad_token = tokenizer.eos_token
@@ -86,19 +89,22 @@ attention_mask_tensor = torch.tensor(attention_mask, dtype=torch.long)
 criterion = torch.nn.CrossEntropyLoss(ignore_index=-100)
 criterion.to(device)
 
-optimizer = AdamW(model.parameters(), lr=5e-7)
+optimizer = AdamW(model.parameters(), lr=5e-6)
 input_ids_tensor=input_ids_tensor.to(device)
 labels_tensor=labels_tensor.to(device)
 attention_mask_tensor = attention_mask_tensor.to(device)
 model.to(device)
+teacher_model.to(device)
 eval_loss=0
+eval_kl_loss=0
+eval_cr_loss=0
 model.train()
-
+alpha = 0.5
 eval_losses = []
 vocab_size = model.config.vocab_size
 
 for j in range(epochs):
-    numsize=500
+    numsize=1000
     for i in tqdm(range(sbatch)):
      
         input_ids=input_ids_tensor[i].unsqueeze(0)
@@ -107,19 +113,34 @@ for j in range(epochs):
         optimizer.zero_grad()
         outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
         logits=outputs.logits
-        loss = criterion(logits.view(-1, vocab_size), labels.view(-1))
+        with torch.no_grad():
+            student_prob=F.log_softmax(logits, dim=-1)
+            teacher_outputs_logits=teacher_model(input_ids=input_ids, attention_mask=attention_mask, labels=labels).logits
+            teacher_prob=F.softmax(teacher_outputs_logits, dim=-1)
+        
+        kldiv_loss=F.kl_div(student_prob, teacher_prob, reduction="batchmean")
+        cr_loss=criterion(logits.view(-1, vocab_size), labels.view(-1))
+        loss = (1-alpha)*cr_loss+alpha*kldiv_loss
         if torch.isnan(loss):
             numsize-=1
         else:
             eval_loss+= loss.item()
-        loss.backward()
-        optimizer.step()
-        if i%500==499:
+            eval_cr_loss += cr_loss.item()
+            eval_kl_loss += kldiv_loss.item()
+            loss.backward()
+            optimizer.step()
+        if i%1000==999:
             eval_loss /= numsize
+            eval_kl_loss /= numsize
+            eval_cr_loss /= numsize
             print("eval_loss", i,":", eval_loss)
+            print("eval_kl__loss", i,":", eval_kl_loss)
+            print("eval_cr_loss", i,":", eval_cr_loss)
             eval_loss=0
+            eval_kl_loss=0
+            eval_cr_loss=0
     print("done:", j+1,"/",epochs)
     eval_loss=0
 
 
-model.save_pretrained("./model/finetuned_model4")
+model.save_pretrained("./model/distillation3")

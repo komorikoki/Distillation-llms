@@ -33,7 +33,9 @@ qaTrains/instruction_model1
 qaTrains/instruction_model2
 qaTrains/instruction_model3
 qaTrains/data.xlsx
-cqaTrains/cqatrains1
+
+cqaTrains/model
+
 weatherTrain/weather_model
 weatherTrain/weather_model1
 weatherTrain/weather_model2

@@ -17,11 +17,11 @@ import pandas as pd
 
 device='cuda'
 
-size=10000
+size=1000
 batch=4
-epochs=1
+epochs=3
 
-model = AutoModelForCausalLM.from_pretrained("../newTrains/finetuned_model5")
+model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
@@ -31,8 +31,8 @@ train_data=[]
 for i in tqdm(range(size)):
     # tokenized = tokenizer(train_dataset[i]['context']+train_dataset[i]['question'] + train_dataset[i]['answers']['text'][0], padding="max_length", max_length=512, truncation=True, return_tensors="pt")
     # cqlen = len(tokenizer(train_dataset[i]['context']+train_dataset[i]['question'])['input_ids'])
-    tokenized = tokenizer('C:'+train_dataset[i]['context']+'Q: '+train_dataset[i]['question'] +'A: '+ train_dataset[i]['answers']['text'][0], padding="max_length", max_length=512, truncation=True, return_tensors="pt")
-    cqlen = len(tokenizer('C:'+train_dataset[i]['context']+'Q: '+train_dataset[i]['question'])['input_ids'])
+    tokenized = tokenizer('C:'+train_dataset[i]['context']+' Q: '+train_dataset[i]['question'] +' A: '+ train_dataset[i]['answers']['text'][0], padding="max_length", max_length=512, truncation=True, return_tensors="pt")
+    cqlen = len(tokenizer('C:'+train_dataset[i]['context']+' Q: '+train_dataset[i]['question'])['input_ids'])
     length=torch.sum(tokenized['attention_mask'][0])
     input_ids = tokenized['input_ids'].squeeze().tolist()
     attention_mask = tokenized['attention_mask'].squeeze().tolist()
@@ -42,7 +42,7 @@ for i in tqdm(range(size)):
     for i in range(length-cqlen):
         labels[cqlen+i-1]=input_ids[cqlen+i]
     
-    labels = [-100 if x in (32, 25) else x for x in labels]
+    labels = [-100 if x in (362, 25) else x for x in labels]
     
     train_data.append({"input_ids": input_ids, "labels": labels, "attention_mask":attention_mask})
 
@@ -86,7 +86,7 @@ attention_mask_tensor = torch.tensor(attention_mask, dtype=torch.long)
 criterion = torch.nn.CrossEntropyLoss(ignore_index=-100)
 criterion.to(device)
 
-optimizer = AdamW(model.parameters(), lr=5e-7)
+optimizer = AdamW(model.parameters(), lr=5e-5)
 input_ids_tensor=input_ids_tensor.to(device)
 labels_tensor=labels_tensor.to(device)
 attention_mask_tensor = attention_mask_tensor.to(device)
@@ -122,4 +122,4 @@ for j in range(epochs):
     eval_loss=0
 
 
-model.save_pretrained("./model/finetuned_model4")
+model.save_pretrained("./teacher_subtrain")
