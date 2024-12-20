@@ -10,8 +10,8 @@ from torch import nn
 ds = load_dataset("Salesforce/wikitext", "wikitext-103-raw-v1")
 device='cuda'
 # モデルの準備
-model = AutoModelForCausalLM.from_pretrained("./finetuned_model")
-tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
+model = AutoModelForCausalLM.from_pretrained("./model/distill2_teacher1distill")
+tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
 
@@ -35,7 +35,6 @@ def max_length(dataset):
     print(max_eval)
     return
 
-
 dataset=reshape(validation_dataset)
 max_length(dataset)
 
@@ -50,12 +49,10 @@ def batch(input):
 # 入力とラベルを設定
 data = []
 for text in tqdm(dataset, desc="Tokenizing dataset"):
-    tokenized = tokenizer(text, padding="max_length", max_length=512, truncation=True, return_tensors="pt")
+    tokenized = tokenizer(text, padding="max_length", max_length=256, truncation=True, return_tensors="pt")
     input_ids = tokenized['input_ids'].squeeze().tolist()
     attention_mask = tokenized['attention_mask'].squeeze().tolist()
     labels = input_ids[1:] + [tokenizer.pad_token_id]
-    labels[-1]=-100
-    labels[attention_mask == 0] = -100
     data.append({"input_ids": input_ids, "labels": labels, "attention_mask":attention_mask})
 
 
@@ -76,7 +73,7 @@ attention_mask_tensor = torch.tensor(attention_mask, dtype=torch.long)
 vocab_size = model.config.vocab_size
 
 # クロスエントロピー損失関数の設定
-criterion = torch.nn.CrossEntropyLoss(ignore_index=-100)
+criterion = torch.nn.CrossEntropyLoss(ignore_index=tokenizer.pad_token_id)
 criterion.to(device)
 
 optimizer = AdamW(model.parameters(), lr=5e-5)
@@ -90,8 +87,6 @@ kl_loss_fn = nn.KLDivLoss(reduction="batchmean")
 
 criterion.to(device)
 kl_loss_fn.to(device)
-eval_losses = []
-alpha=0.5
 temperature=1.0
 
 for i in tqdm(range(size)):

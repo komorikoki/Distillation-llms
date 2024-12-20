@@ -3,6 +3,7 @@ from transformers import AutoModelForCausalLM, Trainer, TrainingArguments, AutoT
 import re
 from tqdm import tqdm
 import torch
+from torch.nn import functional as F
 from torch.optim import AdamW
 import matplotlib.pyplot as plt
 from torch import nn
@@ -11,7 +12,7 @@ ds = load_dataset("Salesforce/wikitext", "wikitext-103-raw-v1")
 device='cuda'
 # モデルの準備
 model = AutoModelForCausalLM.from_pretrained("./model/initialized_distill_model2")
-tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
+tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
 
@@ -50,7 +51,7 @@ def batch(input):
 # 入力とラベルを設定
 data = []
 for text in tqdm(dataset, desc="Tokenizing dataset"):
-    tokenized = tokenizer(text, padding="max_length", max_length=128, truncation=True, return_tensors="pt")
+    tokenized = tokenizer(text, padding="max_length", max_length=256, truncation=True, return_tensors="pt")
     input_ids = tokenized['input_ids'].squeeze().tolist()
     attention_mask = tokenized['attention_mask'].squeeze().tolist()
     labels = input_ids[1:] + [tokenizer.pad_token_id]
@@ -74,7 +75,7 @@ attention_mask_tensor = torch.tensor(attention_mask, dtype=torch.long)
 vocab_size = model.config.vocab_size
 
 # クロスエントロピー損失関数の設定
-criterion = torch.nn.CrossEntropyLoss(ignore_index=128009)
+criterion = torch.nn.CrossEntropyLoss(ignore_index=tokenizer.pad_token_id)
 criterion.to(device)
 
 optimizer = AdamW(model.parameters(), lr=5e-5)
@@ -86,9 +87,8 @@ model.train()
 criterion.to(device)
 alpha=0.5
 temperature=1.0
-epochs = 3
-
-for j in tqdm(range(epochs)):
+epochs = 1
+for j in range(epochs):
     for i in tqdm(range(size)):
         
         input_ids=input_ids_tensor[i]
@@ -96,16 +96,21 @@ for j in tqdm(range(epochs)):
         attention_mask=attention_mask_tensor[i]
         optimizer.zero_grad()
         outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
+        logits=outputs.logits
+        cr_loss = criterion(logits.view(-1, vocab_size), labels.view(-1))
         logits = outputs.logits
-        loss = criterion(logits.view(-1, vocab_size), labels.view(-1))
+        loss = cr_loss
         loss.backward()
         optimizer.step()
         
     print("done: ", j+1, "/", epochs)
 
+model.save_pretrained("./model/train_distillmodel2")
 
 
-model.save_pretrained("./finetuned_model")
+
+
+
 
 
 
