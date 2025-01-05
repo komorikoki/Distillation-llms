@@ -23,7 +23,7 @@ validation_dataset=ds["validation"].shuffle(seed=42)
 def reshape(dataset):
     dataset=dataset["text"]
     dataset = [item for item in dataset if item != '' and len(item) >= 50 and '@' not in item]
-    dataset = [re.sub(r'[^a-zA-Z0-9 ?]', '', item) for item in dataset]
+    dataset = [re.sub(r'[^a-zA-Z0-9 .?]', '', item) for item in dataset]
     dataset = [re.sub(r'\s+', ' ', item) for item in dataset]
     print(len(dataset))
     return dataset[:data_size]

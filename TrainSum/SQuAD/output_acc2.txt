@@ -1,0 +1,309 @@
+0 label: first require children to be educated in schools? A:
+0 ans:1852
+0 model:1852 B: 1860 C: 1867
+1 label:. Q: When were stromules discovered? A:
+1 ans:1962
+1 model:1962 Q: What are stromules made of? A
+2 label: is represented in the VAs British galleries? A:
+2 ans:Horace Walpole
+2 model:1. Horace Walpole a major influence on the Gothic Revival
+3 label: did the university decide to team up with? A:
+3 ans:several regional colleges and universities
+3 model:1896 the university affiliated with Shimer College in Mount Carroll Illinois B: Des
+4 label: got a touchdown making the score 107? A:
+4 ans:Jonathan Stewart
+4 model:1yard touchdown run by Jonathan Stewart.
+C: The Broncos
+5 label:: How many Examination Boards exist in India? A:
+5 ans:30
+5 model:30 NENBSE Q: What is the role
+6 label: sell its ten ownedandoperated stations? A:
+6 ans:Caris Co.
+6 model:200708 Caris Co.<|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|>
+7 label:ed the 50th Super Bowl game? A:
+7 ans:CBS
+7 model:50th Super Bowl game B: CBS C: Super
+8 label:: Why was this short termed organization created? A:
+8 ans:coordinate the response to the embargo
+8 model:1973 Nixon named William E. Simon as the first Administrator of the Federal Energy
+9 label: Q: What does LGM stands for? A:
+9 ans:Last Glacial Maximum
+9 model:21000 years LGM stands for Q: What does LGM stands
+10 label: between intractability and NPcomplete problems? A:
+10 ans:Reducibility Among Combinatorial Problems
+10 model:21 diverse combinatorial and graph theoretical problems each infamous for its computational intractability
+11 label: receives a fraction of the Rhines flow? A:
+11 ans:Lake berlingen
+11 model: Lake berlingen B:  Lake Constance hopper
+12 label: own at 1500 Broadway in NYC? A:
+12 ans:Times Square Studios
+12 model:1500 Broadway on land in Times Square owned by a development fund
+13 label: fraternities are apart of the university? A:
+13 ans:fifteen
+13 model:15 C: There are fifteen fraternities and seven soror
+14 label: Goldenson secure a new headquarters for ABC? A:
+14 ans:1330 Avenue of the Americas in Manhattan
+14 model:1330 Avenue of the Americas in Manhattan at the corner of 54th Street now occupied
+15 label: its former glory prior to 1921? A:
+15 ans:Bolshevik leaders
+15 model:1921 B: 1923 C: Bolshevik leaders had effectively re
+16 label:ity in the distribution of points comes from? A:
+16 ans:random noise
+16 model:2 4... all zeroes of the function have real part
+17 label: Luthers is effective in teaching children? A:
+17 ans:Small Catechism
+17 model:1) Luthers Small Catechism 2) Luth
+18 label: civil disobedience shown in Antigone? A:
+18 ans:obey her conscience rather than human law
+18 model:1. The oldest depictions of civil disobedience is in Sophocles play Antig
+19 label: do juvenile platyctenids live? A:
+19 ans:among the plankton
+19 model: among the plankton A:  the seafloor B
+20 label: often are elections held for the Victorian Parliament? A:
+20 ans:every four years
+20 model:2006 Q: Which system was used in the Victorian Legislative Council
+21 label: magnetic and electric force acts on a charge? A:
+21 ans:unified electromagnetic
+21 model:1. electric force 2. magnetic force 3. electro
+22 label: kinds of growth did Kublai encourage? A:
+22 ans:commercial scientific and cultural
+22 model: commercial scientific and cultural growth. B:  trade caravans and
+23 label: first episode of the new Doctor Who series? A:
+23 ans:Rose
+23 model:26 March 2005
+Q: What was the
+24 label: areas has a population that exceeds what number? A:
+24 ans:five million
+24 model:5 million B: 5 million C: 5 million
+25 label: defiant speech sometimes more harmful for the individual? A:
+25 ans:lack of remorse
+25 model: the ones who are violating the greater law are the members of
+26 label: Angell at their most prolific writing period? A:
+26 ans:before World War I
+26 model:18831950 and 18721967 B: 18831950
+27 label: Q: How do competing businesses attract workers? A:
+27 ans:offering a higher wage
+27 model:1. by offering a below market wage 2. by offering a higher
+28 label: have been to the championship game eight times? A:
+28 ans:four
+28 model:4
+C: In the NFL, the 201
+29 label: Q: What plants create most electric power? A:
+29 ans:steam turbine
+29 model:50% of electric power is generated using steam turbine plant so
+30 label: what in any British city at the time? A:
+30 ans:devastating loss
+30 model:47 Q: specifically within the year 1636 it is roughly estimated
+31 label: Demand that they claimed offered substantially more value? A:
+31 ans:HD channels
+31 model: HD channels B:  Video On Demand C:  HD
+32 label: think would run the world of the future? A:
+32 ans:women
+32 model:1926 Tesla commented on the ills of the social
+33 label: What have many HT members graduated to joining? A:
+33 ans:terrorist groups
+33 model: terrorist groups
+C: HT has a strong network of
+34 label: are in the costume collection of the VA? A:
+34 ans:over 14000
+34 model:14000 outfits plus accessories mainly dating from 1600 to the present
+35 label: home to the Fresno Chafffee Zoo? A:
+35 ans:Roeding Park
+35 model:1. Woodward Park 2. Roeding Park 3.
+36 label: out of the crystal lattice is called what? A:
+36 ans:particular closure temperature
+36 model: closure temperature<|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|>
+37 label: Q: What could someone be investigated for? A:
+37 ans:allegations of professional misconduct
+37 model:1. professional misconduct 2. setting out clear standards of practice 3.
+38 label: Q: What are examples of economic actors? A:
+38 ans:worker capitalistbusiness owner landlord
+38 model:1. worker capitalistbusiness owner landlord 2. worker capitalistbusiness owner landlord
+39 label: field involves the study of the immune system? A:
+39 ans:Immunology
+39 model: immunology B: immunology C: immunology D: immun
+40 label: tissues in contact with the external environment called? A:
+40 ans:Dendritic cells
+40 model: dendritic cells B:  macrophages C:  monocytes
+41 label: of Newcastle plot to do to Timothy Dexter? A:
+41 ans:ruin him
+41 model: ruin him B:  take coals to Newcastle
+42 label: Teslas father have in Gospic? A:
+42 ans:pastor
+42 model: pastor B:  teacher C:  
+43 label: the Panthers stay at for the Super Bowl? A:
+43 ans:San Jose Marriott.
+43 model:1. San Jose Marriott 2. Santa Clara Marriott 3.
+44 label: other alternative names for French and Indian War? A:
+44 ans:Fourth Intercolonial War and the Great War for the Empire
+44 model:4th Intercolonial War, Great War for the Empire, Fourth Intercolonial War, Great War for
+45 label: what else is southern California famous for using? A:
+45 ans:highways
+45 model:1. large spreadout suburban communities and use of automobiles 
+46 label: of the designers of Newcastles library? A:
+46 ans:Green
+46 model:1825 B: John and Benjamin Green C: Joseph
+47 label: on the test flight of the AS206? A:
+47 ans:unmanned
+47 model:1 crew would fly the first Block II CSM and LM in
+48 label:: What is the state average growth rate? A:
+48 ans:10.0
+48 model:10.0 Q: What is the population of southern California?
+49 label: the study on sequenced Y genomes published? A:
+49 ans:October 2011
+49 model:2011 B: Nature C: Haensch study D: Black Death
+50 label: the Sun Life Stadium had Super Bowls? A:
+50 ans:10.
+50 model:10 times tied for most with New Orleans with the most recent
+51 label: Kitab Rudjdjar mean in English? A:
+51 ans:The Book of Roger
+51 model: The Book of Roger. Q: What is the meaning of the
+52 label: banned boating driving and flying on Sundays. A:
+52 ans:Germany
+52 model:1. Sweden B: UK C: Germany D:
+53 label: For how long did the plague stick around? A:
+53 ans:until the 19th century
+53 model:14th century B: 3060 C: 17th century D:
+54 label: the network in March of 2007? A:
+54 ans:basic channels
+54 model:1 March 2007 Virgin Media claimed that BSkyB
+55 label: How many total touchdowns did Cam Newton score? A:
+55 ans:45
+55 model:45
+C: The Panthers offense which led the NFL
+56 label: original treaties establishing the EU protected fundamental rights? A:
+56 ans:None
+56 model:1<|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|>
+57 label: did BSkyB name their interactive service? A:
+57 ans:Sky Active
+57 model:1 Open BSkyB competed with the ONdigital later ITV
+58 label: many inhabitants does the Los Angeles area contain? A:
+58 ans:12 million
+58 model:12 million B: 4 million C: 3 million
+59 label: During what period did the Tower Theatre reopen? A:
+59 ans:late 1970s
+59 model:1978 Q: What theater did Audra McDonald perform in? A:
+60 label:. Q: What did Warsz own? A:
+60 ans:a village
+60 model:12th13thcentury nobleman. Q: What
+61 label: Q: Who formed the government in Kenya? A:
+61 ans:Kenya African National Union KANU of Jomo Kenyatta
+61 model:1957-1963 KANU of Jomo Kenyatta B: 1963-1964 KAN
+62 label: that travels from the Sahara to the Amazon? A:
+62 ans:NASAs CALIPSO satellite
+62 model:15 degrees west longitude across 1600 miles 2600 km over the Atlantic
+63 label: 11 seconds left in the first half? A:
+63 ans:DeMarcus Ware
+63 model:11 seconds left in the first half. Q: What is the
+64 label: the hymn meant to examine students on? A:
+64 ans:specific catechism questions
+64 model:7 catechism questions. Q: What was the tune? A:
+65 label: schools what is the primary language of instruction? A:
+65 ans:English
+65 model: English and Nepali
+Q: The other category of
+66 label:: What topic do private bills typically have? A:
+66 ans:largescale development projects
+66 model: largescale development projects such as infrastructure projects that require the use of
+67 label:: To where did Ethelred flee? A:
+67 ans:Normandy
+67 model:1013 when he was forced from his kingdom by Sweyn
+68 label: future Revolutionary key figures participated in this attack? A:
+68 ans:Washington and Thomas Gage
+68 model:1. George Washington 2. Thomas Gage 3. Braddock
+69 label: some to have Huguenot influence? A:
+69 ans:Bucks Point
+69 model:19th century sources have asserted that some of these refugees were lac
+70 label: of legions in Roman times depend on? A:
+70 ans:threat of war
+70 model:1. the number of legions present at any base or in
+71 label: Before dinner what were Teslas working hours? A:
+71 ans:9:00 a.m. until 6:00 p.m. or later
+71 model:9:00 a.m. until 6:00 p.m. or later with dinner from exactly 8:10 p.m
+72 label: the site of a weaving school in Canterbury? A:
+72 ans:The Weavers
+72 model: Weavers a halftimbered house by the river was
+73 label: is strongly linked to good studentteacher relationships? A:
+73 ans:student motivation and attitudes towards school
+73 model:1) enthusiastic teachers B) their ability to create effective learning environments C) their
+74 label: First Company Law Directive article 11 require? A:
+74 ans:incorporations would only be nullified for a fixed list of reasons
+74 model:11 that requires incorporations would only be nullified for a fixed list of reasons.<|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|>
+75 label: cytotoxic or immunosuppressive drugs? A:
+75 ans:methotrexate or azathioprine
+75 model:1. cyclosporin 2. methotrexate 3. azathiop
+76 label: Treaties that ended up forming the EU? A:
+76 ans:common rules for coal and steel and then atomic energy
+76 model:1957 and 1992 now: TFEU. Minor amendments were made during the 196
+77 label:: Who originally led the Space Task Group? A:
+77 ans:Robert R. Gilruth
+77 model: Robert R. Gilruths Space Task Group which had been directing the
+78 label: Today joined Hugh Downs on 2020? A:
+78 ans:Barbara Walters
+78 model:2020
+Q: Which female anchor from Today joined Hugh Downs
+79 label: tree species in the amazon tropical rain forest? A:
+79 ans:16000 species
+79 model:390 billion individual trees divided into 16000 species. Q:
+80 label: What type of homes is Fresno known for? A:
+80 ans:early twentieth century homes
+80 model:20th century homes many of which have been restored in recent decades.
+81 label: had the best start ever in the NFL? A:
+81 ans:Carolina Panthers
+81 model:140 not only setting franchise records for the best start and the longest
+82 label: contain the greatest amount of oxygen by mass? A:
+82 ans:carbohydrates
+82 model:1. carbohydrates 2. fats 3. fatty acids 
+83 label: present in 2009 regarding global inequality? A:
+83 ans:evidence
+83 model:2009 that both global inequality and inequality within countries prevent growth
+84 label: a subsidiary of when it merged with ABC? A:
+84 ans:Paramount Pictures
+84 model:20th Century Fox
+Q: Of what hollywood film company
+85 label: Roman numbers to designate the Super Bowl number? A:
+85 ans:June 4 2014
+85 model:2014<|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|>
+86 label:uguenots were killed in Toulouse? A:
+86 ans:Nearly 3000
+86 model:3000 More than 3000 More than 25000 More than
+87 label: required. Q: What is grey literature? A:
+87 ans:nonpeerreviewed sources
+87 model:1. nonpeerreviewed sources 2. model results reports from government
+88 label: name of Newcastles speedway team? A:
+88 ans:Newcastle Diamonds
+88 model: Newcastle Diamonds are based at Brough Park in Byker a venue
+89 label: for the shows suspension in 1989? A:
+89 ans:Its late 1980s performance of three to five million viewers
+89 model:1989 suspension. Q: What was the main reason for the shows suspension in 1989? A: 
+90 label: name of the port city that was created? A:
+90 ans:Mombasa
+90 model:15thcentury Portuguese voyager Duarte Barbosa claimed that
+91 label: Martin Luther receive his Doctor of Theology? A:
+91 ans:19 October 1512
+91 model:19 October 1512 Q: On what date was Martin Luther received into
+92 label:ylum is more complex than sponges? A:
+92 ans:Ctenophores
+92 model:1. ctenophores 2. cnidarians 3
+93 label: he was formulating his theory of immunity? A:
+93 ans:Niels Jerne
+93 model: Niels Jerne B:  Burnet C:  selfnon
+94 label: How many volumes are contained in the library? A:
+94 ans:18 million volumes
+94 model:18 million volumes. Q: What is the cost of attendance?
+95 label:oteaching get the students to focus on? A:
+95 ans:learning
+95 model:1. learning 2. social networking 3.
+96 label: mountain system are the Victorian Alps a part? A:
+96 ans:Great Dividing Range
+96 model: Great Dividing Range mountain system extending eastwest through the centre of
+97 label: Thomas Davis break during the NFC Championship Game? A:
+97 ans:arm
+97 model: arm
+C: Carolina suffered a major setback when
+98 label: would continue to move at a constant velocity? A:
+98 ans:Newton
+98 model: Newtons First Law of Motion states that objects continue to
+99 label:: How was scarcity managed in many countries? A:
+99 ans:rationing
+99 model: rationing as in many countries. Q: How did the

@@ -1,0 +1,3000 @@
+0 label: in schools? A:
+0 ans:1852
+0 model:1930s 1930s 1930s 
+1 label:ules discovered? A:
+1 ans:1962
+1 model:1950s 1950s 1950s 
+2 label: British galleries? A:
+2 ans:Horace Walpole
+2 model:1000s0s 1000s 1000s 
+3 label: no cost. The agreement
+3 ans:several regional colleges and universities
+3 model: the 1930s 1930s 1930s 1930
+4 label: 107? A:
+4 ans:Jonathan Stewart
+4 model:1000s 2004. 2004. 
+5 label: in India? A:
+5 ans:30
+5 model:100.0s 1000s 1000
+6 label:ated stations? A:
+6 ans:Caris Co.
+6 model:2004. 2004.5 2014. 201
+7 label: Bowl game? A:
+7 ans:CBS
+7 model:2014.5 2014.5 201
+8 label: organization created? A:
+8 ans:coordinate the response to the embargo
+8 model:1960s 1960s 1960s 1960s 
+9 label: stands for? A:
+9 ans:Last Glacial Maximum
+9 model:1000s 1000s 1000s 1000
+10 label:complete problems? A:
+10 ans:Reducibility Among Combinatorial Problems
+10 model:1994. 1990s 1990s 1994. 199
+11 label:ines flow? A:
+11 ans:Lake berlingen
+11 model:1000s0s 1000s0s 100
+12 label: in NYC? A:
+12 ans:Times Square Studios
+12 model:1990s 1990s 1990s 199
+13 label: the university? A:
+13 ans:fifteen
+13 model:1000s.5 and 1000s.5s
+14 label: for ABC? A:
+14 ans:1330 Avenue of the Americas in Manhattan
+14 model:1960s 1960s 1960s 1960s 1960
+15 label:1921? A:
+15 ans:Bolshevik leaders
+15 model:1930s 1930s 1930s 1930
+16 label: comes from? A:
+16 ans:random noise
+16 model:2.0s 1000s 2. 
+17 label: teaching children? A:
+17 ans:Small Catechism
+17 model:1000s 1000s0s 1000s0s
+18 label:igone? A:
+18 ans:obey her conscience rather than human law
+18 model:1000s.5. 1000s0s 1000s.5
+19 label:ids live? A:
+19 ans:among the plankton
+19 model:1000s 1000s0s and 1000s
+20 label: Victorian Parliament? A:
+20 ans:every four years
+20 model:100. 100.5. 1000s 100
+21 label: a charge? A:
+21 ans:unified electromagnetic
+21 model:1000s0s 1000s0s 100
+22 label:ai encourage? A:
+22 ans:commercial scientific and cultural
+22 model:1000s 1000s 1000s 1000
+23 label: Who series? A:
+23 ans:Rose
+23 model:2014 2014 2014 2014
+24 label: what number? A:
+24 ans:five million
+24 model:1000s 1000s 1000s 
+25 label: the individual? A:
+25 ans:lack of remorse
+25 model:1000s 1000s0s 1000s
+26 label: writing period? A:
+26 ans:before World War I
+26 model:1930s 1930s 1930s 1930
+27 label: attract workers? A:
+27 ans:offering a higher wage
+27 model:1000s.0s..... relationships in the 
+28 label: eight times? A:
+28 ans:four
+28 model:100.5.5. 1000s 
+29 label: electric power? A:
+29 ans:steam turbine
+29 model:1000s0s 1000s0s 
+30 label: the time? A:
+30 ans:devastating loss
+30 model:1860s 1860s 1860s0s 
+31 label: more value? A:
+31 ans:HD channels
+31 model:2004. 2004. 2004. 
+32 label: the future? A:
+32 ans:women
+32 model:1930s 1930s 1930s
+33 label: to joining? A:
+33 ans:terrorist groups
+33 model:1960s 1960s 1960s 196
+34 label: the VA? A:
+34 ans:over 14000
+34 model:1930s 1930s 1930s 1930
+35 label:fee Zoo? A:
+35 ans:Roeding Park
+35 model:100 1000s 1000s 1000s
+36 label: called what? A:
+36 ans:particular closure temperature
+36 model:1000s0s 1000s0s 1000
+37 label: investigated for? A:
+37 ans:allegations of professional misconduct
+37 model:1000s 1000s 1000s 1000s 
+38 label: economic actors? A:
+38 ans:worker capitalistbusiness owner landlord
+38 model:1000s0s 1000s0s 1000s
+39 label: immune system? A:
+39 ans:Immunology
+39 model:1000s0s and 1000s0s 
+40 label: environment called? A:
+40 ans:Dendritic cells
+40 model:1000s 1000s 1000s 1000
+41 label: Timothy Dexter? A:
+41 ans:ruin him
+41 model:1000s 1000s 1000s0s
+42 label:ospic? A:
+42 ans:pastor
+42 model:1864. 1864.5s 1860
+43 label: Super Bowl? A:
+43 ans:San Jose Marriott.
+43 model:2000s 2014.5 2010s 201
+44 label: Indian War? A:
+44 ans:Fourth Intercolonial War and the Great War for the Empire
+44 model:1000s 1000s0s 1000s 1000s 1000s 
+45 label: for using? A:
+45 ans:highways
+45 model:1000s 1000s 1000s 
+46 label:les library? A:
+46 ans:Green
+46 model:1860s 1860s 1860s
+47 label: AS206? A:
+47 ans:unmanned
+47 model:1000s 1000s0s 1000s
+48 label: growth rate? A:
+48 ans:10.0
+48 model:2010s 2010s 2010s 201
+49 label: genomes published? A:
+49 ans:October 2011
+49 model:2014.5 2014.5 2010s 
+50 label: Bowls? A:
+50 ans:10.
+50 model:1000s 1000s 100 100 
+51 label: in English? A:
+51 ans:The Book of Roger
+51 model:1000s 1000s 1000s 1000
+52 label: on Sundays. A:
+52 ans:Germany
+52 model:1960s 1960s 1960s
+53 label: stick around? A:
+53 ans:until the 19th century
+53 model:1000s 1000s0s 1000s 1000
+54 label:2007? A:
+54 ans:basic channels
+54 model:2004. 2014. 2014. 
+55 label: offensive line also featured two
+55 ans:45
+55 model:. 2.5 2014. 201
+56 label: fundamental rights? A:
+56 ans:None
+56 model:100.5. 100.5. 100
+57 label: interactive service? A:
+57 ans:Sky Active
+57 model:1990s 1990s 1990s 
+58 label: area contain? A:
+58 ans:12 million
+58 model:1000s 1000s.5 1000
+59 label: Theatre reopen? A:
+59 ans:late 1970s
+59 model:1960s 1960s 1960s 1960s
+60 label:z own? A:
+60 ans:a village
+60 model:1000s 2.5. 1000s
+61 label: in Kenya? A:
+61 ans:Kenya African National Union KANU of Jomo Kenyatta
+61 model:1960s 1960s 1964.5 1960s 1960s 1964 
+62 label: the Amazon? A:
+62 ans:NASAs CALIPSO satellite
+62 model:1860s 1860s 1860s 1860s 
+63 label: first half? A:
+63 ans:DeMarcus Ware
+63 model:1000s 100.5. 100s 200
+64 label: students on? A:
+64 ans:specific catechism questions
+64 model:1000s 1000s0s 1000s0s
+65 label: of instruction? A:
+65 ans:English
+65 model:1000s0s and 1000s0
+66 label: typically have? A:
+66 ans:largescale development projects
+66 model:100.0s and 1000s0s 1000s
+67 label:red flee? A:
+67 ans:Normandy
+67 model:1000s 1000s 1000s 
+68 label: this attack? A:
+68 ans:Washington and Thomas Gage
+68 model:1860s 1860s4.5. A: The 
+69 label:ot influence? A:
+69 ans:Bucks Point
+69 model:1000s 1000s 1000s 100
+70 label: depend on? A:
+70 ans:threat of war
+70 model:1460s 1000s0s 1000s
+71 label: working hours? A:
+71 ans:9:00 a.m. until 6:00 p.m. or later
+71 model:100 100.5 100s 2. 100 100. 2 2004. 2004.
+72 label: in Canterbury? A:
+72 ans:The Weavers
+72 model:1000s 1000s 1000s0s
+73 label:teacher relationships? A:
+73 ans:student motivation and attitudes towards school
+73 model:1000s 1000s 1000s 1000s.
+74 label: there is a causal link
+74 ans:incorporations would only be nullified for a fixed list of reasons
+74 model: the 100. 100.0s 100 million years ago. 100. 0s 0.
+75 label:pressive drugs? A:
+75 ans:methotrexate or azathioprine
+75 model:1000s 1000s.0s.5. A: The 1000
+76 label: giving it a special status
+76 ans:common rules for coal and steel and then atomic energy
+76 model: 1960s 1960s 1960s 1960s 1960s
+77 label: Task Group? A:
+77 ans:Robert R. Gilruth
+77 model:1964. 1960s 1960s 1960s 
+78 label:2020? A:
+78 ans:Barbara Walters
+78 model:1960s 1960s 1960s 196
+79 label: rain forest? A:
+79 ans:16000 species
+79 model:1000s 100.0s 100. 100
+80 label: known for? A:
+80 ans:early twentieth century homes
+80 model:1000 BC0 BC0s 1000 BC0 BC0
+81 label: the NFL? A:
+81 ans:Carolina Panthers
+81 model:2014. 2014. 2014. 201
+82 label: by mass? A:
+82 ans:carbohydrates
+82 model:1000s0s and 100.0s. 
+83 label: global inequality? A:
+83 ans:evidence
+83 model:2000s 2000s0s 2000
+84 label: with ABC? A:
+84 ans:Paramount Pictures
+84 model:1960s 1960s 1990s 199
+85 label: Bowl number? A:
+85 ans:June 4 2014
+85 model:2014. 2014. 2014. 2014. 
+86 label: Toulouse? A:
+86 ans:Nearly 3000
+86 model:100 1000s 1000s 1000s 
+87 label: grey literature? A:
+87 ans:nonpeerreviewed sources
+87 model:1000s0s and 1000s0s 1000
+88 label:way team? A:
+88 ans:Newcastle Diamonds
+88 model:1960s 1960s 1960s 196
+89 label:1989? A:
+89 ans:Its late 1980s performance of three to five million viewers
+89 model:1960s 1960s 1960s 1960s 1960s 1960s
+90 label: was created? A:
+90 ans:Mombasa
+90 model:1000s0s 1000s0s 100
+91 label: Theology? A:
+91 ans:19 October 1512
+91 model:1460s 1460s 1460s 1460s
+92 label:ponges? A:
+92 ans:Ctenophores
+92 model:1000s.0s and 100.0s 100
+93 label: of immunity? A:
+93 ans:Niels Jerne
+93 model:1950s 1960s 1960s 1960
+94 label: the library? A:
+94 ans:18 million volumes
+94 model:1000s.5. 1000s 100.
+95 label: focus on? A:
+95 ans:learning
+95 model:1000s 1000s0s 100
+96 label: a part? A:
+96 ans:Great Dividing Range
+96 model:1960s 1960s 1960s 1960
+97 label: Championship Game? A:
+97 ans:arm
+97 model:2.5s 2004.5 200
+98 label: constant velocity? A:
+98 ans:Newton
+98 model:1000s0s and 1000s.
+99 label: many countries? A:
+99 ans:rationing
+99 model:1000s 1000s.0s 100
+100 label: flee to? A:
+100 ans:The citys residents fled to the north
+100 model:100 1000s 1000 BC0s 1000 BC0s 
+101 label: were successful? A:
+101 ans:Five
+101 model:1000s0s 1000s0s
+102 label: of students? A:
+102 ans:harmoniously
+102 model:1000s.0s 100.0s 100
+103 label: programme was not permitted to
+103 ans:The Daleks a.k.a. The Mutants
+103 model: 194 1944 1940s 1940s 1940s 1940
+104 label: in India? A:
+104 ans:the Mughal state
+104 model:1000s 1000s 1000s 1000s
+105 label: of Chicago? A:
+105 ans:a board of trustees
+105 model:2014.5 2014.5 2014.5
+106 label: as what? A:
+106 ans:immunomodulators
+106 model:1000s 1000s 1000s 1000s
+107 label: Stadium cost? A:
+107 ans:1.2 billion
+107 model:100 100 100 100 100 100 100 
+108 label: Super Bowl? A:
+108 ans:10
+108 model:100 100 100. 100.5 
+109 label: is Hindu? A:
+109 ans:around 300000
+109 model:1000s0s 1000s 1000s 
+110 label: delta begin? A:
+110 ans:8000 years ago
+110 model:1000s0s 1000s 1000s 
+111 label: and surgery? A:
+111 ans:Newcastle University
+111 model:1990s 1990s 1990s 199
+112 label: CO2? A:
+112 ans:up to half the carbon fixed by the Calvin cycle
+112 model:1000s.0s. the 1000s.0s 100.0s
+113 label: fort constructed? A:
+113 ans:Fort Le Boeuf presentday Waterford Pennsylvania
+113 model:1460s 1000s4 1000s 2.0s 1000
+114 label: be found? A:
+114 ans:Warsaw Uprising Museum
+114 model:1930s 1930s 1930s 1930s
+115 label: be streamed? A:
+115 ans:WatchESPN
+115 model:2004.5 2005 2005s 
+116 label: South Africans? A:
+116 ans:surnames
+116 model:1000s0s 1000s 1000s
+117 label: base called? A:
+117 ans:Dyrrachium
+117 model:1460 BC BC BC BC BC BC BC BC BC BC BC BC BC
+118 label:inghouse Electric for?
+118 ans:216000
+118 model:: 100 1000s 1000s 
+119 label: skilled workers? A:
+119 ans:marginal value added of each economic actor
+119 model:1000s.0s 1000s.0s 1000s.0
+120 label: railway project? A:
+120 ans:environmental and social problems
+120 model:2014.4. 2014.4. 2014.
+121 label:1775? A:
+121 ans:condenser
+121 model:1860s 1860s 1860s 
+122 label: to divide? A:
+122 ans:bright white light
+122 model:1000s 1000s 1000s 100
+123 label: licensed affiliate? A:
+123 ans:New Jersey Rhode Island and Delaware
+123 model:100.5.5 100. 100.5s 2000
+124 label: arrangement with? A:
+124 ans:Count Ludwig von NassauSaarbrcken
+124 model:1860s 1860s 1860s0s 1860s 186
+125 label: entirely of? A:
+125 ans:Gemini
+125 model:1990s 1990s 1990s 
+126 label:ie die? A:
+126 ans:1314
+126 model:1000s 1000s 0s0s
+127 label: test site? A:
+127 ans:tempted to enter the test site
+127 model:1960s 1960s 1930s 1930s 193
+128 label: pivot mounting? A:
+128 ans:trunnion
+128 model:1000s 1000s 1000s 100
+129 label: a Super Bowl at age
+129 ans:Chicago Bears
+129 model:1930s 1930s 1930s 
+130 label: public schools? A:
+130 ans:expulsion
+130 model:1000s0s 1000s 1000
+131 label: job position? A:
+131 ans:Competition amongst workers
+131 model:100.0s 1000s 100.0s 
+132 label:le Emperor answered:...
+132 ans:traditional Chinese autocraticbureaucratic system
+132 model: of the 1000s. A: The 1000s0s 1000s
+133 label: at Harvard? A:
+133 ans:38000
+133 model:2010s 2010s 2010s 
+134 label:1999? A:
+134 ans:90790 tonnes
+134 model:100.0s 1000s 100.0s
+135 label:1986? A:
+135 ans:2001
+135 model:1960s 1960s 1960s 
+136 label: world occur? A:
+136 ans:21 February 1804
+136 model:1860s 18600s 1860s0s 
+137 label: its money? A:
+137 ans:1275
+137 model:1000s 1000s 1000s 
+138 label: this scenario? A:
+138 ans:motivated students
+138 model:1000s 1000s0s 1000s
+139 label: with Nintendo? A:
+139 ans:The Pokmon Company
+139 model:1000s0s 2004. 2000s 
+140 label: Reyners v Belgium the
+140 ans:the Treaty on the Functioning of the European Union
+140 model: of the 2010s 2010s 2010s 2010s 201
+141 label: of person? A:
+141 ans:citizens
+141 model:1000s 1000s0s and 100
+142 label: sieve absorb? A:
+142 ans:nitrogen
+142 model:1000s0s 1000s0s 
+143 label: by mass? A:
+143 ans:Oxygen
+143 model:1000s0s 1000s0s and
+144 label: the fall? A:
+144 ans:their bright colors sometimes override the chlorophyll green
+144 model:1000s 1000s0s 1000s 1000s0s 
+145 label:oplasts? A:
+145 ans:Gymnosperms
+145 model:1000s 100.0s 100.0s 
+146 label: be found? A:
+146 ans:Nikola Tesla Museum archive
+146 model:1000s 1000s 1000s0s 1000
+147 label: of most of the matches
+147 ans:BBC
+147 model: A: The: The: The 1990s
+148 label:ine begin? A:
+148 ans:Swiss canton
+148 model:1000s 1000s0s 1000s0
+149 label: Ohio town? A:
+149 ans:Youngstown
+149 model:1960s 1960s 1960s 
+150 label: help accomplish? A:
+150 ans:the subsequent interrogation led to a better understanding of the Mau Mau command structure
+150 model:1860s 1860s 1864 18644 1860s4 18644 1864
+151 label: Fresno have? A:
+151 ans:three
+151 model:1000s 1000s.5 100
+152 label: in India? A:
+152 ans:Sayyid Abul Ala Maududi
+152 model:1950s 1960s 1964. 1960s 1960s
+153 label: acres leased? A:
+153 ans:for the George W. Bush Presidential Library
+153 model:2.0s 2.0s 0s0s 2.0
+154 label: with initially? A:
+154 ans:ONdigital
+154 model:1990s 1990s 1990s 
+155 label: the world? A:
+155 ans:World Methodist Council
+155 model:1990s 1990s 1990s 199
+156 label: XLIX? A:
+156 ans:New England Patriots
+156 model:2014.5 2014.5 2014.
+157 label: many people died of plague
+157 ans:40000
+157 model: 1000s 1000s0s 100
+158 label: to decrypt? A:
+158 ans:Sky
+158 model:100.0s 1000s0s 
+159 label: ABC and Capital Cities respectively
+159 ans:3.5 billion
+159 model: the 1960s 1960s 1960s 
+160 label:1 refer to A:
+160 ans:public PAD service Telepad using the DNIC 2049
+160 model:1000s 2. 2014. 2014. 2014. 2014.
+161 label: II decisions is that if
+161 ans:EU law
+161 model: 1960s 1960s 1960s
+162 label: fourth of? A:
+162 ans:Session
+162 model:1000s 1000s 1000s
+163 label: Super Bowl? A:
+163 ans:New England Patriots
+163 model:2014 2014 2014.5 2014
+164 label: troops protect? A:
+164 ans:Saudi
+164 model:1990s 1990s 1990s
+165 label: on TV? A:
+165 ans:CBS
+165 model:2014.5. 2014.5 
+166 label: with what? A:
+166 ans:specific pathogen
+166 model:1000s0s and 1000s0s 
+167 label: what purpose? A:
+167 ans:IVF
+167 model:100.0s 1000s 1000s
+168 label: Associate Administrator? A:
+168 ans:July 23 1963
+168 model:1994. 1990s 1994. 1990s 
+169 label: supreme court? A:
+169 ans:1978
+169 model:1960s 1960s 1960s 
+170 label: on fitness? A:
+170 ans:KuviasungnerkKangeiko
+170 model:1930s 1930s 1930s 1930s 1930s
+171 label: Luther used? A:
+171 ans:northern and southern
+171 model:1000 BC BC BC BC BC BC BC BC BC BC BC BC
+172 label: known as? A:
+172 ans:Plasmodium falciparum
+172 model:1000s0s 1000s0s 1000s0s 
+173 label: Tesla suffer? A:
+173 ans:nervous breakdown
+173 model:1860s 1860s 1860s 1864
+174 label: pharmacies stock? A:
+174 ans:novel medications that need to be properly stored administered carefully monitored and clinically managed
+174 model:100.0s 100. 1000s 100.5. 100. 2010s 201
+175 label:year course of study at
+175 ans:Licensed Local Pastor
+175 model: end of the 0s 0s0s 201
+176 label: visualization ability? A:
+176 ans:picture thinking
+176 model:1000s 1000s 100. 100
+177 label: chemical energy? A:
+177 ans:photosynthesis
+177 model:1000s 1000s0s 1000
+178 label: biggest burdens? A:
+178 ans:diseases like malaria HIVAIDS pneumonia diarrhoea and malnutrition
+178 model:2010s 2010s 2010s 2010s 2010s 2010s 201
+179 label: comedy lineup? A:
+179 ans:The Middle and Modern Family
+179 model:2014. 2014. 2010s 2010s
+180 label: it do? A:
+180 ans:zip the mouth shut when the animal is not feeding
+180 model:1000s0s and 1000s0s and 1000s0s and
+181 label: his name was Ahai
+181 ans:Central Asian Muslims
+181 model: 1000s and 1000s. A: The
+182 label: the individual and the government
+182 ans:Thoreau
+182 model: A: The first of the government. the government. the government
+183 label: located where? A:
+183 ans:New Orleans
+183 model:2005 2014 2014.5 201
+184 label: system currently? A:
+184 ans:844 system
+184 model:1960s 1960s 1960s 
+185 label: are there? A:
+185 ans:100150 species
+185 model:1000s.0s and 1000s.0
+186 label:gences? A:
+186 ans:1516
+186 model:1000s0s 1000s BC BC BC
+187 label: announcers? A:
+187 ans:James Lofton and Mark Malone
+187 model:2.5s 2000s 1000s0s 200
+188 label: the south? A:
+188 ans:SwissAustrian border
+188 model:1000s 1000s 1000s 1000s0
+189 label:1767? A:
+189 ans:exploitation
+189 model:1860s 1860s 1860s 
+190 label: vice president? A:
+190 ans:Lyndon B. Johnson
+190 model:2004.5. 2004.5 2004.5
+191 label: Doctor Who? A:
+191 ans:BBC Television
+191 model:1960s 1960s 1960s 
+192 label: Los Angeles? A:
+192 ans:music
+192 model:100 1000s 1000s 100
+193 label: U.S.? A:
+193 ans:one hundred
+193 model:1000s 1000s 1000s 
+194 label: his lab? A:
+194 ans:His lab was torn down
+194 model:1950s 1950s 1940s 1940s
+195 label: on NBC? A:
+195 ans:2006
+195 model:1960s 1960s 1960s 
+196 label: XXXIII? A:
+196 ans:3419
+196 model:100. 100. 100. 100.5
+197 label: imperialism was the highest form
+197 ans:distinction
+197 model: the 1000s. A: The 1000
+198 label: more value? A:
+198 ans:Video On Demand
+198 model:2004. 2014. 2014. 201
+199 label:ists have? A:
+199 ans:specialised education and training
+199 model:1000s.0s and 1000s.0s 
+200 label: help vegetation? A:
+200 ans:13000 BP
+200 model:1000s0s 1000s0s 100
+201 label: to Kennedy? A:
+201 ans:approximately one week
+201 model:1000s 1000s0s 1000s
+202 label: time reduction? A:
+202 ans:polynomial time
+202 model:1000s0s 1000s0s and 
+203 label: receptor of another cell?
+203 ans:T cell receptor TCR
+203 model:: The 100.0s 1000s0s and 
+204 label: ideal events? A:
+204 ans:Corliss
+204 model:1000s0s 1000s0s 186
+205 label:inghouse Electric and General
+205 ans:1896
+205 model: 1864. 1864 1864 186
+206 label: are Buddhist? A:
+206 ans:168637
+206 model:1000s. 1000s.0s 
+207 label: called what? A:
+207 ans:orogenic wedges
+207 model:1000s 1000s 1000s0s 
+208 label: construction industry? A:
+208 ans:complicated
+208 model:1930s 1930s 1930s 
+209 label: clinical pharmacy? A:
+209 ans:inside hospitals and clinics
+209 model:1000s 1000s 1000s 1000
+210 label: in Fresno? A:
+210 ans:Bill Aken
+210 model:1974. 1974.5 1974. 
+211 label: this pronunciation? A:
+211 ans:a very precise notation of a correct African pronunciation
+211 model:1860s and 1860s0s and 1860s0s and 
+212 label:1960? A:
+212 ans:Hugh L. Dryden
+212 model:1960s 1960s 1960s 1960s
+213 label: and pastors? A:
+213 ans:The Book of Discipline
+213 model:1000s 1000s 1000s0s 
+214 label: prochoice? A:
+214 ans:prochoice
+214 model:1990s 1990s 1990s 
+215 label: by whom? A:
+215 ans:Sophocles
+215 model:2.0s 1000s0s 1000
+216 label:oral organ? A:
+216 ans:a statocyst
+216 model:0s0s 0s0s 0s0s
+217 label: the initiation of Th1
+217 ans:APCs
+217 model:. A: The first of the 1000s0
+218 label: biosphere? A:
+218 ans:most abundant
+218 model:1000s0s 1000s0s 
+219 label: protesters given? A:
+219 ans:suspended sentences
+219 model:1960s 1960s 1960s 196
+220 label: or regions? A:
+220 ans:environmental determinism
+220 model:1000s 1000s 1000s0s 
+221 label: French empire? A:
+221 ans:anticolonial movements
+221 model:1930s 1930s 1930s 1930
+222 label: area form? A:
+222 ans:Southern Border Region
+222 model:1000s 1000s0s 1000s
+223 label: Germany called? A:
+223 ans:Ergnzungsschulen
+223 model:1000s0s and 1000s.0s and 1000
+224 label: working with? A:
+224 ans:his circuit and singlenode Xrayproducing devices
+224 model:1000s 1000s 1000s 1000s0s 1000s
+225 label: Super Bowl? A:
+225 ans:BBC
+225 model:2014 2014 2014 2014
+226 label: digital service? A:
+226 ans:Eutelsats Eurobird 1
+226 model:1990s 1990s 1990s 1990s 1990
+227 label: scientists arguments? A:
+227 ans:the rainforest was reduced to small isolated refugia separated by open forest and grassland
+227 model:1000s 1000s 1000s 1000s0s 1000s0s 1000s 
+228 label: the disease? A:
+228 ans:northwestern Russia
+228 model:1460 BC0 BC BC BC BC BC BC BC BC BC
+229 label: in demand? A:
+229 ans:Germanlanguage publications
+229 model:1000s 1000s0s 1000s
+230 label: 50? A:
+230 ans:13 years and 48 days
+230 model:1000s 1000s 100. 100.5 100
+231 label: the basin? A:
+231 ans:5500000 square kilometres 2100000 sq mi are covered by the rainforest.
+231 model:1000s 1000s 100.0s 100.0s 100.0s 1000s.5
+232 label: quantum gravity? A:
+232 ans:General relativity
+232 model:1000s 1000s0s 1000s
+233 label: by Luther added to antis
+233 ans:antiJewish rhetoric
+233 model: in the first of the 1930s 1930s 
+234 label: be built? A:
+234 ans:mouth of the Monongahela River the site of presentday Pittsburgh Pennsylvania
+234 model:1000s0s 1000s0s 1000s0s 1000s0s 186
+235 label: and rest? A:
+235 ans:the same
+235 model:1000s0s and 1000s0s
+236 label: in education? A:
+236 ans:facilitate student learning
+236 model:1000s 1000s 1000s 1000s
+237 label:5 season? A:
+237 ans:Emmanuel Sanders
+237 model:2014.5 2014. 2010s 
+238 label:uli called? A:
+238 ans:plastoglobulus sometimes spelled plastoglobules
+238 model:1000s.0s and 1000s0s 1000s0s
+239 label: Bowl champions? A:
+239 ans:New England Patriots
+239 model:2014 2014 2014. 2014.
+240 label: to learn? A:
+240 ans:teacher enthusiasm
+240 model:1000s 1000s0s 1000
+241 label: ABC and Capital Cities respectively
+241 ans:Capital Cities Communications
+241 model: the 1960s 1960s 1960s
+242 label: guard cells? A:
+242 ans:815 per cell
+242 model:100.0s. 1000s. 1000
+243 label: have direction? A:
+243 ans:denoted scalar quantities
+243 model:1000s0s the 1000s0s 100
+244 label:s elders? A:
+244 ans:the local church
+244 model:2.0s 1000s0s 1000
+245 label: part of? A:
+245 ans:the United Nations
+245 model:1960s 1960s 1960s 196
+246 label: historic shrine? A:
+246 ans:Manakin Episcopal Church
+246 model:1864.5. 1864. 1860s 
+247 label: be located? A:
+247 ans:Church of Santa Maria Novella in Florence Italy
+247 model:1000s 1000s 1000s 1000s 1000s
+248 label: case complexity? A:
+248 ans:best worst and average
+248 model:1000s 1000s 1000s 1000
+249 label: to manage? A:
+249 ans:their finances
+249 model:1000s0s and 1000s0s
+250 label: his name? A:
+250 ans:Abu alRayhan alBiruni
+250 model:1000s 1000s 1000s0s 1000s0
+251 label:ian Revolution? A:
+251 ans:Norman
+251 model:1000s 1000s 1000s4
+252 label: mostly located? A:
+252 ans:Masai Mara
+252 model:1000s 1000s.0s 1000
+253 label:ulen funded? A:
+253 ans:tuition
+253 model:1000s.0s and 1000s.
+254 label: by ABC? A:
+254 ans:coronation of Queen Elizabeth II
+254 model:1960s 1960s 1960s 1960s 
+255 label: intercpetions did
+255 ans:one
+255 model: to 1000s 1000s 100
+256 label: research records? A:
+256 ans:23 June 2005
+256 model:2004.5 2004. 2014. 2014
+257 label: the Royal College of Art
+257 ans:Christopher Hay and Douglas Coyne
+257 model: 1960s 1960s 1960s 1960s
+258 label:ic mean? A:
+258 ans:constant pressure
+258 model:1000s 1000s 1000s 
+259 label:ers do? A:
+259 ans:recover the latent heat of vaporisation
+259 model:1000s0s and the 1000s0s 1000s
+260 label: Ming dynasty? A:
+260 ans:Zhu Yuanzhang
+260 model:1000s0s 1000 BC BC BC BC BC BC BC
+261 label:1656? A:
+261 ans:about half of Naples 300000 inhabitants
+261 model:1000s 1000s. 1000s 1000s.0
+262 label: bill itself? A:
+262 ans:accompanying documents
+262 model:1000s 2000s 2010s 2010
+263 label: assisted in? A:
+263 ans:Adolf Hitlers rise to power
+263 model:1930s 1930s 1930s 1930s 193
+264 label:phages? A:
+264 ans:interleukin 1
+264 model:1000s0s and 1000s0s 1000s
+265 label: of teachers? A:
+265 ans:friendly and supportive
+265 model:1000s 100.0s 100.0s
+266 label: for workers? A:
+266 ans:Necessitybased entrepreneurship
+266 model:1000s 1000s 1000s 1000s
+267 label: the embargo? A:
+267 ans:UK
+267 model:1960s 1960s 1960s
+268 label: being built? A:
+268 ans:General Assembly Hall of the Church of Scotland
+268 model:2014. 2014. 2014. 2014. 2014
+269 label: of resource? A:
+269 ans:complexity resources
+269 model:1000s 1000s 1000s 100
+270 label: the UK? A:
+270 ans:2004
+270 model:1000s 1000s 1000s 
+271 label: and entrance? A:
+271 ans:Queen Victoria
+271 model:1000s 1000s 1000s 
+272 label:out test? A:
+272 ans:strange odor in their spacesuits
+272 model:1960s 1960s 1960s 1960s 196
+273 label: and methodology used to produce
+273 ans:United States Senate Committee on Commerce Science and Transportation
+273 model: 1990s 1990s 1990s 1990s 1990
+274 label: his speech? A:
+274 ans:knight winning a bout
+274 model:2.5 to 2.0s and 2.0s
+275 label: of imperialism? A:
+275 ans:the worlds economy
+275 model:1930s 1930s 1930s 193
+276 label: known as? A:
+276 ans:neuroimmune system
+276 model:1000s.0s and 1000s0s 
+277 label: private schools? A:
+277 ans:independent
+277 model:100. 0s 0s 0s 
+278 label: almostexclusively informal
+278 ans:many
+278 model:. The first of the number of the number of the
+279 label: regarded as? A:
+279 ans:an eccentric
+279 model:1000s 1000s 1000s 
+280 label: gospel revealed? A:
+280 ans:Gods wrath to Christians
+280 model:1000s0s 1000s0s and 1000
+281 label: and creative? A:
+281 ans:Jaime Weston
+281 model:2014.5 2014. 2014. 
+282 label: continuously produce? A:
+282 ans:rotary
+282 model:1000s 1000s 1000s 
+283 label:trys practices? A:
+283 ans:see School corporal punishment.
+283 model:1990s 1990s 1990s 1990s 
+284 label: and Peck? A
+284 ans:an estimated 200000
+284 model: 100 100 1000s 1000s 100 
+285 label:renees? A:
+285 ans:Iberia
+285 model:1000s 100 million years ago. 100 million years
+286 label: of oxygen? A:
+286 ans:allotrope
+286 model:1990s 1990s 1990s 1990
+287 label: city services? A:
+287 ans:unincorporated suburbs
+287 model:1960s 1960s 1960s 1960s
+288 label: a Super Bowl at age
+288 ans:11
+288 model:1930s 1930s 1930s
+289 label: captured princess? A:
+289 ans:Oirads
+289 model:1000s 1000s0s and 1000
+290 label: young student? A:
+290 ans:very influential
+290 model:1000s 1000s 1000s 
+291 label: contributed to? A:
+291 ans:skin damage
+291 model:1000s 1000s0s to 100
+292 label: to immunity? A:
+292 ans:Athens in 430 BC
+292 model:1930s 1930s 1930s 1930s 
+293 label: situated the Secretariat Wing
+293 ans:offices and board room
+293 model: the 1860s 1864. 1860s and 
+294 label:2030? A:
+294 ans:an economic development programme it hopes will put the country in the same league as the Asian Economic Tigers by the year 2030
+294 model:2014. 2014. 2014. 2014. 2014. 2014. 2010s 2014.5 2014
+295 label: hold patents? A:
+295 ans:26
+295 model:1000s0s and 1000s0
+296 label: Fresno Station? A:
+296 ans:the convenience of the railroad and worried about flooding
+296 model:1930s 1930s 1930s 1930s 1930s
+297 label: not registered? A:
+297 ans:Oireachtas funds
+297 model:2000s 2000s 2000s 2000s
+298 label: of the Jacksonville fire in
+298 ans:Spanish moss
+298 model:1864. A: 1865 1864 
+299 label: the EU law? A
+299 ans:since the 1960s
+299 model: The: The 1000s 1000s.5. 100
+300 label: to learn? A:
+300 ans:higher
+300 model:1000s 1000s0s 100
+301 label: 50? A:
+301 ans:33
+301 model:100 100.5 100 1000s
+302 label: modern materials? A:
+302 ans:Energiprojekt AB
+302 model:1000s 1000s0s 1000s0s
+303 label: economic development? A:
+303 ans:the 1970s
+303 model:1950s 1960s 1960s 1960s
+304 label: Bluray? A:
+304 ans:from 2009 onwards
+304 model:2014 2014 2014 2014 2014.
+305 label: interior begin? A:
+305 ans:19th century
+305 model:2010s 2010s0s 1000s
+306 label:ot refugees? A:
+306 ans:the revocation of the Edict of Nantes
+306 model:1000s0s 1000s0s 1000s0s 1860
+307 label: the classroom? A:
+307 ans:field trips
+307 model:1000s 1000s. 1000s
+308 label: Red serve? A:
+308 ans:major cities
+308 model:1930s 1930s 1930s 
+309 label: numbers exist? A:
+309 ans:infinitely many
+309 model:1000 BC0s and 1000s0s 
+310 label:ellants? A:
+310 ans:Service Module SM
+310 model:100 0s0s 100s0s 100
+311 label: theories to? A:
+311 ans:National Electric Light Association
+311 model:1930s 1930s 1930s 1930
+312 label: the show? A:
+312 ans:Philip Segal
+312 model:1990s 1990s 1990s 199
+313 label:ouchables? A:
+313 ans:its use of violence
+313 model:1960s 1960s 1960s 1960
+314 label: a division? A:
+314 ans:electronic consoles on their desks
+314 model:100.5.5. 1000s 1000s.5
+315 label:011 schedule? A:
+315 ans:Body of Proof
+315 model:2014. 2014. 2014. 201
+316 label: in Christ? A:
+316 ans:Prevenient grace
+316 model:1000s0s 1000s.0s 
+317 label: relativity? A:
+317 ans:Albert Einstein
+317 model:2004.0s 2004. 2004
+318 label: more accessible? A:
+318 ans:higher education
+318 model:1000s0s 1000s0s 
+319 label: the patents? A:
+319 ans:Galileo Ferraris
+319 model:100. 2004.5 2004. 2004
+320 label: of imperialism? A:
+320 ans:Formal imperialism
+320 model:1000s. 1000s0s and 100
+321 label:itation Constant? A:
+321 ans:1798
+321 model:1000s 1000s 1000s 
+322 label: private schools? A:
+322 ans:Australia
+322 model:1000s0s 1000s0s
+323 label: Who series? A:
+323 ans:BBC 1
+323 model:1960s 1960s 1960s 196
+324 label:las school? A:
+324 ans:German
+324 model:1860s 1860s 1860s
+325 label: in Europe? A:
+325 ans:the plague was present somewhere in Europe in every year between 1346 and 1671.
+325 model:100.5. 1000s 1000s 1000s 1000s 100. 1000s 100
+326 label:ine regulated? A:
+326 ans:constant flooding
+326 model:2000s 2000s 2000s 
+327 label: to the leafleters
+327 ans:Indirect civil disobedience
+327 model:. the 1960s 1960s 1960s 
+328 label: meetings in? A:
+328 ans:Gaelic
+328 model:1000s 1000s 1000s 100
+329 label: in Warsaw? A:
+329 ans:452.8 ft
+329 model:1000s 1000s0s 1000s 
+330 label: the future? A:
+330 ans:increasingly expected to be compensated for their patient care skills
+330 model:1000s 1000s. 1000s 1000s 1000s0s
+331 label:ol invasion? A:
+331 ans:Novgorod and Pskov
+331 model:1000s 1000s 1000s 1000s4.
+332 label: classes given? A:
+332 ans:German
+332 model:1860s 1860s 1860s
+333 label: translations spoken? A:
+333 ans:Saxon chancellery
+333 model:1990s 1990s 1990s 1990s
+334 label: A mere half decade later
+334 ans:William Stranahan
+334 model: 1930s 1930s 1930s 193
+335 label: se considerations? A:
+335 ans:the desire to prevent things that are indisputably bad
+335 model:1000s. 1000s 1000s 1000s 1000s0
+336 label: the games top receiver?
+336 ans:Sanders
+336 model:: The 100s 1000s 100
+337 label:1573? A:
+337 ans:religious freedom
+337 model:18640s 1864 BC0s 186
+338 label: British capture? A:
+338 ans:Fort Beausjour
+338 model:1860s 1860 BC0s 1860 BC0
+339 label: parliamentary year? A:
+339 ans:legislative programme for the forthcoming year
+339 model:1000s0s 1000s0s 1000s0s 
+340 label: private school? A:
+340 ans:5000
+340 model:1000s 1000s 1000s 
+341 label: East Germany? A:
+341 ans:Lothar de Maizire
+341 model:2.0s 2004.5. 2004.0s 
+342 label: of California? A:
+342 ans:Southern
+342 model:2015 2015 2015 2015
+343 label: last there? A:
+343 ans:Super Bowl XLVIII
+343 model:1000s 1000s 1000s 1000s
+344 label: VCD? A:
+344 ans:The Infinite Quest
+344 model:2014 2014 2014 2014 201
+345 label: compliant with? A:
+345 ans:DVBcompliant MPEG2
+345 model:2000s 2000s 2000s 2000s 
+346 label: call for? A:
+346 ans:private confession and absolution
+346 model:1000s0s 1000s0s 1000s
+347 label:ides book? A:
+347 ans:materia medica
+347 model:100 BC BC BC BC BC BC BC BC BC BC BC BC BC
+348 label: in Bahrain? A:
+348 ans:40
+348 model:100. 1000s 100. 100
+349 label:las ethnicity? A:
+349 ans:Serbian
+349 model:1960s 1960s 1960s 
+350 label:iotic event? A:
+350 ans:a nonphotosynthetic eukaryote engulfed a chloroplastcontaining alga but failed to digest it
+350 model:1000s 1000s0s 1000s0s. the 1000s0s and 1000s. 1000s
+351 label:102 identity? A:
+351 ans:Troika Design Group
+351 model:2004.5 2000s 2004.5 
+352 label: determinism? A:
+352 ans:orientalism and tropicality
+352 model:1000s 1000s0s 1000s 1000
+353 label: liquid oxygen? A:
+353 ans:powerful magnet
+353 model:1000s. 1000s0s 1000
+354 label: are inherited by the conquered
+354 ans:taking physical control of another
+354 model: to 1000s 1000s 1000s. A
+355 label: WWI? A:
+355 ans:overseas
+355 model:1864. 1864. A: 1864.
+356 label: a project? A:
+356 ans:effective planning
+356 model:1000s. 1000s0s 100
+357 label: offensive line also featured two
+357 ans:77 passes
+357 model:. 2.5 2014. 2014
+358 label: Jane Adventures? A:
+358 ans:Elisabeth Sladen
+358 model:2014. 2014. 2014. 2014.
+359 label: of force? A:
+359 ans:Newtonian mechanics
+359 model:1994.0s 1990s 1990s
+360 label: on Earth? A:
+360 ans:oxygen cycle
+360 model:1000s0s 1000s0s 100
+361 label: practices existed? A:
+361 ans:thousands
+361 model:1000s 1000 BC0 BC BC BC BC
+362 label: platform is called A:
+362 ans:Internet2 officially retired Abilene and now refers to its new higher capacity network as the Internet2 Network
+362 model:1994. 1994. 1994. 1990s 1994. 1994. 1994. 1990s
+363 label: NK cells? A:
+363 ans:killer cell immunoglobulin receptors KIR
+363 model:1000s.5.5.5. to 1000s 1000
+364 label: called what? A:
+364 ans:heavyhighway heavy civil or heavy engineering
+364 model:1000s 1000s 1000s 1000s.0s
+365 label: VA collection? A:
+365 ans:from the 14th to the 19th century
+365 model:1000s 1000s 1000s 1000s 1000s 100
+366 label: renewable resources? A:
+366 ans:energy crisis
+366 model:1000s 1000s 1000s0
+367 label: early episodes? A:
+367 ans:his granddaughter Susan Foreman
+367 model:1960s 1960s 1960s 1960s
+368 label: hold out? A:
+368 ans:almost a month
+368 model:1000s 1000s 1000s 100
+369 label: major epidemic? A:
+369 ans:1720 in Marseille.
+369 model:1460s0s 1000s 1000s0s
+370 label: narrow band? A:
+370 ans:During the Oligocene for example the rainforest spanned a relatively narrow band.
+370 model:1000s0s 1000s0s 1000s 1000s0s 1000s0s
+371 label: ether belong? A:
+371 ans:19th
+371 model:1000s 1000s 1000s0
+372 label: originally open? A:
+372 ans:1788
+372 model:1864 1860s 1864 1864
+373 label: which centuries? A:
+373 ans:from the 12th to 16th
+373 model:1000s 1000s0s 1000s 1000s 100
+374 label: land from? A:
+374 ans:the British Landgrave Edmund Bellinger
+374 model:1860s 1860s 1860s 1860s0s
+375 label:ierz Church? A:
+375 ans:16881692
+375 model:1860s 1860 BC0s 1860 BC
+376 label: brothers name? A:
+376 ans:Dane
+376 model:1864.5s 1860s 1860
+377 label: stated in the TEU
+377 ans:Treaty on European Union TEU and the Treaty on the Functioning of the European Union TFEU
+377 model: of the United States of the United States of the United States the United States of the United States of the United States of the United States of the United States of
+378 label: act upon? A:
+378 ans:elementary particles
+378 model:1000s 1000s0s 1000s
+379 label: than x? A:
+379 ans:asymptotic distribution
+379 model:1000s 1000s 1000s 0s 
+380 label: a day? A:
+380 ans:ditch digger
+380 model:100. 1000s 1000s 100. 
+381 label: are there? A:
+381 ans:two main classes
+381 model:100.0s 1000s. 1000s
+382 label: mergers between firms?
+382 ans:Article 102
+382 model:: The: The 2004. 2014. 
+383 label:1991? A:
+383 ans:quality rental units
+383 model:1990s 1990s 1990s 199
+384 label: motion effects? A:
+384 ans:respective lines of application
+384 model:1000s0s 1000s0s 1000s
+385 label: digital channels? A:
+385 ans:8 February 2007
+385 model:2004. 100 100.5 2004.5 
+386 label: Calvin cycle? A:
+386 ans:unstable sixcarbon molecules that immediately break down
+386 model:1000s 1000s0s 1000s0s 1000s
+387 label:Wafid 100
+387 ans:botany and chemistry
+387 model:. 0s 0s 0s 0s 
+388 label: fortunes generate? A:
+388 ans:higher returns
+388 model:2. 1000s 1000s0s
+389 label:1991? A:
+389 ans:415000
+389 model:1000s 1000s0s 1000
+390 label: number n? A:
+390 ans:trial division
+390 model:2010s 2010s 2010s 
+391 label: of Melbourne? A:
+391 ans:regional cities
+391 model:100.5.5 2000s 2010s
+392 label: Bowl game? A:
+392 ans:Peyton Manning
+392 model:100 1000s 1000s 1000s 
+393 label: Rhine? A:
+393 ans:Rhin
+393 model:100 BC0 BC BC BC BC BC BC BC BC BC
+394 label: 50? A:
+394 ans:The Late Late Show with James Corden.
+394 model:2.0s 2000s 2010s 2010s 2010
+395 label: primary school? A:
+395 ans:the whole curriculum
+395 model:1000s0s and the 1000s0s
+396 label: ship from? A:
+396 ans:Base Titanium a subsidiary of Base resources of Australia
+396 model:2010s 2014.4. 2014.4. 2014.
+397 label: a hike? A:
+397 ans:notorious intransigence
+397 model:2014. 2014.5 2014.5 2014
+398 label: club scene? A:
+398 ans:The Pink Triangle
+398 model:2014. 2014. 2014. 201
+399 label: grill still in place.
+399 ans:Edward BurneJones
+399 model: 1864. A: The 1860s 1860
+400 label: Cast Courts? A:
+400 ans:in a glass case
+400 model:1000s 1000s0s 1000s0
+401 label: their leader? A:
+401 ans:he did not want disloyal men in his army
+401 model:1000s0s 1000s 1000s 1000s 1000s
+402 label: appeared on many compilation CDs
+402 ans:Doctorin the Tardis
+402 model: 1960s 1960s 1960s 1960s
+403 label: hypersensitivity? A:
+403 ans:IgE
+403 model:1000s 1000s 1000s 100
+404 label: in Mongolia? A:
+404 ans:1954
+404 model:1930s 1930s 1930s 
+405 label: following what? A:
+405 ans:menarche
+405 model:1000s0s and 1000s0s 
+406 label: are the larvae of some
+406 ans:ctenophores
+406 model: in the 1000s0s and 1000s 
+407 label: what network? A:
+407 ans:CBS
+407 model:1930s 1930s 1930s
+408 label: Super Bowl? A:
+408 ans:ESPN Deportes
+408 model:2014. 2014. 2014. 2014
+409 label:net originally do A:
+409 ans:connect two PDP11 minicomputers
+409 model:1960s 1960s 1960s 1960s 1960s
+410 label: at ABC? A:
+410 ans:youthoriented programming
+410 model:1960s 1960s 1960s 1960
+411 label: Prize bid? A:
+411 ans:1937
+411 model:1930s 1930s 1930s 
+412 label: alternating current? A:
+412 ans:Tesla Polyphase System
+412 model:1860s 1860s 1860s0s 
+413 label: punishment needed? A:
+413 ans:validity of the social contract
+413 model:1000s 2010s 2010s 2010s 
+414 label:opsis eat? A:
+414 ans:fish larvae and organisms
+414 model:1000s0s and 1000s0s 100
+415 label: vocational training? A:
+415 ans:craftsmanship
+415 model:1000s 100.0s 100.5 
+416 label: the assembly? A:
+416 ans:Emperor Charles V
+416 model:1000s0s 1000s 1000s0
+417 label: dropping out? A:
+417 ans:a draftsman
+417 model:1860s 1860s 1860s 186
+418 label: hymn? A:
+418 ans:difficulty of its tune
+418 model:1000s 1000s 1000s 1000
+419 label:ter killed? A:
+419 ans:during one hunting excursion
+419 model:1000s 1000s 1000s 1000
+420 label:on located? A:
+420 ans:south
+420 model:1860s 18600s 1860
+421 label: biblical figure? A:
+421 ans:Methodist institutions
+421 model:1000s0s and 1000s0s and
+422 label: the touchdown? A:
+422 ans:11:28
+422 model:1000s 100s 100s 1000s
+423 label: ABC networks? A:
+423 ans:Jimmy Kimmel
+423 model:1000s0s 1000s0s 100
+424 label: turrets? A:
+424 ans:four stories
+424 model:1000s 1000s 1000s 
+425 label: of teaching? A:
+425 ans:pedagogy
+425 model:1000s.0s and 1000s0s
+426 label: Wolfe register? A:
+426 ans:5
+426 model:100 1000s 100 100. 
+427 label: published as? A:
+427 ans:The Reconstruction of Religious Thought in Islam
+427 model:1930s 1930s 1930s 1930s 193
+428 label: resemble what? A:
+428 ans:neuronal dendrites
+428 model:1000s0s 1000s 1000s 100
+429 label: demand jobs? A:
+429 ans:access to education
+429 model:1000s 1000s0s 1000s
+430 label: stated in the TEU
+430 ans:The Court of Justice of the European Union can interpret the Treaties
+430 model: of the United States of the United States of the United States the United States of the United States of the United States
+431 label: or exclusively? A:
+431 ans:22
+431 model:100. 1000s 100. 100
+432 label: stand out? A:
+432 ans:its distinctive flared base
+432 model:1990s 1960s 1960s 1960s
+433 label: to be what A:
+433 ans:role in spreading awareness of and access to national networking and was a major milestone on the path to development of the global Internet
+433 model:1994. 1990s 1990s 1990s 1990s 1990s 1990s 1990s 1990
+434 label: contact with? A:
+434 ans:CRISPR
+434 model:1000s 1000s 1000s.0
+435 label: hymns? A:
+435 ans:high art and folk music
+435 model:1000s 1000s0s 1000s 100
+436 label:2004? A:
+436 ans:Anne Sweeney
+436 model:2004.5 2014.5 2014.
+437 label:hun? A:
+437 ans:Ma Jianlong
+437 model:1000 BC0 BC BC BC 1000 BC BC BC
+438 label:ells allies? A:
+438 ans:the Scots
+438 model:18644.5 1860s4. 
+439 label: Western Xia? A:
+439 ans:the Jin dynasty
+439 model:2 1000 BC0s 1000 BC0s
+440 label: in Canada? A:
+440 ans:Sainte Foy in Quebec
+440 model:1864444 1860 BC0s 1860s4
+441 label: Hollywood CA? A:
+441 ans:ABC Television Center
+441 model:1960s 1960s 1960s 196
+442 label: the ground? A:
+442 ans:Apollo 20
+442 model:1960s 1960s 1960s 196
+443 label: the Cape? A:
+443 ans:Dutch East India Company
+443 model:1460s 1460s 1460s 1460s
+444 label:ans grandfather? A:
+444 ans:Genghis Khan
+444 model:1464.5.5. A: The first of the 
+445 label: have roots? A:
+445 ans:the principles of legal certainty and good faith
+445 model:1000s 1000s 1960s 1000s0s 
+446 label: space variables? A:
+446 ans:Pauli
+446 model:1000s0s and 1000s 100
+447 label: NFL Draft? A:
+447 ans:1998
+447 model:2014. 2014. 2014. 
+448 label: signing ceremony? A:
+448 ans:Annan and his UNbacked panel and African Union chairman Jakaya Kikwete
+448 model:2004. 2004. 2004.5 2004. 2004.5 2004. 2004
+449 label: named after? A:
+449 ans:Dorothy and Michael Hintze
+449 model:1960s 1960s 1960s 1960s 196
+450 label: effect of? A:
+450 ans:another photosynthesisdepressing factor
+450 model:1000s 1000s0s 1000s 1000s
+451 label: used against? A:
+451 ans:cancer hepatitis and rheumatoid arthritis
+451 model:2000s 100.5. 100. 100.5. 100
+452 label:ine Plain? A:
+452 ans:300 km long
+452 model:1000s0s 1000s0s 100
+453 label: Sisters case? A:
+453 ans:268 U.S. 510
+453 model:1930s 1930s 1930s 1930s 
+454 label: of Edinburgh? A:
+454 ans:Theory of the Earth
+454 model:1864. 1860s 1860s 1860
+455 label: after what? A:
+455 ans:first increases
+455 model:1960s 1960s 1930s 
+456 label: its body? A:
+456 ans:a pair of long slender tentacles
+456 model:1000s.5.5. A: The 1000s.5
+457 label: of what? A:
+457 ans:designs into reality
+457 model:1000s0s 1000s0s 1000
+458 label: other universities? A:
+458 ans:the most rigorous intense
+458 model:2010s 2010s 2010s 2010
+459 label: is NSFNET A:
+459 ans:The National Science Foundation Network
+459 model:1960s 1960s 1960s 1960s
+460 label:ominaj? A:
+460 ans:hunters garb
+460 model:1460s 1000s 100 1860s 
+461 label:w Palace Park dates back
+461 ans:azienki
+461 model: 1000s 0s 0s0s 
+462 label:ings and article 92
+462 ans:article 66
+462 model: 1930s 1930s 1930s 
+463 label:oxide poisoning? A:
+463 ans:Hyperbaric highpressure medicine
+463 model:1000s0s 1000s0s 1000s 
+464 label: which college? A:
+464 ans:UCLA
+464 model:100 0s 1000s 100.5
+465 label: net force? A:
+465 ans:parallelogram
+465 model:1000s 1000s0s 1000s
+466 label:uenots? A:
+466 ans:he sent missionaries backed by a fund to financially reward converts
+466 model:1460s0s 1460s 1460s0s 1460s0s
+467 label:PhC? A:
+467 ans:regulates the practice of pharmacists and pharmacy technicians
+467 model:100. 2000s 2000s 2000s 2000s 200
+468 label:owl helmet? A:
+468 ans:traditional visor helmet
+468 model:2.5s 2000s 2000s0s
+469 label:ical Society? A:
+469 ans:Observations on the Geology of the United States explanatory of a Geological Map
+469 model:1864. 1860s 1860s 1860s 1860s 1860s 186
+470 label: which state? A:
+470 ans:California
+470 model:1000s 1000s 1000s
+471 label: more teachers? A:
+471 ans:alternative licensing programs
+471 model:2. 2000s 2010s 2010
+472 label: stated how? A:
+472 ans:NPhard
+472 model:0s0s 0s0s 0s 
+473 label: cost producers? A:
+473 ans:recover market share
+473 model:1960s 1960s 1960s 196
+474 label: fleas? A:
+474 ans:of marginal significance
+474 model:100.0s 1000s 1000s 
+475 label: of molecules? A:
+475 ans:self and nonself
+475 model:1000s 1000s. 1000s 100
+476 label:0 years? A:
+476 ans:Ten
+476 model:1000s 1000s. 1000
+477 label: the US. A:
+477 ans:Charlotte Muzar
+477 model:1950s 1950s 1960s 1960
+478 label: English do? A:
+478 ans:constructed the Kings Road
+478 model:1864. 1864. 1864.5 186
+479 label:illed manufacturing workers that could
+479 ans:global
+479 model: in the 1000s 0s 0
+480 label: greenhouse gases? A:
+480 ans:substantially increasing the atmospheric concentrations
+480 model:1000s 1000s0s 1000s 1000s
+481 label: known as? A:
+481 ans:pathogens
+481 model:1000s 1000s.0s and 
+482 label: the plague? A:
+482 ans:the rat population was insufficient
+482 model:1000s 1000s0s 1000s 100
+483 label: a carboxysome
+483 ans:icosahedral
+483 model: A: The 1000s 1000s 100
+484 label: Guernsey A:
+484 ans:Channel Islands
+484 model:10000s 10000s 1000
+485 label: a league? A:
+485 ans:2012
+485 model:2014 2014 2014 2014 
+486 label:2001? A:
+486 ans:Harvey Martin
+486 model:1000s 1000s 1000s 100
+487 label: Kenya called? A:
+487 ans:The Big Five
+487 model:1930s 1930s 1930s 193
+488 label: to form? A:
+488 ans:banded iron formations
+488 model:1000s0s 1000s 1000s 
+489 label: the philippines? A:
+489 ans:a war erupted
+489 model:1930s 1930s 1930s 193
+490 label: a lawyer? A:
+490 ans:1916
+490 model:1930s 1930s 1930s 
+491 label:ica mean? A:
+491 ans:Mongol peace
+491 model:1000s4. 1000s0s 1000
+492 label: the museum? A:
+492 ans:Gottfried Semper
+492 model:2. 1000s 2. 100.0s 
+493 label: Girls School? A:
+493 ans:Christchurch
+493 model:100.0s 2010s 2010s
+494 label: and elsewhere? A:
+494 ans:rising inequality
+494 model:2014. 2014.5 2014.
+495 label: Rawls? A:
+495 ans:when they improve society as a whole
+495 model:1000s 1000s0s 1000s0s and 
+496 label: Turing machines? A:
+496 ans:the machines operate deterministically
+496 model:1000s 1000s 1000s 1000s
+497 label: in Germany? A:
+497 ans:waldzither
+497 model:1000s 1000s 1000s0s
+498 label: the US? A:
+498 ans:1884
+498 model:2 2 2014. 2014. 
+499 label: ASER? A:
+499 ans:Annual Status of Education Report
+499 model:1000s.5. 100.0s 1000s
+500 label: immune cells? A:
+500 ans:phagocytic cells
+500 model:1000s.0s and 1000s.0s and
+501 label: in 1271.
+501 ans:the Commentaries on the Classic of Changes I Ching
+501 model: 2.0s 1200s 1000s 1000s 1000s
+502 label: affiliated with? A:
+502 ans:Anglican
+502 model:100 0s 0s 0s 0s
+503 label: Europe located? A:
+503 ans:Warsaw
+503 model:1000s 1000s0s 1000
+504 label: in winter? A:
+504 ans:below 0 C
+504 model:1960s 1960s 1960s 1960
+505 label: teachers salary? A:
+505 ans:civil servants salary index scale Bundesbesoldungsordnung
+505 model:100s 1000s 0s0s 1000s 100s0s 
+506 label: university graduate? A:
+506 ans:Philip Glass
+506 model:2014. 2014. 2010s 
+507 label: and identification of satisfactory fixes
+507 ans:April 4 1968
+507 model: 1960s 1940s 1940s 1940s
+508 label: of birth? A:
+508 ans:a river
+508 model:1000s. A: The first of the 100
+509 label: played in the Super Bowl
+509 ans:Thomas Davis
+509 model: the 1864. 1864. 186 
+510 label: current century? A:
+510 ans:climate change in addition to deforestation
+510 model:1000s 1000s.0s 1000s.5.
+511 label: Protestant states? A:
+511 ans:October 1529
+511 model:1000s0s 1000s0s 1000
+512 label: moon landing? A:
+512 ans:Apollo 17
+512 model:1000s 2000s 2010s 201
+513 label: his life? A:
+513 ans:New York hotels
+513 model:1994. 1990s 1990s 196
+514 label: true number? A:
+514 ans:1
+514 model:100 BC BC BC BC BC BC BC BC BC BC
+515 label:th century? A:
+515 ans:some 1.7 million victims
+515 model:1000s. 1000s. 1000s.0s 
+516 label: Who shown? A:
+516 ans:Christmas Day
+516 model:2014.5 2014.5 2014
+517 label: for ABC? A:
+517 ans:Good Morning America and Nightline
+517 model:1990s 1990s 1990s 1990s 
+518 label: ABC affiliate? A:
+518 ans:1980s
+518 model:1960s 1960s 1960s 196
+519 label: a brother? A:
+519 ans:Smith and Jones
+519 model:1990s 1990s 1990s 199
+520 label: California maintain? A:
+520 ans:Mediterranean
+520 model:1000s 1000s 1000s 1000
+521 label: deadly shock? A:
+521 ans:electric eels
+521 model:1000s 1000s0s and 1000
+522 label:s from? A:
+522 ans:photooxidative damage
+522 model:1000s.0s and 1000s0s and
+523 label: packet switching characterized A:
+523 ans:by a fee per unit of information transmitted such as characters packets or messages
+523 model:100.0s 100.0s 1000s 100.0s 100.0s 
+524 label: radio service? A:
+524 ans:since 1951
+524 model:100 100. 100 100. 100.5 
+525 label: nationalism suffered? A:
+525 ans:antidemocratic Islamist movements
+525 model:1000s0s 1000s0s 1000s0
+526 label: Not express? A:
+526 ans:Reformation doctrine
+526 model:1000s 1000s 1000s 100
+527 label: to produce? A:
+527 ans:Xrays
+527 model:1930s 1930s 1930s 
+528 label: pursuing prey? A:
+528 ans:zip the mouth shut
+528 model:1000 BC0 BC BC BC BC BC BC BC BC BC BC
+529 label: for London? A:
+529 ans:Londonistan
+529 model:1000s 1000s 1000s 
+530 label:ia called? A:
+530 ans:sea gooseberry
+530 model:1000s 1000s.0s 1000
+531 label: were married? A:
+531 ans:the Merkits
+531 model:1000s.4. A: The first the 100
+532 label:ary rocks? A:
+532 ans:clasts
+532 model:100.0s 100.0s 100.
+533 label: Bar located? A:
+533 ans:roof
+533 model:1000s 1000s0s 100
+534 label: Good Hope? A:
+534 ans:Maria de la Queillerie
+534 model:1460s 1460s0s 1460s 1864
+535 label: in Victoria? A:
+535 ans:governmentowned
+535 model:1000s 1000s 1000s 
+536 label: IPCC use? A:
+536 ans:model results reports from government agencies and nongovernmental organizations and industry journals
+536 model:1000s 1000s0s 1000s 1000s0s 100.0s 
+537 label: place Islam? A:
+537 ans:a modern context
+537 model:1960s 1960s 1960s 196
+538 label: recipient of? A:
+538 ans:Nobel Prize
+538 model:1000s 2004 2014 2014 
+539 label: work for? A:
+539 ans:colonizing empires
+539 model:1000s0s and 1000s0s to 
+540 label: mobile phones? A:
+540 ans:Verizon
+540 model:2004.5 2005 2005 200
+541 label:11860? A:
+541 ans:20 million ounces
+541 model:1000s 100.0s 1000s 
+542 label: converted to fire A:
+542 ans:incorrectly
+542 model:1000 BC BC BC BC BC BC BC BC BC BC
+543 label: many inhabitants? A:
+543 ans:the poor soil
+543 model:1950s 1950s 1950s 195
+544 label: to avoid? A:
+544 ans:Acute oxygen toxicity
+544 model:1000s0s 1000s0s 1000
+545 label: evolution in Luthers
+545 ans:under the temporal sovereign
+545 model: the first of the first of the first of the 1864.
+546 label: one another? A:
+546 ans:spin
+546 model:1000s0s 1000s0s
+547 label: held about? A:
+547 ans:basic channels
+547 model:1000s 1000s0s 1000
+548 label: into force? A:
+548 ans:the referendum in France and the referendum in the Netherlands
+548 model:2004. 2004. 1990s 1990s 1990s 
+549 label: Robinson die? A:
+549 ans:1999
+549 model:1930s 1930s 1930s 
+550 label:piration by? A:
+550 ans:photosynthesis
+550 model:1000s0s 1000s 1000
+551 label: adaptations in? A:
+551 ans:Warner Bros. Presents
+551 model:1930s 1930s 1930s 1930s
+552 label: took place? A:
+552 ans:MercedesBenz Superdome
+552 model:2005 2014 2014 2014 2014.5 
+553 label:les located? A:
+553 ans:Small Catechism
+553 model:1000s0s 1000s 1000s 100
+554 label: another group? A:
+554 ans:Urarina
+554 model:1000s 1000s 1000s 100
+555 label: coalition last? A:
+555 ans:until the end of the current Parliament or if either of the parties withdraws from the deal before then
+555 model:1000s.5 1000s0s 1000s0s 1000s0s 1000s0s 
+556 label: to establish? A:
+556 ans:doctrinal unity
+556 model:1000s0s 1000s 1000s0
+557 label:PAC support A:
+557 ans:supporting applications such as online betting financial applications
+557 model:1990s 1990s 1990s 1990s 1990s
+558 label:ists job? A:
+558 ans:effectiveness of treatment regimens
+558 model:1000s0s and 1000s0s and 1000
+559 label: 50? A:
+559 ans:Denver Broncos
+559 model:2014 2014. 2014 2015
+560 label:trained workers? A:
+560 ans:period of compression
+560 model:1930s 1930s 1930s 193
+561 label: the future? A:
+561 ans:savings and investment
+561 model:1000s0s 1000s 1000s 
+562 label: visit Kenya? A:
+562 ans:In July 2015
+562 model:2014.5 2014.5 2014 2014
+563 label: Norman castle? A:
+563 ans:Afranji
+563 model:1000 BC0 BC BC BC BC BC BC BC BC BC BC
+564 label: result in? A:
+564 ans:higher GDP growth
+564 model:1000s 1000s 1000s0s
+565 label: Merwede into No
+565 ans:Old Meuse
+565 model: the 1000s 1000s0s and 
+566 label: probable pronunciation? A:
+566 ans:Chinggis
+566 model:1000s 1000s0s and 1000
+567 label: account for? A:
+567 ans:1
+567 model:1000s 2000s 1000s
+568 label: named after? A:
+568 ans:M. Theo Kearney
+568 model:2000s 1000s 100.5 2000s
+569 label: involves what? A:
+569 ans:relationship contracting where the emphasis is on a cooperative relationship
+569 model:1000s 1000s 1000s0s 1000s0s 
+570 label: Tymnet A:
+570 ans:an international data communications network headquartered in San Jose CA
+570 model:2004. 2004.5 2004. 2004. 2004.
+571 label: energy to? A:
+571 ans:Paris
+571 model:1960s 1960s 1960s
+572 label: hypothesis proposed? A:
+572 ans:1859
+572 model:100.0s 1000s0s 100
+573 label:se Legros. Q
+573 ans:233
+573 model: The first of the 1864.8 186
+574 label: extinction happen? A:
+574 ans:66 million years ago
+574 model:1950s 1950s 1950s 1950
+575 label: fault lines? A:
+575 ans:the Financial crisis of 200708
+575 model:1000s 1000s0s 1000s0s 100
+576 label:MC membership? A:
+576 ans:2012
+576 model:2014. 2014. 2010s 
+577 label: renewed life? A:
+577 ans:baptism
+577 model:1000s0s and 1000s0s and
+578 label: begin airing? A:
+578 ans:1975
+578 model:1960s 1960s 1960s 
+579 label: smaller containers? A:
+579 ans:compressed gas
+579 model:1000s 1000s0s 1000
+580 label:ized warfare? A:
+580 ans:the machine gun
+580 model:1000s 1000s 1000s 100
+581 label: technician register? A:
+581 ans:the General Pharmaceutical Council GPhC register
+581 model:2000s 2000s 2000s 2000s 2010
+582 label: Arab nationalism? A:
+582 ans:between 1945 and 1970
+582 model:1990s 1990s 1990s 1990s 1990
+583 label: XXXIII? A:
+583 ans:38
+583 model:1000s 1000s 1000s
+584 label: between bodies? A:
+584 ans:Newtons Third
+584 model:1000s0s and 1000s0s and
+585 label: 50? A:
+585 ans:5000000
+585 model:1000s 2000s 2014. 201
+586 label:HD broadcasts? A:
+586 ans:2016
+586 model:2014.5 2014. 2014.
+587 label:atics growing? A:
+587 ans:quickly
+587 model:1000s0s 100.0s 100
+588 label: Scottish Parliament? A:
+588 ans:hold the majority of seats
+588 model:1000s 1000s 1000s0s 100
+589 label: offensive line also featured two
+589 ans:3837
+589 model:. 2.5 2014. 2014
+590 label: the way? A:
+590 ans:Jacob Van Braam as an interpreter Christopher Gist a company surveyor working in the area and a few Mingo led by Tanaghrisson
+590 model:1864. 1860s 1860s 18644 1864 1860s4. 18644.5 1864. 1864.5
+591 label: of Fresno? A:
+591 ans:Hmong or Laotian
+591 model:1000s 1000s 1000s 1000s 
+592 label: protect against? A:
+592 ans:a wide variety of agents known as pathogens from viruses to parasitic worms
+592 model:1000s.0s and 1000s.0s and 1000s.0s 100
+593 label: Bible makes sense to itself
+593 ans:no way contributes
+593 model: the same of the first of the first of the first of the
+594 label: Khan himself? A:
+594 ans:Tolui
+594 model:100 BC BC BC BC BC BC BC BC BC BC BC BC
+595 label: Who run? A:
+595 ans:26
+595 model:1000s 1000s 100.5
+596 label:ara periods? A:
+596 ans:highly respected
+596 model:1000s 1000s 1000s 100
+597 label: population medically? A:
+597 ans:Nurses
+597 model:2014.5. 2010s 2010
+598 label: computational model? A:
+598 ans:CobhamEdmonds thesis
+598 model:1000s 2000s 1000s 1000s 
+599 label: register with? A:
+599 ans:trade unions
+599 model:2004. 2014. 2010s 
+600 label: Buyantu? A:
+600 ans:Li Meng
+600 model:1000s BC BC BC BC BC BC BC BC BC
+601 label:ssel carry? A:
+601 ans:one ninth
+601 model:1000s0s 1000s0s 
+602 label: pick position? A:
+602 ans:2011.
+602 model:2014. 2014. 2014. 201
+603 label: the VA? A:
+603 ans:Jean Auguste Dominique Ingres
+603 model:1000s 1000s 1000s 1000s 100
+604 label: ribosomes? A:
+604 ans:25 nm
+604 model:1000s. 1000s. 100.
+605 label: been conferred although there is
+605 ans:TFEU article 294
+605 model: number of the 2014. 2014. 2014.
+606 label:emitism? A:
+606 ans:Lutheran clergy and theologians
+606 model:2014.4.4.4. the 2014.0s 
+607 label: Netherlands begin? A:
+607 ans:Millingen aan de Rijn
+607 model:1000s0s 1000s0s 1000s0s
+608 label: on the Mississippi River was
+608 ans:continental North American possessions east of the Mississippi or the Caribbean islands of Guadeloupe and Martinique
+608 model: 1864. A: The 1865.5 and 1864 1864.5 1864.5 1864.
+609 label: of s? A:
+609 ans:s 2 4...
+609 model:2.0s 0s 0s0s 1000s
+610 label: and tools? A:
+610 ans:5th Avenue laboratory fire of March 1895
+610 model:1464.5. 1864.5 1860s 1864 1864
+611 label: of problem? A:
+611 ans:A function problem
+611 model:1000s 1000s0s 1000s
+612 label: being what? A:
+612 ans:irrational and backward
+612 model:1000s 1000s 1000s 1000s
+613 label: intelligence gathering? A:
+613 ans:Yam route systems
+613 model:1464. 1860s to 1860s 186
+614 label: branch flow? A:
+614 ans:IJsselmeer
+614 model:1930s 1930s 1930s 193
+615 label: into what? A:
+615 ans:geochemical evolution of rock units
+615 model:100.0s 1000s. 100.0s 100
+616 label: Francia? A:
+616 ans:6th century
+616 model:1460 BC0 BC BC BC BC BC BC BC BC BC
+617 label: to broadcast? A:
+617 ans:2006
+617 model:2014. 2014. 2014. 
+618 label: however leading to Mannings
+618 ans:John Fox
+618 model: to 2014. 1994. 2014
+619 label: clay pits? A:
+619 ans:moraine
+619 model:1000s0s and 1000s0s
+620 label: arts programming? A:
+620 ans:Alpha Repertory Television Service ARTS
+620 model:1960s 1960s 1960s 1960s 1960
+621 label: two companies? A:
+621 ans:1972
+621 model:1960s 1960s 1960s 
+622 label:. The Commissioners as a
+622 ans:simple majority vote
+622 model: of the 186 of the 1860s 1860
+623 label: giving it a special status
+623 ans:1985
+623 model: 1960s 1960s 1960s
+624 label:oplasts? A:
+624 ans:the mesophyll layers
+624 model:100.0s 1000s0s 1000s.
+625 label: project conducted? A:
+625 ans:In 2009
+625 model:2004. 2000s 2000s 2000
+626 label: United States? A:
+626 ans:there are now numerous such communities across the United States
+626 model:1960s 1960s 1960s 1960s 1960s 
+627 label: Town Moor? A:
+627 ans:graze
+627 model:1000s 1000s 1000s 
+628 label: placed on? A:
+628 ans:the sex offenders register
+628 model:1000s 1000s0s 1000s0
+629 label: and animals? A:
+629 ans:Innate immune systems
+629 model:1000s0s and 1000s 1000s0
+630 label: corporations headquartered? A:
+630 ans:University of California Irvine
+630 model:1000s 1000s0s 1000s 
+631 label:NS stand for A:
+631 ans:The Very highspeed Backbone Network Service
+631 model:1990s 1990s 1990s 1990s 199
+632 label: in Victoria? A:
+632 ans:60
+632 model:1000s 100 million years 100 million years
+633 label:las designs? A:
+633 ans:60000 in cash and stock and a royalty of 2.50 per AC horsepower produced by each motor
+633 model:1000s 1000s 1000s 1000s 1000s 100 1000s 1000s 100
+634 label: waves found? A:
+634 ans:forcefree magnetic fields
+634 model:1000s 1000s 1000s0s 
+635 label: NFL Draft? A:
+635 ans:2011
+635 model:2014. 2014. 2014. 
+636 label:idmore Company. Its
+636 ans:Sir George Gilbert Scott
+636 model: of the 1864. 1864. 1864 
+637 label: Super Bowl? A:
+637 ans:Super Bowl XXVIII
+637 model:1990s 1990s 1990s 1990s
+638 label: environmental damage? A:
+638 ans:If as WWF argued population levels would start to drop to a sustainable level
+638 model:1000s. 1000s.0s 1000s.0s 100.0s. 
+639 label: of teaching? A:
+639 ans:several
+639 model:1000s 1000s 1000s 
+640 label: MSPs? A:
+640 ans:73
+640 model:1000s 1000s 1000s
+641 label: German cabinet? A:
+641 ans:Federal Minister of the Interior
+641 model:1000s 1000s 1000s 1000s
+642 label:ophytes? A:
+642 ans:nucleomorph
+642 model:1000s.0s and the 100.0s 
+643 label:renoids? A:
+643 ans:roughly spherical
+643 model:100.0s 100.0s 1000s
+644 label: vertebrates? A:
+644 ans:immunoglobulins and T cell receptors
+644 model:1000s0s and 1000 BC0 BC BC BC BC BC BC BC BC
+645 label: as what? A:
+645 ans:state transitions
+645 model:100.0s and 1000s 1000
+646 label: force messages delivered A:
+646 ans:delivery of these messages by store and forward switching
+646 model:1000s0s 1000s0s 1000s0s 100
+647 label: the game? A:
+647 ans:three
+647 model:1000s 100s 100s 100
+648 label: oxygen rank? A:
+648 ans:third
+648 model:1000s0s 1000s0s
+649 label: specialty drugs? A:
+649 ans:19
+649 model:100.0s 1000s 1000
+650 label: frets? A:
+650 ans:helicoid stromal thylakoids
+650 model:1000s 1000s 1000s0s 1000s0s
+651 label: in 1271.
+651 ans:1271
+651 model: 2.0s 1200s 1000
+652 label: in Poland? A:
+652 ans:Medical University of Warsaw
+652 model:1000s0s 2014.0s 2010
+653 label: by Tesla? A:
+653 ans:between 8 to 10 miles per day
+653 model:2004. 2004. 1990s 1990s 1994 
+654 label: to do? A:
+654 ans:return home
+654 model:1864 1864. 1860s 186
+655 label:ys job? A:
+655 ans:Economist
+655 model:1930s 1930s 1930s 193
+656 label: article published? A:
+656 ans:20 December 1914
+656 model:1930s 1930s 1930s 1930s
+657 label: immune system? A:
+657 ans:infected cells seal themselves off and undergo programmed cell death
+657 model:1000s0s and 1000s0s 1000s0s 1000
+658 label: oxygen necessary? A:
+658 ans:respiration
+658 model:1000s0s and 1000s0s
+659 label: at Harvard? A:
+659 ans:ShingTung Yau
+659 model:2004.5. 2004. 2004.0s 
+660 label:yn rules? A:
+660 ans:Worldvision Enterprises
+660 model:1960s 1990s 1990s 199
+661 label: Duisburg? A:
+661 ans:Ruhr
+661 model:1950s 1950s 1960s 
+662 label: join ABC? A:
+662 ans:1966
+662 model:1960s 1960s 1960s 
+663 label:2012 five years after
+663 ans:1933
+663 model: 1960s 1960s 1930s
+664 label:ized Confucian scholars
+664 ans:Buddhism especially the Tibetan variants
+664 model: the 100.0s and 100.0s. 100.0s
+665 label: to life? A:
+665 ans:energy content
+665 model:1000s 100.0s 100.0
+666 label: independance? A:
+666 ans:12 December 1963
+666 model:1960s 1960s 1960s 1960s
+667 label:ic problems? A:
+667 ans:Alan Turing
+667 model:1930s 1930s 1930s 
+668 label: Super Bowl? A:
+668 ans:San Jose State practice facility
+668 model:2000s 2014 2014 2014 2010
+669 label: U.S.? A:
+669 ans:1807
+669 model:1864.5 1864 1860s 
+670 label:2016? A:
+670 ans:Robert Zimmer
+670 model:2014.5 2014.5 2014
+671 label:1505? A:
+671 ans:Augustinian cloister in Erfurt
+671 model:100. 2004. 2004. 2004.5. 201
+672 label: the ball? A:
+672 ans:Newton
+672 model:100 2014 2014 2014.
+673 label: UK Limited? A:
+673 ans:telecommunications
+673 model:2014.5 2010s 2010s
+674 label: unspecified illness? A:
+674 ans:stroke
+674 model:1864. 1864. 1860s
+675 label: military benefit? A:
+675 ans:G. H. Hardy
+675 model:1960s 1960s 1960s 1960s
+676 label:w Palace Park dates back
+676 ans:east end
+676 model: 1000s 0s 0s0s
+677 label: AFC championship? A:
+677 ans:New England Patriots
+677 model:2014 2014 2014. 2014.
+678 label: became popular? A:
+678 ans:Bible translation
+678 model:1000s0s 1000s0s and 
+679 label:1958? A:
+679 ans:Walt Disney Presents
+679 model:1960s 1960s 1960s 1960
+680 label: hydrogen bomb? A:
+680 ans:Edward Teller
+680 model:1000 BC0 BC BC BC BC BC BC BC BC BC
+681 label: economic development? A:
+681 ans:little
+681 model:1000s0s 1000s 100
+682 label:ized yogurt? A:
+682 ans:lactobacilli
+682 model:1000s0s 1000s0s 1000s
+683 label: to be? A:
+683 ans:gift from God
+683 model:100. 1000s 1000s0s 
+684 label:angles have? A:
+684 ans:six
+684 model:1000s0s 1000s0s
+685 label:ality test? A:
+685 ans:SolovayStrassen tests
+685 model:1000s 1000s 1000s 1000s 
+686 label: the public? A:
+686 ans:the series would return
+686 model:1960s 1960s 1960s 1960
+687 label: the water? A:
+687 ans:high humidity
+687 model:1860s 1860s 1860s 
+688 label: with GDP growth at 
+688 ans:rdmiecie
+688 model:.5. 2010s 2010s 201
+689 label:oids arranged? A:
+689 ans:stacked in groups of three
+689 model:1000s.0s and 1000s.0s and 
+690 label: architecture have? A:
+690 ans:rounded
+690 model:1000s 1000s0s 100
+691 label: private schools? A:
+691 ans:7.5
+691 model:1990s 1990s 1990s 199
+692 label: against ABC? A:
+692 ans:CFTOTV
+692 model:1930s 1930s 1930s 1930
+693 label: these days? A:
+693 ans:privately in the principals office
+693 model:1000s 1000s0s 1000s 1000
+694 label: third time? A:
+694 ans:2015
+694 model:2014 2014 2014 2014 
+695 label: input measured? A:
+695 ans:bits
+695 model:2.0s 2.0s 200
+696 label: dominant format? A:
+696 ans:196566 season
+696 model:1990s 1990s 1990s 199
+697 label: membership overseas? A:
+697 ans:3.5 million
+697 model:2014.5 2014. 2010s 201
+698 label: Rhine? A:
+698 ans:1000 m3s 35000 cu fts
+698 model:1000s0s 1000s0s 1000s0s 1000s
+699 label: the moon? A:
+699 ans:threestage Saturn V
+699 model:1000s 1000s0s 100.0s 100
+700 label: when launched? A:
+700 ans:265.7 nautical miles
+700 model:100 1000s0s 1000s 1000s 
+701 label:1967? A:
+701 ans:Department of Justice
+701 model:1960s 1960s 1960s 196
+702 label: human epidemic. Q:
+702 ans:The mechanism by which Y. pestis was usually transmitted
+702 model: 1864. A: The 1860s 1860s 1860s 186
+703 label: in total? A:
+703 ans:This region includes territory belonging to nine nations.
+703 model:100.0s 1000s 100.0s 100.0s 
+704 label: lines use? A:
+704 ans:760 mm
+704 model:1000s 1000s 1000s 
+705 label: is formed? A:
+705 ans:new magma
+705 model:1000s. 100.0s 100.
+706 label:ock Island? A:
+706 ans:a University of North Florida team
+706 model:1000s0s 1000s0s 1000s0
+707 label: GI tract? A:
+707 ans:commensal flora
+707 model:1000s. 1000s0s 1000s
+708 label:ous calendar? A:
+708 ans:Calendar for Fixing the Seasons
+708 model:1000s 1000s 2.0 BC0s 100
+709 label: cell types? A:
+709 ans:macrophages and lymphocytes
+709 model:1000s.0s and the 1000s0s 100
+710 label: in Newcastle? A:
+710 ans:oceanic
+710 model:1960s 1960s 1960s 196
+711 label: prime numbers? A:
+711 ans:Olivier Messiaen
+711 model:1930s 1930s 1930s 1930s 
+712 label: cooling hourly? A:
+712 ans:3600
+712 model:100s 100. 1000s 100.
+713 label: they vary? A:
+713 ans:vary
+713 model:100 0s 0s 0s 
+714 label: prioritize attention? A:
+714 ans:motivated students
+714 model:1000s 1000s 1000s0s
+715 label: of teacher? A:
+715 ans:effective
+715 model:1000s 1000s 1000s
+716 label:his Khan? A:
+716 ans:Ulaanbaatar
+716 model:2004.5 2014. 2014. 2014
+717 label:. Q: How was
+717 ans:via the ballast tanks of ships
+717 model: 1000s 1000s 1000s 1000s 
+718 label:2016? A:
+718 ans:Michelle Gomez
+718 model:2014. 2014. 2014. 
+719 label: for Denver? A:
+719 ans:Brandon McManus
+719 model:100 2004. 2014. 2014.5
+720 label: what company? A:
+720 ans:Warner Bros.
+720 model:1960s 1960s 1990s 1960
+721 label:ichiud? A:
+721 ans:Chilaun
+721 model:1000s 1000s 1000s 100
+722 label: of Commons? A:
+722 ans:a number of qualifications
+722 model:1960s 1960s 1960s 1960
+723 label: Perfection? A:
+723 ans:Sanctifying Grace
+723 model:1000s0s 1000s 1000s 
+724 label: and developing? A:
+724 ans:between 1835 and 1842
+724 model:1860s 1860s 1860s 1860s 1860
+725 label: Super Bowl? A:
+725 ans:Gods of Egypt
+725 model:2004.5 2014 2014 2014 
+726 label:ries existed? A:
+726 ans:since the Sui and Tang dynasties
+726 model:1000s 1000s0s 1000s0s 1000s
+727 label: original series? A:
+727 ans:6 December 1989
+727 model:1960s 1960s 1960s 1960s
+728 label:2014? A:
+728 ans:45 million people
+728 model:2010s 2010s 2010s 201
+729 label: works smoothly? A:
+729 ans:Presiding Officer
+729 model:1000s0s 1000s0s 100
+730 label: Doctor Who? A:
+730 ans:a series of power blackouts across the country
+730 model:1960s 1960s 1960s 1960s 1990s
+731 label: imperial rule? A:
+731 ans:AngloSaxon populations
+731 model:1000s 1000s0s 1000s0s
+732 label: the boat? A:
+732 ans:monkey
+732 model:1930s 1930s 1930s
+733 label: legislative election? A:
+733 ans:majority of the seats
+733 model:2014. 2014.5 2014 2014 
+734 label: days celebration? A:
+734 ans:wedding banquet
+734 model:1000s 1000s 1000s 100
+735 label: each subject? A:
+735 ans:platoon
+735 model:1000s0s and 1000s 100
+736 label: government representatives? A:
+736 ans:about seveneighths
+736 model:1000s0s 1000s 1000s.5
+737 label: been inhabited? A:
+737 ans:Lower Paleolithic period
+737 model:1000s0s 1000s0s 1000
+738 label: South Wales? A:
+738 ans:1 July 1851
+738 model:100.5 1000s 1000s 1000s
+739 label: in Warsaw? A:
+739 ans:Jewish
+739 model:1930s 1930s 1930s 
+740 label:chulen? A:
+740 ans:religious
+740 model:1000s.0s and 1000s
+741 label: Indian war? A:
+741 ans:Indians fought on both sides of the conflict and that this was part of the Seven Years War
+741 model:1000s 1000s 1000s 1000s 1000s 1000s 1000s 100
+742 label: lose legitimacy? A:
+742 ans:without destroying historical legitimacy
+742 model:100.0s 2004. 2000s 200
+743 label: what methods? A:
+743 ans:revolution or invasion
+743 model:1000s.0s and the 1000s0
+744 label: of graduate? A:
+744 ans:four
+744 model:1000s0s 1000s0s
+745 label: Street refurbished? A:
+745 ans:November 2006 and May 2008
+745 model:1000s0s 100.0s 1000s 1000s0
+746 label: in Newcastle? A:
+746 ans:2009
+746 model:1000s 1000s0s 1000
+747 label: of organisms? A:
+747 ans:fungi
+747 model:100. 1000s0s 1000s
+748 label: Florida area? A:
+748 ans:2010
+748 model:2014 2014 2010s 2010
+749 label: was chosen? A:
+749 ans:two
+749 model:2014 2014 2014. 201
+750 label:1965? A:
+750 ans:American Broadcasting Companies
+750 model:1960s 1960s 1960s 196
+751 label:f breaks? A:
+751 ans:Oahu
+751 model:1960s 1960s 1960s 
+752 label:ived immunity? A:
+752 ans:passive immunity
+752 model:1000s 1000s0s and 1000
+753 label: the state? A:
+753 ans:ten
+753 model:1000s0s 1000s 100
+754 label: their vows? A:
+754 ans:break their vows
+754 model:1000s 1000s 1000s0s
+755 label: oil crisis? A:
+755 ans:first oil shock
+755 model:1960s 1960s 1960s 196
+756 label: down to? A:
+756 ans:independent components
+756 model:1000s 1000s0s and 1000
+757 label: respiration? A:
+757 ans:water flow through the body cavity
+757 model:1000s0s 1000s0s 1000s0
+758 label: factories found? A:
+758 ans:Lower Rhine
+758 model:1960s 1960s 1960s 196
+759 label: richer countries? A:
+759 ans:encourage
+759 model:1990s 1990s 1990s 
+760 label: statistics from? A:
+760 ans:23
+760 model:100 1000s 1000s 100
+761 label: given problem? A:
+761 ans:computational complexity theory
+761 model:2.0s 2000s 2000s 200
+762 label:is wife? A:
+762 ans:Tregene Khatun
+762 model:1000 BC0 BC0s 1000 BC0 BC0s 
+763 label: the world? A:
+763 ans:India
+763 model:1000s.5. 1000s.
+764 label:30 studios? A:
+764 ans:silent film
+764 model:1930s 1930s 1930s 
+765 label:1968? A:
+765 ans:Harold L. Neal
+765 model:1960s 1960s 1965 1965 196
+766 label: in the Baronies?
+766 ans:1697
+766 model:: The first 1864.5 1860s
+767 label: slave trade? A:
+767 ans:1291
+767 model:1000s 1000s0s 1000
+768 label: guilty to a crime involving
+768 ans:I feel I did the right thing by violating this particular law
+768 model:. the law state state state. the state state state state. the law law law law law law law law
+769 label: gives symmetry? A:
+769 ans:Newtons Third
+769 model:1000s0s and 1000s0s and
+770 label: in student performance A:
+770 ans:occupational stress
+770 model:1000s 1000s 0s 1000
+771 label:al round? A:
+771 ans:Seattle Seahawks
+771 model:100 2014.5 2010s 201
+772 label: in the service of Byz
+772 ans:Robert Guiscard
+772 model:. 0s0s to 1200s to 
+773 label: experimenters? A:
+773 ans:few drops
+773 model:1864. 1860s0s 1860
+774 label: in Baghdad? A:
+774 ans:twothirds of its population
+774 model:1000s0s 1000s0s 1000s0
+775 label: like pancakes? A:
+775 ans:the helical thylakoid model
+775 model:1000s 1000s 1000s0s 1000s0
+776 label: receiving education? A:
+776 ans:gender roles and customs
+776 model:1000s 1000s 1000s 1000
+777 label: Anniversary show? A:
+777 ans:The Day of the Doctor
+777 model:2014. 2014.5. 2014. 195
+778 label: new center? A:
+778 ans:Kurt H. Debus
+778 model:1960s 1960s 1960s 1960s 
+779 label: required for? A:
+779 ans:a key requirement for admission to Standard One First Grade
+779 model:1000s 1000s0s 1000s 1000s 1000
+780 label: talent scholarship? A:
+780 ans:academic
+780 model:100.0s 1000s 1000
+781 label:REN issued? A:
+781 ans:2011
+781 model:2014.5 2014.5 2010
+782 label: oxygen molecules? A:
+782 ans:magnetic field
+782 model:1000s0s 1000s0s 100
+783 label: economic growth? A:
+783 ans:special efforts
+783 model:1000s 1000s0s 1000
+784 label: take place? A:
+784 ans:Tuesday
+784 model:2014 2014 2010s 201
+785 label: of force? A:
+785 ans:kip
+785 model:1000s 1000s0s 100
+786 label:year course of study at
+786 ans:Associate Membership
+786 model: end of the 0s 0s0s 
+787 label:1752? A:
+787 ans:Marquis de la Jonquire
+787 model:1864.5 1860 BC0s 1860 BC0s
+788 label: are they? A:
+788 ans:the outer core and inner core
+788 model:1000s.5.5. 1000s0s and 
+789 label:and on the cell surface
+789 ans:CD40 ligand
+789 model: the 1000s 1000s0s 1000
+790 label: than Cambridge? A:
+790 ans:approximately fifty percent
+790 model:1000s. 1000s. 1000s
+791 label: of Parliament? A:
+791 ans:other locations throughout Scotland
+791 model:1000s 1000s0s 1000s0
+792 label: Who film? A:
+792 ans:the Fox Network
+792 model:1990s 1990s 1990s 199
+793 label: Norman religion? A:
+793 ans:Catholicism
+793 model:1000s0s and 1000s0s 
+794 label: 50? A:
+794 ans:John Fox
+794 model:1000s0s 1000s0s 
+795 label: to acknowledge. A:
+795 ans:accept punishment
+795 model:1000s0s and the 1000s 
+796 label: museum collection? A:
+796 ans:more than 20
+796 model:1930s 1930s 1930s 1930
+797 label: bombing raids? A:
+797 ans:During the Second World War
+797 model:1930s 1930s 1930s 1930s
+798 label: rainforest? A:
+798 ans:438000
+798 model:100.0s 100.0s 1000
+799 label: other systems? A:
+799 ans:stronger
+799 model:1000s 1000s 1000s 
+800 label: referred to? A:
+800 ans:histocompatibility
+800 model:1950s 1950s 1960s 196
+801 label: stated in the TEU
+801 ans:the Faroe Islands
+801 model: of the United States of the United States of the United States the United
+802 label: been conferred although there is
+802 ans:legislation can be blocked by a majority in Parliament a minority in the Council and a majority in the Commission
+802 model: number of the 2014. 2014. 2014. 2014. 2014. 2014. 2014.
+803 label:ophyll? A:
+803 ans:orangered zeaxanthin
+803 model:1000s0s and 1000s 1000s 100
+804 label: from Oklahoma? A:
+804 ans:Sugarfoot
+804 model:1930s 1930s 1930s 
+805 label: computing machine? A:
+805 ans:A Turing machine
+805 model:1000s 1000s0s 100.0
+806 label:ores called? A:
+806 ans:cilia
+806 model:1000s 1000s 1000s 
+807 label: granum? A:
+807 ans:anywhere from two to a hundred
+807 model:1000s.0s 1000s.0s 1000s
+808 label: VA collection? A:
+808 ans:Sri Lanka
+808 model:1000s 1000s 1000s 100
+809 label: measurement changed? A:
+809 ans:typographical error
+809 model:1930s 1930s 1930s 193
+810 label: talk about? A:
+810 ans:postWorld War I
+810 model:1930s 1930s 1930s 1930
+811 label: celibacy? A:
+811 ans:on Biblical grounds
+811 model:100.5. 100.0s 1000s
+812 label:wide process? A:
+812 ans:polytechnics became new universities
+812 model:1990s 1990s 1990s 1990s 
+813 label:thian? A:
+813 ans:151 votes
+813 model:1000s0s 1000s 1000
+814 label: of death? A:
+814 ans:coronary thrombosis
+814 model:1960s 1960s 1960s 1960s 
+815 label: evidence of? A:
+815 ans:the lost chloroplasts existence
+815 model:2.0s 0s0s 0s0s. 
+816 label: potentially opening the EU to
+816 ans:berseering BV v Nordic Construction GmbH
+816 model: the 2000s 2010s 2010s 2014. 
+817 label: immunology? A:
+817 ans:self molecules
+817 model:1000s 1000s 1000s 
+818 label: the fault? A:
+818 ans:younger than the fault
+818 model:1000s 1000s. 100.0s 100
+819 label: Digital launched? A:
+819 ans:1998
+819 model:1990s 1990s 1990s 
+820 label:ine cycle? A:
+820 ans:during the compression stage relatively little work is required to drive the pump
+820 model:1000s0s 1000s 1000s 1000s 1000s 100
+821 label:atic conditions? A:
+821 ans:oxygen18
+821 model:1000s.5 and 1000s. 100
+822 label: were underway? A:
+822 ans:Old Town Hall
+822 model:1000s 1000s0s 100.0
+823 label: Roman boundary? A:
+823 ans:the empire fell
+823 model:1000s 100 BC0 BC BC BC BC BC BC
+824 label: almostexclusively informal
+824 ans:Protestant
+824 model:. The first of the number of the number of the number of
+825 label: Hong Kong? A:
+825 ans:2015
+825 model:2014 2014 2014.5 201
+826 label: attached to? A:
+826 ans:either to a thylakoid or to another plastoglobulus attached to a thylakoid
+826 model:1000s 1000s0s and 1000s.0s and 100.0s 1000s 1000
+827 label: Scottish Parliament? A:
+827 ans:Scotland Act 1998
+827 model:2014. 2014. 2014. 2014.
+828 label: known as? A:
+828 ans:melanomas
+828 model:1000s0s and 1000s 1000
+829 label: in Newcastle? A:
+829 ans:The Newcastle Beer Festival
+829 model:1000s 2010s 2010s 2010
+830 label: income gap? A:
+830 ans:decline of organized labor
+830 model:1000s 1000s0s 1000s0s
+831 label: of Victoria? A:
+831 ans:Melbourne
+831 model:1000s 1000s 1000s 
+832 label:eine? A:
+832 ans:it has trouble crossing membranes to get to where it is needed
+832 model:1000s0s and 1000s0s 1000s0s 1000s
+833 label:ism ideology? A:
+833 ans:Christian Whiton
+833 model:2004.5. 2014.5. 201
+834 label: which draft? A:
+834 ans:1998
+834 model:2014. 2014. 2014. 
+835 label: suitable for? A:
+835 ans:cotton spinning
+835 model:1860s0s and 1860s 1860
+836 label: in Mongolia? A:
+836 ans:1990s
+836 model:1990s 1990s 1990s 199
+837 label: an introduction? A:
+837 ans:The Christmas Invasion
+837 model:1000s 1000s 1000s 200
+838 label: have fought against the neighboring
+838 ans:near the Black Sea
+838 model: Empire of the Republic of the 1200s0s and 
+839 label: romanticism? A:
+839 ans:Middle Rhine Valley
+839 model:1000s0s 1000s0s 1000
+840 label: Q: When was a
+840 ans:27 July 2008
+840 model: of 2004. 2000s 2004. 200
+841 label: 107? A:
+841 ans:Jonathan Stewart
+841 model:1000s 2004. 2014. 
+842 label: Committee raise? A:
+842 ans:over 40 million
+842 model:2000s 2000s 2000s 2000
+843 label: what award? A:
+843 ans:a Mind Award at the 2010 Mind Mental Health Media Awards
+843 model:2014. 2014. 2014. 2014. 2014. 2014.
+844 label: programming including shows related to
+844 ans:Michael P. Millardi
+844 model: 1960s 1964 1960s 1960s
+845 label: of force? A:
+845 ans:Aristotle
+845 model:1000s0s 1000s0s 100
+846 label: Bowl contest? A:
+846 ans:Doritos
+846 model:1000s0s 2000s 2014.
+847 label: fathers occupation? A:
+847 ans:priest
+847 model:2. 2004. 2.0s 
+848 label: in 2010?
+848 ans:4404.5 people
+848 model:: 1000s 1000s 1000s 100
+849 label:50 game? A:
+849 ans:WBTFM 99.3 FM
+849 model:100 1000s 1000s 1000s 1000s 
+850 label: pressure steam? A:
+850 ans:cylinder volume
+850 model:1000s 1000s 1000s 100
+851 label: violent way? A:
+851 ans:padlocking the gates
+851 model:1000s 1000s0s 1000s0
+852 label: in Italy? A:
+852 ans:Latin monastery at SantEufemia.
+852 model:1000s 1000s0s 1000s0s 1000
+853 label: is what? A:
+853 ans:crust
+853 model:1000s. 1000s0s 100
+854 label:50 held? A:
+854 ans:SAP Center in San Jose.
+854 model:2014. 2010s 2014 2014 2014.
+855 label: Basel problem? A:
+855 ans:identity
+855 model:1000s0s and 1000s0
+856 label: European Union? A:
+856 ans:European Court of Justice
+856 model:1000s 2014.5 2014.5 
+857 label: pump component? A:
+857 ans:injector
+857 model:1000s0s 1000s0s 
+858 label: persons behavior? A:
+858 ans:the environment in which they lived
+858 model:1000s 1000s0s 1000s 1000
+859 label:ries woven? A:
+859 ans:15th
+859 model:1000s0s 1000s 1000
+860 label: preseason game? A:
+860 ans:Kelvin Benjamin
+860 model:1970s 2014. 2014. 201
+861 label: O2? A:
+861 ans:liquefied air
+861 model:1860s 1860s and 1860s0s
+862 label:ex GmbH Co KG where
+862 ans:a citizen or company can invoke a Directive not just in a dispute with a public authority but in a dispute with another citizen or company
+862 model: 1990s 1990s 1990s 1990s 1990s 1990s 1990s 1990s 1990s
+863 label: analogue service? A:
+863 ans:Sky Digital
+863 model:1990s 1990s 1990s 
+864 label: and Tesla? A:
+864 ans:AC power
+864 model:1860s 1860s 1860s 
+865 label: North East? A:
+865 ans:Newcastle College
+865 model:1000s 1000s 1000s 100
+866 label:perors? A:
+866 ans:Timur
+866 model:1000 BC0 BC BC BC BC BC BC BC BC
+867 label:1970? A:
+867 ans:oxygen tank
+867 model:1960s 1960s 1960s 196
+868 label: take place? A:
+868 ans:between 1621 and 1629
+868 model:1464.5 1460s 1460s 1460s 146
+869 label: Africa have? A:
+869 ans:3 million followers
+869 model:1000s.5.5 1000s0s
+870 label: network. Q: In
+870 ans:WJRTTV
+870 model: 1960s 1960s 1960s 196
+871 label: Warsaw established? A:
+871 ans:1300
+871 model:1000s 1000s0s 1000
+872 label: disobedience? A:
+872 ans:universities
+872 model:1000s0s and the 1000s0s
+873 label: to address? A:
+873 ans:Climate Change
+873 model:1000s 1000s 1000s 
+874 label: southern California? A:
+874 ans:1900
+874 model:1990s 1990s 1990s 
+875 label: enough light? A:
+875 ans:proplastids may develop into an etioplast stage before becoming chloroplasts
+875 model:0s 0s 0s 0s 100.0s 1000s 100.0s 100
+876 label: 1990s and
+876 ans:the West Side
+876 model: 1930s 1930s 1930s 
+877 label: in Cambridge? A:
+877 ans:Harvard Yard
+877 model:2014.5 2014.5 2014.
+878 label: Aare? A:
+878 ans:1000 m3s 35000 cu fts
+878 model:1000s0s 1000s 1000s0s 1000s0s
+879 label:1966? A:
+879 ans:The Newlywed Game
+879 model:1960s 1960s 1960s 1960
+880 label: field goals did McMan
+880 ans:four
+880 model: 1000s 100s 100s 
+881 label:1974? A:
+881 ans:Egypt
+881 model:1960s 1960s 1960s
+882 label: prime field? A:
+882 ans:the smallest subfield
+882 model:1000s0s and 1000s.0s 
+883 label: Super Bowl? A:
+883 ans:Vince Lombardi Trophy
+883 model:100.0s 0s 0s0s 0s
+884 label: In what year was the
+884 ans:1983
+884 model:1960s 1960s 1960s 
+885 label: prime element? A:
+885 ans:it is neither zero nor a unit
+885 model:1000s0s and the 1000s0s and 1000
+886 label: speed up? A:
+886 ans:combustion
+886 model:1000s 1000s0s 1000s
+887 label: the future? A:
+887 ans:Channel 4 HD
+887 model:2004. 2000s 2000s 2004
+888 label: secularization? A:
+888 ans:Transcendentalist Unitarian
+888 model:186444 1860s 1860s0s0s and
+889 label: disobedience? A:
+889 ans:a way of continuing their protest
+889 model:100.0s 100.0s 1000s 0s
+890 label: income differences? A:
+890 ans:fifty
+890 model:2004. 2000s 2004. 
+891 label: by aggression? A:
+891 ans:violent civil disobedience
+891 model:1000s.5.5. 1000s.5
+892 label: German states? A:
+892 ans:Throughout the 1580s
+892 model:1000s 1000s 2 1000s 1000
+893 label: works published? A:
+893 ans:1520
+893 model:1460s 1460s 1460s 
+894 label: Lutheranism? A:
+894 ans:1530s and 1540s
+894 model:1000s 1000s 1000s0s 1000s 
+895 label: with what? A:
+895 ans:student populations
+895 model:2010s 2010s 2010s 
+896 label:adian rhythms? A:
+896 ans:NFIL3
+896 model:1000s.0s and 1000s 100
+897 label: Kenya located? A:
+897 ans:in Africa
+897 model:2014.0s 2010s0s 
+898 label: constant acceleration? A:
+898 ans:Albert Einstein
+898 model:1000s 1000s 1000s0
+899 label:ot immigrants? A:
+899 ans:Quebec
+899 model:1000s 1000s0s 1000
+900 label: to stand? A:
+900 ans:quantum mechanics
+900 model:1000s 1000s 1000s 100
+901 label: time doing? A:
+901 ans:interacting and working directly with students
+901 model:100.0s 100.0s 100.0s 1000
+902 label: Prayer called? A:
+902 ans:Sunday Service of the Methodists in North America
+902 model:1000s0s the 1000s 0s0s 1000s
+903 label: its name? A:
+903 ans:water tower
+903 model:1930s 1930s 1930s 
+904 label: densely together? A:
+904 ans:energy
+904 model:1000s0s and 1000s0
+905 label: up having? A:
+905 ans:more wealth
+905 model:1000s. 1000s 1000s
+906 label: from space? A:
+906 ans:areas cleared of forest are visible to the naked eye
+906 model:1960s 1960s 1960s 1960s 1960s 
+907 label: Pro Bowl? A:
+907 ans:four
+907 model:100 100.5. 100s 100
+908 label:th century? A:
+908 ans:compound
+908 model:1000 BC0s 1000 BC0 BC
+909 label: internet pharmacy? A:
+909 ans:another customer might overhear about the drugs that they take
+909 model:1000s 2000s 100.0s 2000s 2000s0
+910 label:. Q: When was
+910 ans:in the late 1980s
+910 model: in the 1960s 1990s 1960s 1960
+911 label:ocks plans? A:
+911 ans:plans leaked to France well before Braddocks departure
+911 model:1864. 1860s 1860s0s 1860s0s 
+912 label: get dinner? A:
+912 ans:8:10 p.m
+912 model:100 100 100.5 100s 0s 100
+913 label:1854? A:
+913 ans:over 1000
+913 model:100 1000s 1000s 1000s 
+914 label: potentially opening the EU to
+914 ans:the Daily Mail
+914 model: the 2000s 2010s 2010s
+915 label:trimmed logos? A:
+915 ans:week 7
+915 model:2014.5 2014.5 2014.
+916 label: tropics? A:
+916 ans:Climate fluctuations during the last 34 million years have allowed savanna regions to expand into the tropics.
+916 model:1000s.5 1000s 1000s0s 1000s0s 1000s 1000s0s
+917 label: was arrested? A:
+917 ans:was not covered in any newspapers
+917 model:1000s 1000s 1000s0s 1000
+918 label: committee room? A:
+918 ans:main
+918 model:1960s 1960s 1960s
+919 label: in Newcastle? A:
+919 ans:highlighting the usage of cycling
+919 model:2014.5 2014.5 2014.5 201
+920 label:. The disease bypassed
+920 ans:about a third.
+920 model: 1860s 1860s0s 1860s
+921 label: complexity classes? A:
+921 ans:suspected to be unequal
+921 model:1000s 1000s 1000s 1000s
+922 label: stand for? A:
+922 ans:Front Islamique de Salut
+922 model:1990s 1990s 1990s 1990s 
+923 label:1984? A:
+923 ans:the first major work to challenge the bubonic plague theory directly
+923 model:1960s 1960s 1960s 1960s 1960s 1960
+924 label: focus on? A:
+924 ans:algebraic aspects
+924 model:1000s 1000s. 1000s0s
+925 label: Harvard College? A:
+925 ans:1639
+925 model:1865 1860s 1860s 186
+926 label:lation do? A:
+926 ans:helps many proteins bind the polypeptide
+926 model:1000s 100.0s 100. 100.0s 1000
+927 label: Methodists? A:
+927 ans:being methodical and exceptionally detailed in their Bible study
+927 model:2.0s 1000s0s 1000s0s 1000s
+928 label: doing what? A:
+928 ans:hiding a Jew in their house
+928 model:1000s 1000s 1000s 1000s0s
+929 label: Doctor Who? A:
+929 ans:Brisingr and High Wizardry
+929 model:100.0s 1000s 1000s 1000s0
+930 label: immune response? A:
+930 ans:cytokine TGF
+930 model:1000s.0s and 1000s.0s 
+931 label:orcism? A:
+931 ans:Africa
+931 model:1990s 1990s 1990s
+932 label: the revival? A:
+932 ans:Pearl Mackie as Bill
+932 model:2004. 2000s0s 2000s 2004
+933 label:ant Dam. The parks
+933 ans:300 acres
+933 model: 1960s 1960s0s 196
+934 label: up having? A:
+934 ans:three
+934 model:1000s 1000s 1000s
+935 label: British get? A:
+935 ans:Approximately 1000 British soldiers were killed or injured.
+935 model:1000s0s 1000s 1000 BC0s 1000 BC0s 
+936 label: the VA? A:
+936 ans:Drer
+936 model:1000s 2000s 1000s 
+937 label: potentially opening the EU to
+937 ans:creditor protection labour rights to participate in work or the public interest in collecting taxes
+937 model: the 2000s 2010s 2010s 2014. 2014. 2014. 
+938 label: restated? A:
+938 ans:decision problems
+938 model:1000s 1000s0s.5.
+939 label: collection dated? A:
+939 ans:1731
+939 model:1860s 1860s 1860s 
+940 label: Miami stadium? A:
+940 ans:May 3 2013
+940 model:2014 2014 2010s 2010s 2010
+941 label: Christmas special? A:
+941 ans:A Christmas Carol
+941 model:2014 2014 2014 2014 201
+942 label: come from? A:
+942 ans:Gaulish name Rnos
+942 model:100 BC0 BC BC BC BC BC BC BC BC BC BC BC BC BC
+943 label: enclosed lake? A:
+943 ans:Solimes Basin
+943 model:1000s.5. 1000s0s0
+944 label: Rhine? A:
+944 ans:eastwards
+944 model:1000s 1000 BC BC BC BC BC BC
+945 label: late August? A:
+945 ans:Newcastle Mela
+945 model:2000s 2010s 2010s 2010
+946 label: touchdowns did Manning throw in
+946 ans:zero
+946 model: 100s 100s 100s 100
+947 label: new company? A:
+947 ans:to Tesla to Peck and Brown and to fund development
+947 model:100 1000s 1000s 1000s 1000s 1000s
+948 label:ol Empire? A:
+948 ans:Genghis Khan
+948 model:1000 BC BC BC BC BC BC BC BC BC BC BC BC
+949 label:2002? A:
+949 ans:Samuel K. Cohn Jr.
+949 model:1960s 1960s 1960s 1960s 1960
+950 label: military forces? A:
+950 ans:Lt Col Paul von LettowVorbeck
+950 model:1864 BC0s 1860 BC0s 1860 BC0s 1864
+951 label: proclamation issued? A:
+951 ans:1629
+951 model:1860s0s 1860s0s 
+952 label: need of? A:
+952 ans:guidance
+952 model:1000s0s 1000s0s 
+953 label:ative rings? A:
+953 ans:irreducible elements
+953 model:1000s0s and 1000s0s 100
+954 label: Doctor Who? A:
+954 ans:the 1960s and 1970s
+954 model:1960s 1960s 1960s 1960s 1960s 
+955 label: end to? A:
+955 ans:Saddam Hussein
+955 model:1990s 1990s 1990s 1990
+956 label: in order to be a
+956 ans:Doctor of Pharmacy Pharm. D.
+956 model: of the 2014. 2014.5 2014. 201
+957 label:1984? A:
+957 ans:Threes Company
+957 model:1960s 1960s 1960s 196
+958 label: changed to? A:
+958 ans:1320 kilometres 820 miles
+958 model:1930s 1930s 1930s 1930s 
+959 label:iljan? A:
+959 ans:being drafted into the AustroHungarian Army
+959 model:1000s 1860s 18600s 1860s 1860
+960 label:rodite? A:
+960 ans:a single animal can produce both eggs and sperm
+960 model:1000s.0s and 1000s.0s and 1000s
+961 label:lin won? A:
+961 ans:Academy Award
+961 model:2000s 2014 2014 2014 201
+962 label: known as? A:
+962 ans:the Hostmen
+962 model:1000s 1000s 1000s 100
+963 label: into power? A:
+963 ans:sharia law
+963 model:1964 1960s 1960s 1960
+964 label: the centers profitable A:
+964 ans:They lost money from the beginning and Sinback a highlevel marketing manager was given the job of turning the business around
+964 model:1990s 1990s 1990s 1990s 1990s 1990s 1990s 1990s 199
+965 label: provide viewers? A:
+965 ans:360degree
+965 model:2004. 2014.5 2014.
+966 label: attention to? A:
+966 ans:life on Tyneside
+966 model:1000s0s the 1000s0s 1000
+967 label: lead to? A:
+967 ans:increased settlement and deforestation
+967 model:1000s 2014. 2010s 2010s 
+968 label:ne released? A:
+968 ans:1971
+968 model:1990s 1990s 1990s 
+969 label: accelerlations? A:
+969 ans:kinematic
+969 model:1000s0s and 1000s 100
+970 label: in chief? A:
+970 ans:Loudoun
+970 model:1000s4. 1864 BC0s 186
+971 label: of gravity? A:
+971 ans:81
+971 model:1000s 1000s 1000s
+972 label: in Newcastle? A:
+972 ans:On the Night of the Fire
+972 model:1930s 1930s 1930s 1930s 
+973 label: latter missions? A:
+973 ans:over three days
+973 model:100 1000s 1000s 1000s
+974 label: test occur? A:
+974 ans:January 27 1967
+974 model:1950s 1950s 1960s 1950s 
+975 label: defend themselves? A:
+975 ans:their own militia
+975 model:1000s 1000 BC0 BC BC BC BC BC
+976 label: American Mind? A:
+976 ans:Allan Bloom
+976 model:1000s0s 1000s0s 100
+977 label:ico Act? A:
+977 ans:Milton Latham
+977 model:1864 1860s 1860s 1860s
+978 label: particular agent? A:
+978 ans:Systemic acquired resistance SAR
+978 model:100.0s. 100.0s 1000s.
+979 label: increase exploration? A:
+979 ans:Lunar Roving Vehicle LRV
+979 model:1960s 1960s 1960s 1960s 
+980 label: application of the Treaties
+980 ans:three years
+980 model: government. A: The first of the 1930s
+981 label: campaign adviser? A:
+981 ans:David Axelrod
+981 model:2.5.5 2014.5 2014
+982 label: Fever virus? A:
+982 ans:Walter Reed
+982 model:1000s 1930s8. 1930s
+983 label: movement of goods in the
+983 ans:the Court of Justice
+983 model: the 1960s 1960s 1960s 
+984 label: Mongols? A:
+984 ans:1290
+984 model:1000s0s 1000s 1000
+985 label: Brewery founded? A:
+985 ans:1724
+985 model:1000s 1000s 1000s 
+986 label: the moon? A:
+986 ans:3 days
+986 model:1000s 1000s0s 100.
+987 label: from Manning? A:
+987 ans:19
+987 model:1000s 100.5. 100.
+988 label: of immunity? A:
+988 ans:Elie Metchnikoff
+988 model:1000 BC0 BC BC BC BC BC BC BC BC BC BC BC BC
+989 label: space program? A:
+989 ans:Air Force missile projects
+989 model:1964 1960s 1960s 1960s
+990 label: derive from? A:
+990 ans:Gaulish name Rnos
+990 model:100 BC0 BC BC BC BC BC BC BC BC BC BC BC BC BC
+991 label: call his system A:
+991 ans:packet switching
+991 model:1960s 1960s 1960s 
+992 label: of thrust? A:
+992 ans:40000 pounds
+992 model:1000s 1000s 1000s 100
+993 label: his government? A:
+993 ans:National Islamic Front
+993 model:1960s 1964.5. 1964.
+994 label: the university? A:
+994 ans:over 400
+994 model:2014.5 2014.5 2014.
+995 label: roughly hold? A:
+995 ans:more than 1.3 million
+995 model:100. 100. 1000s 100. 100. 100
+996 label:egregation? A:
+996 ans:segregation academies
+996 model:1960s 1960s 1930s 1930
+997 label: in integration? A:
+997 ans:designbuild partnering and construction management
+997 model:1000s 1000s 1000s 1000s 
+998 label:50 announced? A:
+998 ans:October 16 2012
+998 model:2010s 2014 2010s 2010s 201
+999 label: of Egypt? A:
+999 ans:Mohamed Morsi
+999 model:2014.5 2014.5 2014.5

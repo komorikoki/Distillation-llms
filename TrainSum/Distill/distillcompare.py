@@ -13,7 +13,7 @@ from torch import nn
 def reshape(dataset):
     dataset=dataset["text"]
     dataset = [item for item in dataset if item != '' and len(item) >= 50 and '@' not in item]
-    dataset = [re.sub(r'[^a-zA-Z0-9 ?]', '', item) for item in dataset]
+    dataset = [re.sub(r'[^a-zA-Z0-9 .?]', '', item) for item in dataset]
     dataset = [re.sub(r'\s+', ' ', item) for item in dataset]
     return dataset[:data_size]
 
@@ -59,8 +59,8 @@ tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
 
-data_size = 1000
-data_size_v = 100
+data_size = 100000
+data_size_v = 766
 size = int(data_size/4)
 size_v = int(data_size_v/4)
 train_dataset=ds["train"].shuffle(seed=42).select(range(500000))
@@ -134,9 +134,10 @@ losses=losses.item()
     
 print(f"loss train: {(losses/data_size_v):.3f}")
 
+model.save_pretrained("./model/normal_model")
 
 alpha=0.9
-temperature=2.0
+temperature=20
 lr=1e-4
 
 print("train distill")
@@ -173,7 +174,6 @@ for j in range(epochs):
         
     print("done: ", j+1, "/", epochs)
     lr/=10
-    temperature *=2.0
 
 print("eval distill")
 
@@ -201,7 +201,7 @@ print(f"loss distill: {(losses_d/data_size_v):.3f}")
 print(f"normal loss:{(losses/data_size_v):.3f} distill loss:{(losses_d/data_size_v):.3f}")
 
 
-
+student_model.save_pretrained("./model/distill_model")
 
 
 

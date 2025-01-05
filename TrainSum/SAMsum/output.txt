@@ -1,0 +1,315 @@
+0 label: rest of the year  Magda:  S:
+0 ans:Magda and Victoria feel broke. 
+0 model:20000 20000 20000
+1 label: evening tomorrow Antonio: Cool I will :D S:
+1 ans:Isiah can't go to the game tomorrow because Melanie is sick and Rachel has two other kids to take care of. Antonio doesn't want to go to the game alone. He's going to ask Karl to use Isiah's ticket.
+1 model:200000 200000 200000 200000 200000 200000 200000 200000 200000 200000 
+2 label: in 5!! Henry: douchebag! S:
+2 ans:Jess is 5 minutes late.
+2 model:5: I know 5:
+3 label: me lunch tomorrow :) Rasha: My pleasure S:
+3 ans:Lisha's computer appears to be broken. Rasha will check if the electronics shop in her area can help. Rasha will lend Lisha her computer. Lisha needs it to finish her report on aboriginals.
+3 model:2? A: 2? A: it is not enough for you to get them? A: 2: 2: 2:
+4 label: high heel Ilo: take them with you S:
+4 ans:Ilo and Adele will meet at Europskii at 4 pm. Adele's mum will not be joining them.
+4 model:4. She was a girl who has been a girl for the dress Men 90%? A: Yes Yes Yes Yes Yes Yes
+5 label: of the door Jenny: thank you darling x S:
+5 ans:Jenny is coming down with a cold. Sue is doing grocery shopping for Jenny.
+5 model:2006? A: Yes I have a better time Youep it? A:
+6 label: for the advice! Ramsay: Enjoy! S:
+6 ans:Ramsay recommends to Julie the following Christmas movies: Home Alone The Lethal Weapon National Lampoon's Christmas Vacation Nightmare Before Christmas the Santa Clause films with Tim Allen as Santa Rudolph the Red Nosed Reindeer The Year Without a Santa Claus.
+6 model:2? A: The Life and the Beautiful Life 2 Nostatulia and all that I have no longer be? A: The Life
+7 label:ite when she thinks you don't understand. S:
+7 ans:Hollie is pissed. Helga came over for dinner and criticised the food in Armenian thinking Hollie wouldn't understand it.
+7 model:2nd and criticise you like that 2nd and criticise you like that 2nd and criticise you like that
+8 label: to you both! Anton: Take care! S:
+8 ans:Beryl will be staying in Anton's airbnb in Onrus from 4th January until 12th January.
+8 model:2 2 2 2 2 2 2 2 2 2 2 2 
+9 label: far it seems she's in charge here ) S:
+9 ans:Janine has sent some photos of her children having fun to Mike. Her daughter Zoe is taller than Jacob and has a boyfriend at the age of 6. Janine also had a boyfriend at 6.
+9 model:6 Michael: 6 Michael: 6 Michael: 6 Michael: 6 Michael: 6 Michael: 6 Michael: 6 Michael
+10 label: I'll make it. Ben: Thanks. S:
+10 ans:Evie needs to make an appointment with the vet for her puppy Oscar.
+10 model:1 1 1 1 1 1 1 1
+11 label: Thank you for now. Hannah: OK. S:
+11 ans:Lucy's buying rollerblades for her niece. They have a few scratches but are in a good condition and are good for beginners. Hannah won't give Lucy any discount. Lucy will think about buying them.
+11 model:2nd International 2nd International 2nd International 2nd International 2nd International 2nd International 2nd International 2nd
+12 label: need help with Vicki Ellen: No problem S:
+12 ans:Internet connection is bad where Tom is. Tom will send more materials from Ireland in a week. Tom wants to sell a moisture meter for grain-like materials in the UK that is already available in Poland. Tom might need Vicki Ellen's help. Grain is Vicki Ellen's father's old business. Tom visited India.
+12 model:2 days at the end ofmonth care foril2 days at the end ofMay care foruplalalalalalalalalala
+13 label: my friend! Doris: You too. S:
+13 ans:Doris' sister had a heart attack on Tuesday and is recovering in hospital after having 2 stents fitted. Generally the sister is very fit she walked a 21 km marathon on Sunday. She's in Pietermaritzburg with her husband and 3 children around. Doris may stay with her and help once she's back home. 
+13 model:2 stons her mother and 3 children over her B would be her mother and leave her for her family. A: her family is not enough
+14 label: catch a cold rory? haha :D S:
+14 ans:Amy's birthday party gets great feedback from Ray Garry Paula Kris and Rory. Some people like Rory or Garry had to leave earlier.
+14 model:3rd? A: Yes A: Yes A: Yes A: Yes A: Yes A: Yes A: Yes A: Yes A
+15 label:: 1 pm? Margaret: ok :) S:
+15 ans:Meg and Margaret are going shopping. They are planning to meet at 1 pm near their school.
+15 model:1 pm pm pm pm pm pm pm pm pm pm pm pm pm pm pm pm pm pm pm
+16 label: day... Noah: :D Joshua: xd S:
+16 ans:Joshua watched the heritage. He is disappointed with it. Despite the positive reviews he finds the horror boring.
+16 model:19: 19: 19: 19: 19: 19: 19: 19
+17 label:: You guessed it right.. It was Michael S:
+17 ans:The theme for tomorrow's farewell party is Gatsby. It was Michael's idea.
+17 model:1: The idea of Michael S. The idea of Michael S. The idea of
+18 label: and let you know Otto: ok great! S:
+18 ans:Otto wants Linn to go on a cruise with him in summer. Linn will let him know.
+18 model:2006? A: Yes A: Yes A: Yes A: Yes A: Yes A: Yes A
+19 label:: Ok text you later bye Lucy: bye S:
+19 ans:Ricky will have his first surgery tomorrow. He was surprised that doctor called him and offered a surgery date so soon as in the hospital he was told to wait until 2026. He will have his knee done in Burlington. Lucy is comforting Ricky. They will meet for lunch later on.
+19 model:2026 at the hospital together? A: The next day I feel is there? A: 2026 at the hospital together? A: 
+20 label: will. Thanks. Milton: Good luck! S:
+20 ans:Pam wants to visit Belarus to research her family history. Milton was in Belarus for several days 10 years ago and remembers the process of obtaining a Belarusian visa as being very annoying. On Milton's advice Pam will research the visa procedures online.
+20 model:10 years ago<|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|>
+21 label:d Evan: well that's unfortunate :D S:
+21 ans:Keira is sitting next to a man who's doing a huge manspread. 
+21 model:2004? A: Noctira
+3. Q. Q. Q.
+22 label:: Yeah me neither... Nathan: filegif S:
+22 ans:Nathan is taking a lowe alpine.
+22 model:2 alpine? A: The 2 al
+23 label: Okay Agnes: Have a safe trip! S:
+23 ans:Mark and Josh are on their way to the resort. Agnes wishes them a safe trip.
+23 model:2?
+ A: The truth is the trip to the resort Point? A: The truth is
+24 label: Timmy: that's not fair!!!!!!!!!!!! S:
+24 ans:Timmy has to load the dishwasher although he does not want to.
+24 model:2nd millennium 2nd millennium 2nd millennium 2nd
+25 label:D Dorothy: shut up and drive :D S:
+25 ans:Peter and Dorothy have to be there at 7 but when Peter arrives he wants to take a shower and eat something. There's little room in the garage to park.
+25 model:7.57.65.65.65.65.65.65.65.65.65.65.65.65.65.
+26 label:D John: thanks for taking care of me S:
+26 ans:John is feeling sick. Carol is on her way. She will take care of him. 
+26 model:2. A: No 2. A: No 2. A: No 2
+27 label: so sorry for all of us! haha! S:
+27 ans:The worst childhood gift that Kelly ever got was a kitchen toy that broke very quickly Greg's robot borke in a week for Bill the worst gift were stamps. Freddie got a different teddy better than requested. Sarah got a toy guitar instead of a real one.
+27 model:1:00 at the Stone and No Brit for a night02: Yes A: No Brit for a night03: No Brit for a night03
+28 label: up? Olivia: That would be great! S:
+28 ans:Carter is launching a restaurant business next month. Olivia wants him to include a restaurant she's working for in the discount app. They will meet in person to discuss it.
+28 model:20000 Tom and I am sure you know it? A: it Carter has no idea for their.com to make its name and it was announced announced
+29 label: at Regents Park see you at 7! S:
+29 ans:Daniel Greg and Sara will go jogging together tonight at 7. They'll start at Regent's Park. 
+29 model:7.8:7.8:7.8:7.8:7.8:7.8
+30 label: big reports to do Bruno: oh nice! S:
+30 ans:Elisa doesn't have that many classes at uni and she has a job at Aberdeen exhibition and conference Center.
+30 model:2 hours of dance and race of dance and race of dance and race of dance and race of dance and race
+31 label: John: i hope so Jane: she will S:
+31 ans:John wants Jane to tell mother that he won't be there due to his work.
+31 model:2nd and the end of the 2nd and the end of the 2
+32 label: me a pack of onion crisps please. S:
+32 ans:Rachel will bring some homemade cookies. Robert will go to the store he'll buy onion crisps for Rachel.
+32 model:2010s 2010s 2010s 2010s 2010s 2010
+33 label: you with the Volvo? Daniel: Yes ) S:
+33 ans:Daniel is with the Volvo on his way and will be there soon. Sue is going downstairs to meet him.
+33 model:1: 1: 1: 1: 1: 1: 1: 1
+34 label:: Yes... Corey: So cute 3 S:
+34 ans:Miley missed Corey.
+34 model:3 S.C S:
+35 label: but be ready by 4 more or less S:
+35 ans:Ahmed will take the car of his parents around 5 and will leave with Sam and Camille.
+35 model:4 4 4 4 4 4 4 4 4 4 4
+36 label: put it next to eggs lol Barbara: lol S:
+36 ans:Haylee can't find the coconut milk yoghurt.
+36 model:2002D Haylee? A: The Beautiful Beautiful Beautiful
+37 label:. Julian: We will try to contact ASAP S:
+37 ans:Khloe is proficient in Solid Works AutoCAD Sketch Up Adobe Photoshop. Julian's manager will call Khloe soon.
+37 model:4.4.4.4.4.4.4.4.4.4.4.4
+38 label: Nadya: great  Sean:  S:
+38 ans:Nadya has a headache because her neighbours' cleaner is being loud. She is expecting a baby. Sean will have breakfast after he does yoga.
+38 model:23: 23: 23: 23: 23: 23: 23: 23: 23: 23: 
+39 label: stuff Madilyn: Oh ok. Good luck S:
+39 ans:Georgia is preparing materials for her thesis.
+39 model:1: 1: 1:
+40 label: 200 ppl you can find a potential partner S:
+40 ans:A Czech guy and a German girl are both staying at Ronan's place. Ronan and the German girl had sex twice before but he doesn't consider her a potential partner. Sarah convinces Ronan that he doesn't know what he wants when it comes to sex and relationships.
+40 model:1 night stand. A: the girl.
+ A: Sindh and I dont friends are all I want to make it better? A: Sindh
+41 label: and let you know Turkay: amazing! S:
+41 ans:Turkay is staying in Azerbaijan until September. Amanda considers visiting him.
+41 model:2 millions of000000000000000000000000000000000000
+42 label: really not true Henning: As you know S:
+42 ans:Henning and Linda watched half of Suspiria. They found it boring. There was no sex in the movie.
+42 model:2015: Khat for Khat for Khat for Khat for Khat for Khat for Khat for
+43 label: in joining the group Rachel: good luck! S:
+43 ans:Erica is having trouble with calculus. She doesn't want to ask Paul for help because she's too shy. Erica will start a study group instead.
+43 model:101 I think that I want to start and go to visit them for? A: yes it is to make him go to the truth that I want
+44 label: to feed my cats. Mark: xD S:
+44 ans:Ben needs 2 minutes to feed his cats and he'll come down to meet Mark in the car.
+44 model:2: 2: 2: 2: 2: 2: 2: 
+45 label:: Fiesole Luis: very nice! S:
+45 ans:Tom's new place is in Fiesole. Luis and Marion has been there. 
+45 model:1ole Luis and Fiesole Luis and Fiesole Luis and Fiesole Luis
+46 label: bitch who gets amazing orgasms for breakfast. S:
+46 ans:For Laura sex and money are most important in life. In Anna's opinion love is more important.
+46 model:2015 2015 2015 2015 2015 2015 2015
+47 label: in the company now Jack: true quite exotic S:
+47 ans:Mike Jenny and Jack wonder where Tomas is from. Kyle is sure Tomas is from Slovenia. Mike thinks Tomas is now the only Slovenian in the company.
+47 model:22: S.C. Khat Khat Khat Khat Khat Khat Khat Khat Khat Khat Khat Khat K
+48 label: still thanks for being there Griffin: youre welcome S:
+48 ans:Griffin will pick Leonardo up 6:30 am to get him to the airport. Leonardo is leaving the country for a couple of weeks.
+48 model:3rd and SBS and SBS and SBS and SBS and SBS and SBS and SBS and SBS and SBS
+49 label: Oops really sorry. Will: No problem :) S:
+49 ans:Roc got the wrong number.
+49 model:2nd and I think I think
+50 label:. See ya! Isabel: see ya! S:
+50 ans:Julia is going shopping with Isabel Saturday afternoon as she needs a new winter jacket. Isabel has a hairdresser at 3 so can meet Julia at 5 Arkadia at the main entrance.
+50 model:3.ilia
+3.ilia<|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|>
+51 label:. Jana: This one Jana: fileother S:
+51 ans:Mark is coming back this weekend. Ben Jana and Blake are going to surprise him with a party at a club.
+51 model:2005. Melville and? A: The 2005. Melville and Michael Michael Michael Michael Michael Michael
+52 label: happends please don't vote for socialists S:
+52 ans:Luis will be 18 years old next month and he's going to vote in the next year's elections for the first time in his life. Tim suggests Luis not to vote for socialists.
+52 model:18th century Luisa AIDS Timate Herculibweiler poverty and poverty and poverty and poverty and poverty and poverty and poverty and poverty and poverty
+53 label: Now learn them by heart! Patrick: :) S:
+53 ans:James is applying for a sales position and is looking for tips how to do well at an interview. 
+53 model:1: 1: 1: 1: 1: 1: 1: 
+54 label:20 mins Olivia: all is ready dear!! S:
+54 ans:Sophie is coming home in 20 minutes for the dinner Olivia her mother prepared.
+54 model:20 seconds<|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|>
+55 label: go with us. Tom: No thanks. S:
+55 ans:Tom is going on a trip to Mount Rush tomorrow.
+55 model:2012? A: Yes yes A: Yes Yes
+56 label: out there! See you after your trip! S:
+56 ans:Nancy's working in Texas but the kids laugh at her Welsh accent. She's coming home in 6 weeks. Earlier than that she's going to travel with 3 other Brits.
+56 model:2?
+ A: 2?
+ A: 2?
+ A: 2?
+ A: 2?
+ A: 2?
+ A: 
+57 label:: filevideo Andrew: Psycho!! :D S:
+57 ans:Andrew asks Samuel to stop sending videos. 
+57 model:2005
+2 S: 2005
+58 label: these abilities and money to accomplish their dreams... S:
+58 ans:Pete watched a youtube video where people show incredible tricks and he envies them the talent and money.
+58 model:19 the 19 the 19 the 19 the 19 the 19 the 19 the 
+59 label: it'll be easy enough for you! :) S:
+59 ans:Keira has prepared a dish called American hash.
+59 model:20 seconds<|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|>
+60 label:'ll find a window) Joel: ok great S:
+60 ans:Gloria didn't stay till the end of the meeting. She left at 12. They did a b and c. They finished at 6 pm. Joel and Gloria will meet tomorrow and she'll tell him about the details of the deal. She'll email him her calendar to set the meeting.
+60 model:12 and 11 and 11 and 11 and 11 and 11 and 11 and 11 and 11 and 11 and 
+61 label: you wanna lie I don't care fuck you S:
+61 ans:Hannah cheated on Max with Will. Hannah blames Emma she told Max about it. Emma did not tell him that although Max claims he knows it from Emma.
+61 model:1: yes yes I have no idea anybody is lying out of the dog has been killed too muchlier
+5 for the dog has been killed by
+62 label: out in Leeds after  Becky: OMG  S:
+62 ans:Sam Jennifer and Becky want to do a half marathon. Lucy is hesitating.
+62 model:2010 2010 2010 2010 2010 201
+63 label: welcome Paula: thx we're in touch S:
+63 ans:Paula enjoyed jamming with Paul. Paul will send her Facebook profiles of the other people that played. 
+63 model:2. Tim and 2. Tim and 2. Tim and 2. Tim and 2.
+64 label:: Sure filepicture here's the picture. S:
+64 ans:Ashley let Jill copy her homework for tomorrow. Jill's going out with her parents tonight and won't have time to do it herself. 
+64 model:19 19 19 19 19 19 19 19 19 19 19 19 19 19 19
+65 label: Isabel: I havent had any! )) S:
+65 ans:Taylor wants to meet Isabel's boyfriend but she has never had any.
+65 model:3: Yesamarude was a girl Mary Mary Mary Mary Mary Mary
+66 label: I hope it will be eatable :D S:
+66 ans:Marta is grocery shopping for dinner. She and Nick will make lasagne.
+66 model:1. A: 1. Do You know how to cook we will make
+67 label: New Scientist who would ever think? :D S:
+67 ans:Philips article was published in the New Scientist.
+67 model:2000 2000 2000 200
+68 label: her!! Ron: yes definetly. S:
+68 ans:Anna posted a picture with Harry on Instagram. Ron is surprised by that.
+68 model:1 1 1 1 1 1 1 1
+69 label:'ll write you later about all the details. S:
+69 ans:Theo's going to stay near Torino in the region of Italian Alpes. Toby wants to join the trip. Theo agrees and will pick Toby up on Friday at 7 am.
+69 model:7am will be very nice0005: I think it is to be very nice0005 for the weekend. starred as well as I dont need
+70 label: Paul: oh I've seen it already... S:
+70 ans:Gregory wants to go with Paul to see the movie Climax but Paul has already seen the movie.
+70 model:3: The Life of the 3: The Life of the 3: The Life of the 
+71 label:: great and the Levy will be there! S:
+71 ans:Galia can't meet with Tania on a couple of occasions but can go for a drink right now to celebrate Igor's birthday. Sacha Mr Maclinch and the Levy will join them later. Tania Galia Sacha and Mr Maclinch are expected at Cecilia's dinner at 8:30. 
+71 model:1: 1: 1: 1: 1: 1: 1: 1: 1:00000000
+72 label: Fanny: Ok. Let me know. S:
+72 ans:Fanny has probably made some mistakes in a project so she's really worried as she may be in serious trouble. Zed is going to call Michael as it seems to be the only thing they can do at the moment.
+72 model:1? A: Yes A: Yes A: Yes A: Yes A: Yes A: Yes A: Yes A: Yes A: Yes A
+73 label: for you. Not brrn but trusted S:
+73 ans:Barry needs a linker team and 2-5 cleaning teams. Paul has a Polish rep for him.
+73 model:2.5 coolest F2.5020 F2.5020 F2.5020 F2.
+74 label: a casual dress Sammy: okay fine me too S:
+74 ans:Beth and Sammy will wear casual dresses to New Year's Eve dinner.
+74 model:2nd and I dress my place Beth Israel? A: 2
+75 label:! John: ok fingers crossed then! :) S:
+75 ans:Alex and Sam are watching Millionaires.
+75 model:2. A: 2. A
+76 label: next time :d Leon: yeah...! S:
+76 ans:Jude is coming to Warsaw on the 10th of December and wants to see Leon. Leon has no time.
+76 model:10 Sam and yes A: yes A: yes A: yes A: yes A: yes A: yes A:
+77 label: my friends as well John: Great thanks! S:
+77 ans:Clara doesn't have any spare blankets pillows or anything else to donate to the shelter today. She'll ask her friends and she might have something next time.
+77 model:1: 1: 1: 1: 1: 1: 1: 1: 1: 1: 
+78 label: stupid :D Val: I know :D S:
+78 ans:Sus and Val don't want to work and are sleepy.
+78 model:1: 1: 1: 1: 
+79 label:. Great restaurant Lia: Good Polish food  S:
+79 ans:According to Ken and Lia Polonia Club serves good Polish food.
+79 model:1980s 1980s 1980s 198
+80 label: minutes till the show starts Ed: okay yeah S:
+80 ans:Ed is going to leave his class to see a film with Shane. He needs to lie to the teacher. The film starts in 10 minutes. Shane got the tickets.
+80 model:10 minutes<|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|><|end_of_text|>
+81 label: him ok Jagger: thx a milion S:
+81 ans:Jagger thinks needs to buy a new car. His old one stopped working and the mechanic told him there is no point in repairing it. Byron knows a a guy who specializes in old vw so he will consult with him Jagger's issue.
+81 model:2nd and 2nd and 2nd and 2nd and 2nd and 2nd and 2nd and 2nd
+82 label: Mike: Hope so John: For sure! S:
+82 ans:Mike is late because he missed the bus. Mike and John are frustrated because there's a shortage of employees in their workplace.
+82 model:2 new employees 2 new employees 2 new employees 2 new employees 2 new employees 2 new employees 2
+83 label: you so much! Roy: Of course! S:
+83 ans:Anna won't be in the office this Thursday and Friday so Roy is going to offer his edits and comments on the last week's topic now.
+83 model:2002? A: 2002? A: 2002? A: 2002? A: 2002. A:
+84 label: welcome you ass! Arthur: sorry panicked! S:
+84 ans:Arthur panicks if the gas bill is paid as the tech wants to turn off the gas. Linda sent him the bank confirmation.
+84 model:2003? A: 2003.3.3.3.3.3.3.3.3.3
+85 label: but I think she's legit you'll see S:
+85 ans:Kate went to see a fortune teller and paid 60 quid for the meeting. 
+85 model:60brid for the most part. Homer 60brid for the people? A:
+86 label: Thanks you too Finley: Okie ) S:
+86 ans:Karson is making spaghetti for dinner. Finley wants to meet but this won't happen soon.
+86 model:1 1 1 1 1 1 1 1 1 1 
+87 label: stay longer with us Miley: deal! S:
+87 ans:Ben is visiting Sebastian in Warsaw this weekend. Tomorrow at 7 pm they will go to a concert to the Voice. Before it they will meet with Miley and John at Bonnie and Clyde at 4 pm.
+87 model:7.8.8.8.8.8.8.8.8.8.8.8.8.8.8.
+88 label: or Nest I've heard they're ok too S:
+88 ans:Michael has an account with Barclays. Anne has it in HSBC. At Barclays they don't charge. Anne's credit card request was declined. Michael got his after 3 months. 
+88 model:1. I think. I think. I want to get a credit card? A: 1. I think. I think. I want to
+89 label: as it is impossible to park near them. S:
+89 ans:Zhe's meeting is set to 2pm. He'll go to other party's office by taxi. 
+89 model:2 pm. I. A: The event at their home on the road at their home on the road at their
+90 label:: there he will have more control over space S:
+90 ans:The capital city has been moved to Gitega. It had been promised by Nkurunziza in 2007. Something similar happened in Birma. 
+90 model:2002 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+91 label:45 min? Gonzo: more or less S:
+91 ans:Martin will meet Gonzo later next to the police line. They have another 45 min until the real deal at 8 pm.
+91 model:2nd and 2nd and 2nd and 2nd and 2nd and 2nd and 2nd and
+92 label: mum Karen: Tell dad to come downstairs! S:
+92 ans:Jim and his dad are supposed to come downstairs for dinner that Karen's cooked. Vanessa's eating out today.
+92 model:1 1 1 1 1 1 1 1 1 1 1 
+93 label: a pro :D Chris: Well done!! S:
+93 ans:Amanda goes to dancing classes with Michael. She volunteered to show the English Waltz steps with the instructor yesterday. Amanda is shy and goes to therapy.
+93 model:1: yes I have a few more than00 therapy for it it? A: Yes I have a few more than00 therapy for it it is
+94 label:: Don't thank me. Start the process S:
+94 ans:Kelvin will call John to let him know if the crack for FIFA19 works.
+94 model:2................
+95 label: come on Natalie: okok i get it S:
+95 ans:Dylan went to a barbershop for the first time. The barber tidied Dylan's facial hair brows and nose hair. Natalie hates Ian's unibrow. Dylan won't talk to him about it.
+95 model:2. A: No AnswerD writer for the first time that he was one of his own songs i.e they feel it was too difficult too long
+96 label:: right a piece of life is gone... S:
+96 ans:Richard and Peter broke up. They were more than 3 years together. Peter didn't accept Richard fully. Stephen Guto Ross and Han will be careful when talking to Richard.
+96 model:3 years at least Gasha
+ Ross 3 years at least Gasha
+ Ross B. S: 3 years at least Gasha
+ Ross
+97 label: i'll call nick to get all the details S:
+97 ans:Maggie and David will join Nick for the comic con this year. Maggie will dress up as Wonder Woman and David might dress up as Superman. Maggie will call Nick for details.
+97 model:2.e? A: yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes
+98 label:ahah ok! You conspiracy dickhead XD S:
+98 ans:Nick got a B on his test.
+98 model:2003rd3rd3rd3
+99 label: the starbucks. Almost There Julie: K S:
+99 ans:Julie and the others have been waiting for Saul for half an hour. He is on his way juast passed the Starbucks and will be there in 10 mins max. 
+99 model:10 minutes and 10 minutes and 10 minutes and 10 minutes and 10 minutes and 10 minutes and 10 minutes and 10 minutes

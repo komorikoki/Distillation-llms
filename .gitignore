@@ -44,3 +44,7 @@ weatherTrain/weather_model4
 weatherTrain/data.xlsx
 
 TrainSum/model
+
+TrainSum/SQuAD/model
+
+TrainSum/SAMsum/model

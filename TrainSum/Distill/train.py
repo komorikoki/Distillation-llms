@@ -11,7 +11,7 @@ from torch import nn
 ds = load_dataset("Salesforce/wikitext", "wikitext-103-raw-v1")
 device='cuda'
 # モデルの準備
-model = AutoModelForCausalLM.from_pretrained("./model/initialized_distill_model2")
+model = AutoModelForCausalLM.from_pretrained("../model/initialized_distill_model2")
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
@@ -24,7 +24,7 @@ train_dataset=ds["train"].shuffle(seed=42).select(range(500000))
 def reshape(dataset):
     dataset=dataset["text"]
     dataset = [item for item in dataset if item != '' and len(item) >= 50 and '@' not in item]
-    dataset = [re.sub(r'[^a-zA-Z0-9 ?]', '', item) for item in dataset]
+    dataset = [re.sub(r'[^a-zA-Z0-9 .?]', '', item) for item in dataset]
     dataset = [re.sub(r'\s+', ' ', item) for item in dataset]
     print(len(dataset))
     return dataset[:data_size]

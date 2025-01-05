@@ -10,21 +10,20 @@ from torch import nn
 ds = load_dataset("Salesforce/wikitext", "wikitext-103-raw-v1")
 device='cuda'
 # モデルの準備
-model_before = AutoModelForCausalLM.from_pretrained("./model/teacher_model1")
-model_after = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.2-1B")
+model = AutoModelForCausalLM.from_pretrained("./model/teacher_model")
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
 
-data_size = 766
+data_size = 1000
 size = int(data_size/4)
 
-validation_dataset=ds["validation"].shuffle(seed=42)
+train_dataset=ds["train"].shuffle(seed=42).select(range(500000))
 
 def reshape(dataset):
     dataset=dataset["text"]
     dataset = [item for item in dataset if item != '' and len(item) >= 50 and '@' not in item]
-    dataset = [re.sub(r'[^a-zA-Z0-9 ?]', '', item) for item in dataset]
+    dataset = [re.sub(r'[^a-zA-Z0-9 .?]', '', item) for item in dataset]
     dataset = [re.sub(r'\s+', ' ', item) for item in dataset]
     print(len(dataset))
     return dataset[:data_size]
@@ -36,15 +35,8 @@ def max_length(dataset):
     print(max_eval)
     return
 
-def calc_length(arr):
-    num=0
-    for data in arr:
-        num += 1
-        if data == tokenizer.pad_token_id:
-            break
-    return num-1
 
-dataset=reshape(validation_dataset)
+dataset=reshape(train_dataset)
 max_length(dataset)
 
 def batch(input):
@@ -58,7 +50,7 @@ def batch(input):
 # 入力とラベルを設定
 data = []
 for text in tqdm(dataset, desc="Tokenizing dataset"):
-    tokenized = tokenizer(text, padding="max_length", max_length=256, truncation=True, return_tensors="pt")
+    tokenized = tokenizer(text, padding="max_length", max_length=128, truncation=True, return_tensors="pt")
     input_ids = tokenized['input_ids'].squeeze().tolist()
     attention_mask = tokenized['attention_mask'].squeeze().tolist()
     labels = input_ids[1:] + [tokenizer.pad_token_id]
@@ -79,54 +71,38 @@ attention_mask_tensor = torch.tensor(attention_mask, dtype=torch.long)
 
 
 # 仮定: ボキャブラリサイズと頻出語のトークンIDを定義
-vocab_size = model_before.config.vocab_size
+vocab_size = model.config.vocab_size
 
 # クロスエントロピー損失関数の設定
-criterion = torch.nn.CrossEntropyLoss(ignore_index=tokenizer.pad_token_id)
+criterion = torch.nn.CrossEntropyLoss(ignore_index=128009)
 criterion.to(device)
 
+optimizer = AdamW(model.parameters(), lr=5e-5)
 input_ids_tensor=input_ids_tensor.to(device)
 labels_tensor=labels_tensor.to(device)
 attention_mask_tensor = attention_mask_tensor.to(device)
-model_before.to(device)
-model_after.to(device)
-
-model_before.eval()
-model_after.eval()
+model.to(device)
+eval_loss=0
+model.eval()
+kl_loss_fn = nn.KLDivLoss(reduction="batchmean")
 
 criterion.to(device)
-eval_loss_before=0
-eval_loss_after=0
+kl_loss_fn.to(device)
+temperature=1.0
 
-with open("output.txt", "w") as f:
-    for i in tqdm(range(size)):
-        
-        input_ids=input_ids_tensor[i] 
-        labels=labels_tensor[i]
-        attention_mask=attention_mask_tensor[i]
-        with torch.no_grad():
-            outputs_before = model_before(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
-            outputs_after = model_after(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
-            logits_before = outputs_before.logits
-            logits_after = outputs_after.logits
-            prob_before=torch.argmax(logits_before, dim=-1)
-            prob_after=torch.argmax(logits_after, dim=-1)
-            
-            
-        for j in range(4):
-            seq_len=calc_length(labels[j])
-            f.write(str(4*i+j) + " label         :" + tokenizer.decode(labels[j][:seq_len]) +"\n")
-            f.write(str(4*i+j) + " output_before :" + tokenizer.decode(prob_before[j][:seq_len]) +"\n")
-            f.write(str(4*i+j) + " output_after :" + tokenizer.decode(prob_after[j][:seq_len]) +"\n\n")
+for i in tqdm(range(size)):
+    
+    input_ids=input_ids_tensor[i]
+    labels=labels_tensor[i]
+    attention_mask=attention_mask_tensor[i]
+    optimizer.zero_grad()
+    with torch.no_grad():
+        outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
+        logits = outputs.logits
+        print("i:", labels)
+    loss = criterion(logits.view(-1, vocab_size), labels.view(-1))
+    eval_loss += loss
 
-                
-
-        loss_before = criterion(logits_before.view(-1, vocab_size), labels.view(-1))
-        loss_after = criterion(logits_after.view(-1, vocab_size), labels.view(-1))
-        eval_loss_before += loss_before
-        eval_loss_after += loss_after
-
-print(f"loss_before {(eval_loss_before / data_size).item():.3f}")
-print(f"loss_after {(eval_loss_after / data_size).item():.3f}")
+print(f"{(eval_loss / data_size).item():.3f}")
 
 
