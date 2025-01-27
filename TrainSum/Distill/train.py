@@ -11,7 +11,7 @@ from torch import nn
 ds = load_dataset("Salesforce/wikitext", "wikitext-103-raw-v1")
 device='cuda'
 # モデルの準備
-model = AutoModelForCausalLM.from_pretrained("../model/initialized_distill_model2")
+model = AutoModelForCausalLM.from_pretrained("./model/initialized_distill_model")
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
@@ -78,34 +78,30 @@ vocab_size = model.config.vocab_size
 criterion = torch.nn.CrossEntropyLoss(ignore_index=tokenizer.pad_token_id)
 criterion.to(device)
 
-optimizer = AdamW(model.parameters(), lr=5e-5)
+
 input_ids_tensor=input_ids_tensor.to(device)
 labels_tensor=labels_tensor.to(device)
 attention_mask_tensor = attention_mask_tensor.to(device)
 model.to(device)
 model.train()
 criterion.to(device)
-alpha=0.5
-temperature=1.0
-epochs = 1
+
+epochs = 3
+lr=1e-4
 for j in range(epochs):
+    optimizer = AdamW(model.parameters(), lr=lr)
     for i in tqdm(range(size)):
         
-        input_ids=input_ids_tensor[i]
-        labels=labels_tensor[i]
-        attention_mask=attention_mask_tensor[i]
         optimizer.zero_grad()
-        outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
-        logits=outputs.logits
-        cr_loss = criterion(logits.view(-1, vocab_size), labels.view(-1))
-        logits = outputs.logits
-        loss = cr_loss
-        loss.backward()
+        outputs = model(input_ids=input_ids_tensor[i], attention_mask=attention_mask_tensor[i]).logits
+        cr_loss = criterion(outputs.view(-1, vocab_size), labels_tensor[i].view(-1))
+        cr_loss.backward()
         optimizer.step()
         
     print("done: ", j+1, "/", epochs)
+    lr/=10
 
-model.save_pretrained("./model/train_distillmodel2")
+model.save_pretrained("./model/normal_model")
 
 
 

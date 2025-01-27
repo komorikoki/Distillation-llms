@@ -10,8 +10,8 @@ from torch import nn
 ds = load_dataset("Salesforce/wikitext", "wikitext-103-raw-v1")
 device='cuda'
 # モデルの準備
-model_before = AutoModelForCausalLM.from_pretrained("./model/normal_model")
-model_after = AutoModelForCausalLM.from_pretrained("./model/QLoRA_distill_model")
+model_before = AutoModelForCausalLM.from_pretrained("./model/distill_modeltemp5")
+model_after = AutoModelForCausalLM.from_pretrained("./model/distill_model")
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
@@ -103,7 +103,7 @@ model_before.eval()
 model_after.eval()
 
 i=1
-rank=3
+rank=5
 
 acc_before = 0
 acc_after = 0

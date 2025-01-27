@@ -98,8 +98,8 @@ for name, param in model.named_parameters():
         if 'self' in name:
             param.requires_grad = True
 
-data_size = 2000
-data_size_v = 200
+data_size = 1000
+data_size_v = 100
 size = int(data_size/4)
 size_v = int(data_size_v/4)
 train_dataset=ds["train"].shuffle(seed=42).select(range(10000))

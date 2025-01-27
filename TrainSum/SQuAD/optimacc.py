@@ -6,8 +6,9 @@ import torch
 from torch.nn import functional as F
 from torch.optim import AdamW
 import matplotlib.pyplot as plt
+import sys
 from torch import nn
-import os
+
 
 
 def reshape(dataset):
@@ -76,29 +77,32 @@ def rouge(output_ids, ans, ignore_len):
     output = output_ids[ignore_len:].tolist()
     set_out = set(output)
     
-    score =  set_out & set_ans
+    score =  set_out & set_ans 
     return [len(score),len(set_ans)]
 
 ds = load_dataset("rajpurkar/squad")
 device='cuda'
+u=int(sys.argv[1])
 
-
+model_normal = AutoModelForCausalLM.from_pretrained("./model/test"+str(u+1))
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B", padding_side="left")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
 
-data_size_v = 100
+data_size_v = 400
+
 validation_dataset=ds["validation"].shuffle(seed=42)
 
 data_v = make_data(validation_dataset)
-size_v=int(len(data_v)/4)
+size_v = int(len(data_v)/4)
+
 input_ids_tensor_v = make_tensor(data_v, "input_ids", size_v)
 labels_tensor_v = make_tensor(data_v, "labels", size_v)
 attention_mask_tensor_v = make_tensor(data_v, "attention_mask", size_v)
 ans = [data["ans"] for data in data_v]
 
 
-
+vocab_size = model_normal.config.vocab_size
 criterion = torch.nn.CrossEntropyLoss(ignore_index=128001)
 
 criterion.to(device)
@@ -107,54 +111,32 @@ input_ids_tensor_v=input_ids_tensor_v.to(device)
 labels_tensor_v=labels_tensor_v.to(device)
 attention_mask_tensor_v=attention_mask_tensor_v.to(device)
 
-def get_all_directories(folder_path):
-    directories = set()
-    for root, _, files in os.walk(folder_path):
-        if files:  # ファイルが存在する場合
-            directories.add(root)
-    return directories
+model_normal.to(device)
+# model_train.to(device)
+# model_distill.to(device)
 
-# 使用例
-folder_path = "./model/"
-directories = get_all_directories(folder_path)
+model_normal.eval()
+# model_train.eval()
+# model_distill.eval()
 
-model_names = []
-accs=[]
-for model_name in directories:
+losses=0
+acc=0
+words_len=0
 
-    model = AutoModelForCausalLM.from_pretrained(model_name)
-
-    vocab_size = model.config.vocab_size
-
-    model.to(device)
-
-    model.eval()
-
-    losses=0
-    acc=0
-    words_len=0
-
-    for i in tqdm(range(size_v)):
-        
-        input_ids_v=input_ids_tensor_v[i]
-        labels_v=labels_tensor_v[i]
-        attention_mask_v=attention_mask_tensor_v[i]
-        with torch.no_grad():
-            output_ids = model.generate(input_ids=input_ids_v, attention_mask=attention_mask_v, max_new_tokens=40, pad_token_id=tokenizer.eos_token_id)
-        
-        
-
-        for j in range(4):
-            rgh = rouge(output_ids[j], ans[i*4+j], ignore_len=256)
-            acc += rgh[0]
-            words_len += rgh[1]
+for i in tqdm(range(size_v)):
     
-    print(f"{model_name}acc: {(acc/words_len):.3f}")
+    input_ids_v=input_ids_tensor_v[i]
+    labels_v=labels_tensor_v[i]
+    attention_mask_v=attention_mask_tensor_v[i]
+    with torch.no_grad():
+        output_ids = model_normal.generate(input_ids=input_ids_v, attention_mask=attention_mask_v, max_new_tokens=40, pad_token_id=tokenizer.eos_token_id)
     
-    model_names.append(model_name)
-    accs.append(acc/words_len)
+    
 
-for i in range(len(model_names)):
-    print(f"{model_names[i]}: acc {(accs[i]):.3f}")
+    for j in range(4):
+        rgh = rouge(output_ids[j], ans[i*4+j], ignore_len=256)
+        acc += rgh[0]
+        words_len += rgh[1]
+        seq_len=len(ans[i*4+j])-1
 
-
+print(f"acc: {(acc/words_len):.3f}")    

@@ -34,18 +34,23 @@ def batch(input, size):
 
     return batch_train
 
+def devide(text):    
+    cq = text[:(text.find("A:") + 3)]
+    ans = text[(text.find("A:") + 3):]
+    return [cq, ans]
+
 def make_data(data):
     dataset=reshape(data)
     data = []
     for text in tqdm(dataset, desc="Tokenizing dataset"):
-        cq_len=len(tokenizer(text[:text.find("A:")])['input_ids'])
-        tokenized = tokenizer(text, padding="max_length", max_length=512, truncation=True, return_tensors="pt")
+        [cq, ans] = devide(text)
+        tokenized = tokenizer(cq, padding="max_length", max_length=256, truncation=True, return_tensors="pt")
         input_ids = tokenized['input_ids'].squeeze().tolist()
         attention_mask = tokenized['attention_mask'].squeeze().tolist()
         labels = input_ids[1:] + [tokenizer.pad_token_id]
-        for i in range(min(cq_len-2, 512)):
-            labels[i]=128001
-        data.append({"input_ids": input_ids, "labels": labels, "attention_mask":attention_mask})
+        ans=tokenizer(ans, truncation=True, return_tensors="pt")
+        ans = ans['input_ids'].squeeze().tolist()
+        data.append({"input_ids": input_ids, "labels": labels, "attention_mask":attention_mask, "ans":ans})
     
     return data
 
@@ -57,7 +62,7 @@ def make_tensor(data, type, size):
 
 ds = load_dataset("rajpurkar/squad")
 device='cuda'
-model = AutoModelForCausalLM.from_pretrained("../model/QLoRA_distill_model")
+model = AutoModelForCausalLM.from_pretrained("./model/distilledmodel")
 # model = AutoModelForCausalLM.from_pretrained("./model/normal_model_QLoRA2")
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
@@ -98,6 +103,7 @@ for i in tqdm(range(size_v)):
         logits = outputs.logits
     loss = criterion(logits.view(-1, vocab_size), labels_v.view(-1))
     losses += loss
+    print(loss)
 
 losses=losses.item()
     

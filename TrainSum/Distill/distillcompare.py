@@ -52,9 +52,10 @@ def make_tensor(data, type, size):
 
 ds = load_dataset("Salesforce/wikitext", "wikitext-103-raw-v1")
 device='cuda'
-model = AutoModelForCausalLM.from_pretrained("./model/initialized_distill_model2")
-student_model = AutoModelForCausalLM.from_pretrained("./model/initialized_distill_model2")
 teacher_model = AutoModelForCausalLM.from_pretrained("./model/teacher_model1")
+model = AutoModelForCausalLM.from_pretrained("./model/initialized_distill_model")
+student_model = AutoModelForCausalLM.from_pretrained("./model/initialized_distill_model")
+
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
@@ -92,12 +93,14 @@ model.to(device)
 
 epochs = 3
 lr=1e-4
-
+losses = 0
+loss_sum = []
 print("train normal")
 
 model.train()
 
 for j in range(epochs):
+    losses = 0
     print(lr)
     optimizer = AdamW(model.parameters(), lr=lr)
     for i in tqdm(range(size)):
@@ -111,34 +114,23 @@ for j in range(epochs):
         loss = criterion(logits.view(-1, vocab_size), labels.view(-1))
         loss.backward()
         optimizer.step()
+        losses += loss.item()
+
+        if size % 500 == 499:
+            loss_sum.append(round(losses/2000, 3))
+            losses = 0
+
         
     print("done: ", j+1, "/", epochs)
     lr/=10
-print("eval normal")
-
-model.eval()
-losses=0
-for i in tqdm(range(size_v)):
-    
-    input_ids_v=input_ids_tensor_v[i]
-    labels_v=labels_tensor_v[i]
-    attention_mask_v=attention_mask_tensor_v[i]
-    optimizer.zero_grad()
-    with torch.no_grad():
-        outputs = model(input_ids=input_ids_v, attention_mask=attention_mask_v, labels=labels_v)
-        logits = outputs.logits
-    loss = criterion(logits.view(-1, vocab_size), labels_v.view(-1))
-    losses += loss
-
-losses=losses.item()
-    
-print(f"loss train: {(losses/data_size_v):.3f}")
 
 model.save_pretrained("./model/normal_model")
 
 alpha=0.9
 temperature=20
 lr=1e-4
+losses = 0
+loss_sum2 = []
 
 print("train distill")
 student_model.to(device)
@@ -166,42 +158,24 @@ for j in range(epochs):
         kl_loss=(kl_div_per_token * attention_mask).sum()/attention_mask.sum()
 
         cr_loss = criterion(logits_st.view(-1, vocab_size), labels.view(-1))
-        # loss = (1-alpha)*cr_loss + alpha * kl_loss*10
         loss = kl_loss * 10
 
         loss.backward()
         optimizer.step()
+
+        losses += cr_loss.item()
+        if size % 500 == 499:
+            loss_sum2.append(round(losses/2000, 3))
+            losses = 0
         
     print("done: ", j+1, "/", epochs)
     lr/=10
 
-print("eval distill")
-
-student_model.eval()
-losses_d=0
-
-for i in tqdm(range(size_v)):
-    
-    input_ids_v=input_ids_tensor_v[i]
-    labels_v=labels_tensor_v[i]
-    attention_mask_v=attention_mask_tensor_v[i]
-    optimizer.zero_grad()
-    with torch.no_grad():
-        outputs = student_model(input_ids=input_ids_v, attention_mask=attention_mask_v, labels=labels_v)
-        logits = outputs.logits
-    loss = criterion(logits.view(-1, vocab_size), labels_v.view(-1))
-    losses_d += loss
-    
-losses_d=losses_d.item()
-print(f"loss distill: {(losses_d/data_size_v):.3f}")
-
-
-
-
-print(f"normal loss:{(losses/data_size_v):.3f} distill loss:{(losses_d/data_size_v):.3f}")
-
-
 student_model.save_pretrained("./model/distill_model")
 
+
+print("loss_train", loss_sum)
+
+print("loss distill", loss_sum2)
 
 

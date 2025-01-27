@@ -73,27 +73,25 @@ def accuracy(output_ids, ans, ignore_len):
 def rouge(output_ids, ans, ignore_len):
     set_ans = set(ans)
     set_ans.remove(128000)
-    # output = output_ids[ignore_len:ignore_len+len(ans)+10].tolist()
     output = output_ids[ignore_len:].tolist()
     set_out = set(output)
     
     score =  set_out & set_ans 
-    print(score)
     return [len(score),len(set_ans)]
 
 ds = load_dataset("rajpurkar/squad")
 device='cuda'
-# model_normal = AutoModelForCausalLM.from_pretrained("./model/distill_distilledmodel")
-model_normal = AutoModelForCausalLM.from_pretrained("./model/distill_distilledmodel2")
+model_normal = AutoModelForCausalLM.from_pretrained("./model/test1")
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B", padding_side="left")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
 
-data_size_v = 1000
-size_v = int(data_size_v/4)
+data_size_v = 400
+
 validation_dataset=ds["validation"].shuffle(seed=42)
 
 data_v = make_data(validation_dataset)
+size_v = int(len(data_v)/4)
 
 input_ids_tensor_v = make_tensor(data_v, "input_ids", size_v)
 labels_tensor_v = make_tensor(data_v, "labels", size_v)

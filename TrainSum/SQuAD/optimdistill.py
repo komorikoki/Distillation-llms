@@ -9,6 +9,10 @@ from torch.optim import AdamW
 import matplotlib.pyplot as plt
 from torch import nn
 import gc
+import sys
+
+u=int(sys.argv[1])
+print("train: ", u)
 
 ds = load_dataset("rajpurkar/squad")
 device='cuda'
@@ -16,7 +20,7 @@ tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
 
-student_model = AutoModelForCausalLM.from_pretrained("./model/test")
+student_model = AutoModelForCausalLM.from_pretrained("./model/test"+str(u))
 teacher_model = AutoModelForCausalLM.from_pretrained("./model/teacher_model2")
 
 data_size = 60000
@@ -75,17 +79,15 @@ def make_tensor(data, type, size):
 
 train_dataset=ds["train"].shuffle(seed=42)
 
-
 data = make_data(train_dataset, data_size)
 
 
 input_ids_tensor = make_tensor(data, "input_ids", size)
 labels_tensor = make_tensor(data, "labels", size)
 attention_mask_tensor = make_tensor(data, "attention_mask", size)
-vocab_size = teacher_model.config.vocab_size
-criterion = torch.nn.CrossEntropyLoss(ignore_index=128001)
 
-criterion.to(device)
+vocab_size = teacher_model.config.vocab_size
+
 input_ids_tensor=input_ids_tensor.to(device)
 labels_tensor=labels_tensor.to(device)
 attention_mask_tensor=attention_mask_tensor.to(device)
@@ -99,13 +101,22 @@ teacher_model.eval()
 hyps = []
 loss=0
 losses=[]
-# lr= 1e-5
-lr = 1e-5
-temperature = 1
-optimizer = AdamW(student_model.parameters(), lr=lr)
-print("lr: ", lr)
+with open("lr.txt", "r") as f:
+    lr = f.read().strip()
+lr=float(lr)
 
+temperature = 1
+
+print("lr", lr)
+
+
+optimizer = AdamW(student_model.parameters(), lr=lr)
 for j in tqdm(range(size)):
+    k = u*size + j
+
+
+
+
     optimizer.zero_grad()
     student_logits = student_model(input_ids=input_ids_tensor[j], attention_mask=attention_mask_tensor[j]).logits.view(-1, vocab_size)
 
@@ -118,12 +129,9 @@ for j in tqdm(range(size)):
     kl_loss = F.kl_div(student_prob, teacher_prob, reduction="none").sum(dim=-1).sum()
     kl_loss.backward()
     optimizer.step()
-    loss += criterion(student_logits.view(-1, vocab_size), labels_tensor[j].view(-1)).item()
-
-    # if j % 1250 == 1249:
-    #     t = int(j/1250)
-    #     student_model.save_pretrained("./model/distilledmodel" + str(t))
 
 
 
-student_model.save_pretrained("./model/tests")
+
+
+student_model.save_pretrained("./model/test"+str(u+1))

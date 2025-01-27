@@ -88,7 +88,7 @@ ds = load_dataset("knkarthick/samsum")
 ds_sq = load_dataset("rajpurkar/squad")
 
 device='cuda'
-model = AutoModelForCausalLM.from_pretrained("../SQuAD/model/distill_distilledmodel")
+model = AutoModelForCausalLM.from_pretrained("../SQuAD/model/teacher_model")
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
