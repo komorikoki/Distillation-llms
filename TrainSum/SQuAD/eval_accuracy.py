@@ -81,14 +81,14 @@ def rouge(output_ids, ans, ignore_len):
 
 ds = load_dataset("rajpurkar/squad")
 device='cuda'
-model_normal = AutoModelForCausalLM.from_pretrained("./model/test1")
+model_normal = AutoModelForCausalLM.from_pretrained("./model/testss1")
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B", padding_side="left")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
 
 data_size_v = 400
 
-validation_dataset=ds["validation"].shuffle(seed=42)
+validation_dataset=ds["validation"].shuffle(seed=1)
 
 data_v = make_data(validation_dataset)
 size_v = int(len(data_v)/4)
@@ -127,7 +127,7 @@ with open("output_acc3.txt", "w") as f:
         labels_v=labels_tensor_v[i]
         attention_mask_v=attention_mask_tensor_v[i]
         with torch.no_grad():
-            output_ids = model_normal.generate(input_ids=input_ids_v, attention_mask=attention_mask_v, max_new_tokens=40, pad_token_id=tokenizer.eos_token_id)
+            output_ids = model_normal.generate(input_ids=input_ids_v, attention_mask=attention_mask_v, max_new_tokens=20, pad_token_id=tokenizer.eos_token_id)
         
         
 

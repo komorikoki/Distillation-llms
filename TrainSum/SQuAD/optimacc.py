@@ -43,7 +43,7 @@ def devide(text):
 def make_data(data):
     dataset=reshape(data)
     data = []
-    for text in tqdm(dataset, desc="Tokenizing dataset"):
+    for text in dataset:
         [cq, ans] = devide(text)
         tokenized = tokenizer(cq, padding="max_length", max_length=256, truncation=True, return_tensors="pt")
         input_ids = tokenized['input_ids'].squeeze().tolist()
@@ -84,14 +84,14 @@ ds = load_dataset("rajpurkar/squad")
 device='cuda'
 u=int(sys.argv[1])
 
-model_normal = AutoModelForCausalLM.from_pretrained("./model/test"+str(u+1))
+model_normal = AutoModelForCausalLM.from_pretrained("./model/testgr"+str(u+1))
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B", padding_side="left")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
 
 data_size_v = 400
 
-validation_dataset=ds["validation"].shuffle(seed=42)
+validation_dataset=ds["validation"].shuffle(seed=1)
 
 data_v = make_data(validation_dataset)
 size_v = int(len(data_v)/4)
@@ -123,13 +123,13 @@ losses=0
 acc=0
 words_len=0
 
-for i in tqdm(range(size_v)):
+for i in range(size_v):
     
     input_ids_v=input_ids_tensor_v[i]
     labels_v=labels_tensor_v[i]
     attention_mask_v=attention_mask_tensor_v[i]
     with torch.no_grad():
-        output_ids = model_normal.generate(input_ids=input_ids_v, attention_mask=attention_mask_v, max_new_tokens=40, pad_token_id=tokenizer.eos_token_id)
+        output_ids = model_normal.generate(input_ids=input_ids_v, attention_mask=attention_mask_v, max_new_tokens=20, pad_token_id=tokenizer.eos_token_id)
     
     
 

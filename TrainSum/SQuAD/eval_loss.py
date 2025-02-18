@@ -62,7 +62,8 @@ def make_tensor(data, type, size):
 
 ds = load_dataset("rajpurkar/squad")
 device='cuda'
-model = AutoModelForCausalLM.from_pretrained("./model/distilledmodel")
+student_model=AutoModelForCausalLM.from_pretrained("./model/testdi9")
+teacher_model=AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.2-1B")
 # model = AutoModelForCausalLM.from_pretrained("./model/normal_model_QLoRA2")
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
@@ -79,7 +80,7 @@ labels_tensor_v = make_tensor(data_v, "labels", size_v)
 attention_mask_tensor_v = make_tensor(data_v, "attention_mask", size_v)
 
 
-vocab_size = model.config.vocab_size
+vocab_size = student_model.config.vocab_size
 criterion = torch.nn.CrossEntropyLoss(ignore_index=128001)
 
 criterion.to(device)
@@ -88,26 +89,29 @@ input_ids_tensor_v=input_ids_tensor_v.to(device)
 labels_tensor_v=labels_tensor_v.to(device)
 attention_mask_tensor_v=attention_mask_tensor_v.to(device)
 
-model.to(device)
-
-model.eval()
+student_model.to(device)
+teacher_model.to(device)
+student_model.eval()
+teacher_model.eval()
 losses=0
-
+temperature=1
 for i in tqdm(range(size_v)):
     
-    input_ids_v=input_ids_tensor_v[i]
-    labels_v=labels_tensor_v[i]
-    attention_mask_v=attention_mask_tensor_v[i]
+
     with torch.no_grad():
-        outputs = model(input_ids=input_ids_v, attention_mask=attention_mask_v, labels=labels_v)
-        logits = outputs.logits
-    loss = criterion(logits.view(-1, vocab_size), labels_v.view(-1))
-    losses += loss
-    print(loss)
+        student_logits = student_model(input_ids=input_ids_tensor_v[i], attention_mask=attention_mask_tensor_v[i]).logits.view(-1, vocab_size)
+        teacher_logits = teacher_model(input_ids=input_ids_tensor_v[i], attention_mask=attention_mask_tensor_v[i]).logits.view(-1, vocab_size)
+    mask = labels_tensor_v[i].view(-1) != 128001
+    student_prob = F.log_softmax(student_logits[mask] / temperature, dim=-1)
+    teacher_prob = F.softmax(teacher_logits[mask] / temperature, dim=-1)
+
+    kl_loss = F.kl_div(student_prob, teacher_prob, reduction="none").sum(dim=-1).sum()
+    losses += kl_loss
+    # print(loss)
 
 losses=losses.item()
     
-print(f"loss train: {(losses/data_size_v):.3f}")
+print(f"kl_loss: {(losses/data_size_v):.3f}")
 
 
 

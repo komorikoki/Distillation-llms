@@ -10,16 +10,16 @@ from torch import nn
 ds = load_dataset("Salesforce/wikitext", "wikitext-103-raw-v1")
 device='cuda'
 # モデルの準備
-model_before = AutoModelForCausalLM.from_pretrained("./model/teacher_model1")
-model_after = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.2-1B")
+model_before = AutoModelForCausalLM.from_pretrained("./model/normal_model")
+model_after = AutoModelForCausalLM.from_pretrained("./model/distill_model")
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
 
-data_size = 766
+data_size = 800
 size = int(data_size/4)
 
-validation_dataset=ds["validation"].shuffle(seed=42)
+validation_dataset=ds["test"].shuffle(seed=42)
 
 def reshape(dataset):
     dataset=dataset["text"]

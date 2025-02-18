@@ -5,6 +5,7 @@ import re
 from tqdm import tqdm
 import torch
 from torch.nn import functional as F
+import torch.optim as optim
 from torch.optim import AdamW
 import matplotlib.pyplot as plt
 from torch import nn
@@ -20,13 +21,13 @@ tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
 
-student_model = AutoModelForCausalLM.from_pretrained("./model/test"+str(u))
+student_model = AutoModelForCausalLM.from_pretrained("./model/testpp"+str(u))
 teacher_model = AutoModelForCausalLM.from_pretrained("./model/teacher_model2")
 
 data_size = 60000
 data_size_v = 600
 
-size=1250
+size=12500
 size_v=100
 
 torch.set_printoptions(profile="full")
@@ -58,7 +59,7 @@ def batch(input, size):
 def make_data(data, d_size):
     dataset=reshape(data, d_size)
     data = []
-    for text in tqdm(dataset, desc="Tokenizing dataset"):
+    for text in dataset:
         if len(tokenizer(text)['input_ids']) <= 256:
             cq_len=len(tokenizer(text[:text.find("A:")])['input_ids'])
             tokenized = tokenizer(text, padding="max_length", max_length=256, truncation=True, return_tensors="pt")
@@ -92,8 +93,7 @@ input_ids_tensor=input_ids_tensor.to(device)
 labels_tensor=labels_tensor.to(device)
 attention_mask_tensor=attention_mask_tensor.to(device)
 
-student_model.to(device)
-student_model.train()
+
 
 teacher_model.to(device)
 teacher_model.eval()
@@ -104,34 +104,36 @@ losses=[]
 with open("lr.txt", "r") as f:
     lr = f.read().strip()
 lr=float(lr)
-
+# print(lr)
+# lr=1e-4
 temperature = 1
 
-print("lr", lr)
+# print("lr", lr)
 
+student_model.to(device)
+student_model.train()
 
 optimizer = AdamW(student_model.parameters(), lr=lr)
-for j in tqdm(range(size)):
-    k = u*size + j
-
-
-
+scheduler = optim.lr_scheduler.ExponentialLR(optimizer, gamma=0.999)
+for j in range(int(size/10)):
+    k = int(u*(size/10) + j)
 
     optimizer.zero_grad()
-    student_logits = student_model(input_ids=input_ids_tensor[j], attention_mask=attention_mask_tensor[j]).logits.view(-1, vocab_size)
+    student_logits = student_model(input_ids=input_ids_tensor[k], attention_mask=attention_mask_tensor[k]).logits.view(-1, vocab_size)
 
     with torch.no_grad():
-        teacher_logits = teacher_model(input_ids=input_ids_tensor[j], attention_mask=attention_mask_tensor[j]).logits.view(-1, vocab_size)
-    mask = labels_tensor[j].view(-1) != 128001
+        teacher_logits = teacher_model(input_ids=input_ids_tensor[k], attention_mask=attention_mask_tensor[k]).logits.view(-1, vocab_size)
+    mask = labels_tensor[k].view(-1) != 128001
     student_prob = F.log_softmax(student_logits[mask] / temperature, dim=-1)
     teacher_prob = F.softmax(teacher_logits[mask] / temperature, dim=-1)
 
     kl_loss = F.kl_div(student_prob, teacher_prob, reduction="none").sum(dim=-1).sum()
     kl_loss.backward()
     optimizer.step()
+    scheduler.step()
 
 
 
 
 
-student_model.save_pretrained("./model/test"+str(u+1))
+student_model.save_pretrained("./model/testpp"+str(u+1))

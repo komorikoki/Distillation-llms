@@ -119,7 +119,10 @@ folder_path = "./model2/"
 directories = get_all_directories(folder_path)
 
 model_names = []
-accs=[]
+lossarr=[]
+teacher_model = AutoModelForCausalLM.from_pretrained("./model/teacher_model2")
+teacher_model.to(device)
+temperature=1
 for model_name in directories:
 
     model = AutoModelForCausalLM.from_pretrained(model_name)
@@ -135,26 +138,26 @@ for model_name in directories:
     words_len=0
 
     for i in tqdm(range(size_v)):
-        
-        input_ids_v=input_ids_tensor_v[i]
-        labels_v=labels_tensor_v[i]
-        attention_mask_v=attention_mask_tensor_v[i]
-        with torch.no_grad():
-            output_ids = model.generate(input_ids=input_ids_v, attention_mask=attention_mask_v, max_new_tokens=20, pad_token_id=tokenizer.eos_token_id)
-        
-        
+    
 
-        for j in range(4):
-            rgh = rouge(output_ids[j], ans[i*4+j], ignore_len=256)
-            acc += rgh[0]
-            words_len += rgh[1]
-    
-    print(f"{model_name}acc: {(acc/words_len):.3f}")
-    
+        with torch.no_grad():
+            student_logits = model(input_ids=input_ids_tensor_v[i], attention_mask=attention_mask_tensor_v[i]).logits.view(-1, vocab_size)
+            teacher_logits = teacher_model(input_ids=input_ids_tensor_v[i], attention_mask=attention_mask_tensor_v[i]).logits.view(-1, vocab_size)
+        mask = labels_tensor_v[i].view(-1) != 128001
+        student_prob = F.log_softmax(student_logits[mask] / temperature, dim=-1)
+        teacher_prob = F.softmax(teacher_logits[mask] / temperature, dim=-1)
+
+        kl_loss = F.kl_div(student_prob, teacher_prob, reduction="none").sum(dim=-1).sum()
+        losses += kl_loss
+        # print(loss)
+
+        losses=losses.item()
+        prloss=losses/data_size_v
     model_names.append(model_name)
-    accs.append(acc/words_len)
+    lossarr.append(prloss)
+    
 
 for i in range(len(model_names)):
-    print(f"{model_names[i]}: acc {(accs[i]):.3f}")
+    print(f"{model_names[i]}: prloss {(lossarr[i]):.3f}")
 
 

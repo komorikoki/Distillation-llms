@@ -16,13 +16,13 @@ tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.pad_token_id = tokenizer.eos_token_id
 
-student_model = AutoModelForCausalLM.from_pretrained("./model/test")
+student_model = AutoModelForCausalLM.from_pretrained("./model/test0")
 teacher_model = AutoModelForCausalLM.from_pretrained("./model/teacher_model2")
 
 data_size = 60000
 data_size_v = 600
 
-size=1250
+size=12500
 size_v=100
 
 torch.set_printoptions(profile="full")
@@ -104,8 +104,12 @@ lr = 1e-5
 temperature = 1
 optimizer = AdamW(student_model.parameters(), lr=lr)
 print("lr: ", lr)
-
+u=1
 for j in tqdm(range(size)):
+    k = u*size + j
+    if j % 1250 == 1249:
+        lr-=1e-6
+        optimizer=AdamW(student_model.parameters(), lr=lr)
     optimizer.zero_grad()
     student_logits = student_model(input_ids=input_ids_tensor[j], attention_mask=attention_mask_tensor[j]).logits.view(-1, vocab_size)
 
@@ -118,12 +122,13 @@ for j in tqdm(range(size)):
     kl_loss = F.kl_div(student_prob, teacher_prob, reduction="none").sum(dim=-1).sum()
     kl_loss.backward()
     optimizer.step()
-    loss += criterion(student_logits.view(-1, vocab_size), labels_tensor[j].view(-1)).item()
-
-    # if j % 1250 == 1249:
-    #     t = int(j/1250)
-    #     student_model.save_pretrained("./model/distilledmodel" + str(t))
 
 
 
-student_model.save_pretrained("./model/tests")
+
+
+# student_model.save_pretrained("./model/test"+str(u+1))
+
+
+
+student_model.save_pretrained("./model/testdi")
